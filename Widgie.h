@@ -135,8 +135,8 @@ public:
     int cfgLeft;                // Left of MCCA screen (x co-ordinate)
     int cfgBottom;              // Bottom of MCCA screen (y co-ordinate)
     int cfgRight;               // Right of MCCA screen (x co-ordinate)
-	virtual cfgWidth()	{ return cfgRight-cfgLeft; };
-	virtual cfgHeight()	{ return cfgBottom-cfgTop; };
+	virtual int cfgWidth()	{ return cfgRight-cfgLeft; };
+	virtual int cfgHeight()	{ return cfgBottom-cfgTop; };
 
     int cfgMeterHeight;         // Height of the Taxi meter used when rendering 
                                 // overlaped regions when the newsbar moves away

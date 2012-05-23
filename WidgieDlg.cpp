@@ -783,9 +783,9 @@ void CWidgieDlg::OnTimer(UINT nIDEvent)
 			// retrieve HD temp
 			ptheApp->m_tempHD_history[0] = ptheApp->m_tempHD;
 		
-			int temp = 0;
+			int temp = 0, lp = 0;
 			// calc rolling average for 10mins.
-			for( int lp=0;lp < 10 && ptheApp->m_tempHD_history[lp]; lp++ )
+			for( lp=0;lp < 10 && ptheApp->m_tempHD_history[lp]; lp++ )
 			{
 				temp += ptheApp->m_tempHD_history[lp];
 			}

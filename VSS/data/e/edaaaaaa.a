@@ -1,0 +1,59 @@
+[DOWNLOAD]
+LastXMLDownloadTime =9:15:31
+LastXMLDownloadDate =2004-3-11
+
+XMLDownloadIntervalTime =00:05:00
+XMLDownloadIntervalDays =0
+NewsDownloadIntervalTime=01:00:00
+NewsDownloadIntervalDays=0
+
+
+# We now default to full screen size.
+[GRAPHICS]
+Left = 0
+Top = 0
+#Right =	800
+#Bottom = 600
+BarHeight =80
+
+StepSpeed =1
+
+BackgroundColor =0x000000
+TextColor =0xffffff
+FontFace =Arial
+FontHeight =75
+
+
+[LOCAL MACHINE]
+# Local path data storage locations
+LocalXML_Dir = Config\
+LocalContentDir = Media\
+
+# Local data files definitions
+LocalNewsName = newsflash.xml
+LocalLoopName = slideshow.xml
+LocalManifestName = manifest.xml
+
+# Use yahoo news content
+YahooTickerNews=1
+# Do we show a news logo on the bottom left?
+ShowScrollLogo=0
+
+[SERVER]
+# Server from where to download our data
+IPandPort =127.0.0.1
+# Servers location of downloadable raw content
+ServerContentPath=/content/
+# Server location path of all images
+ServerImagePath=/content/personal/full/
+# Server location path of all mpeg movies
+ServerVideoPath=/content/video/
+# MDID login details
+Username = admin
+Userpass = admin
+# Unique machine ID default, which is overwritten using last 6 digits of MAC ADDRESS of ethernet controller
+slideshowid = Display_Demo
+
+
+
+

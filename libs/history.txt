@@ -1,0 +1,12 @@
+v1.01 03.02.2002 - TVicLPT VxD bug fixed (Win95/98/ME)
+v1.20 08.07.2002 - Port i/o mode was changed
+v1.21 09.03.2002 - TVicLPT SYS ExAllocatePoolWithTag bug fixed (WinNT4/2000/XP)
+v1.22 09.07.2002 - TVicLPT OCX version conflict fixed
+v1.23 11.30.2002 - C++builder native class added
+v1.24 12.03.2002 - MSVC class and examples added
+v1.30 02.26.2003 - detection of all LPT ports on PC
+
+
+
+
+

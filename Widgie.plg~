@@ -1,0 +1,57 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Dvorak - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\LianChao\LOCALS~1\Temp\RSP466.tmp" with contents
+[
+vfw32.lib ddraw.lib dxguid.lib libs\xerces-c_2D.lib shlwapi.lib winmm.lib libs\cdx.lib /nologo /subsystem:console /incremental:no /pdb:"C:\obj\Debug/DvorakD.pdb" /debug /machine:I386 /nodefaultlib:"msvcrt.lib" /out:".\RuntimeFolder\DvorakD.exe" /pdbtype:sept /static 
+"\obj\Debug\AVI PlayerDlg.obj"
+\obj\Debug\Dvorak.obj
+\obj\Debug\DvorakDlg.obj
+\obj\Debug\DvorakXML.obj
+\obj\Debug\flagDialog.obj
+\obj\Debug\history.obj
+\obj\Debug\ImageThread.obj
+\obj\Debug\iTVPrinter.obj
+\obj\Debug\logoDialog.obj
+\obj\Debug\LoopSeqInfo.obj
+\obj\Debug\LoopSeqXML_Handler.obj
+\obj\Debug\LPTComm.obj
+\obj\Debug\ManifestInfo.obj
+\obj\Debug\ManifestXML_Handler.obj
+\obj\Debug\mfcconsole.obj
+\obj\Debug\ModemControl.obj
+\obj\Debug\NewsBarThread.obj
+\obj\Debug\NewsDialog.obj
+\obj\Debug\Newsflash.obj
+\obj\Debug\NewsflashInfo.obj
+\obj\Debug\NewsXML_Handler.obj
+\obj\Debug\Picture.obj
+\obj\Debug\Serial.obj
+\obj\Debug\shockwaveflash.obj
+\obj\Debug\Splash.obj
+\obj\Debug\StdAfx.obj
+\obj\Debug\swFlashDialog.obj
+\obj\Debug\TaxiDialog.obj
+\obj\Debug\TaxiMeterThread.obj
+\obj\Debug\utils.obj
+.\VicLPT.obj
+\obj\Debug\Dvorak.res
+]
+Creating command line "link.exe @D:\DOCUME~1\LianChao\LOCALS~1\Temp\RSP466.tmp"
+<h3>Output Window</h3>
+Linking...
+LINK : warning LNK4044: unrecognized option "static"; ignored
+LINK : warning LNK4098: defaultlib "LIBC" conflicts with use of other libs; use /NODEFAULTLIB:library
+
+
+
+<h3>Results</h3>
+DvorakD.exe - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>

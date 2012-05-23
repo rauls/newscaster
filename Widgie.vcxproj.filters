@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9b01bd88-2aae-48f9-88b5-abe6cb11ebef}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\support">
+      <UniqueIdentifier>{a465a4db-7a5f-43e5-8912-27dbbc2e7038}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Communications">
+      <UniqueIdentifier>{0b4d39d1-60ff-4473-8185-810fcd851628}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Content Handler">
+      <UniqueIdentifier>{7ed2b8f0-ddd1-48bd-b567-0f63aaefd271}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Config">
+      <UniqueIdentifier>{fa384925-4dca-4a99-aac5-2ca55a517fc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{9bf1a197-b2c1-486c-83d4-486618b56755}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Net">
+      <UniqueIdentifier>{e2892231-925b-49d0-bbf5-70bfa3fc5de7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Media Control">
+      <UniqueIdentifier>{f4cfc4c0-6bd9-435b-8ce0-506e776a6427}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Media Control\Picture">
+      <UniqueIdentifier>{30c25514-d338-48df-8641-a36ab2cc1766}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Media Control\NewsFlash">
+      <UniqueIdentifier>{4ff4b782-e9a4-43a1-97d6-7fee437d86b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Media Control\Avi">
+      <UniqueIdentifier>{f3ef1def-ebc8-415e-b55d-1e85d557cf7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Media Control\Flash">
+      <UniqueIdentifier>{c0b22e7c-7200-4650-b902-57d746b8cbae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Media Control\Explorer">
+      <UniqueIdentifier>{bcd3d5f2-35fe-400c-8420-383c9a91b85d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Media Control\HttpPlayer">
+      <UniqueIdentifier>{f505f38c-732c-48e1-87d6-bbaa8dcedab5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{a3edf786-595a-47dd-9fbc-3fdfaba55a39}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{ab747c8d-7755-4aca-af51-7d2b509877a5}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="XML Config">
+      <UniqueIdentifier>{275b4bdc-d0d8-43c6-b282-3f893711140a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ConfigEdit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SmartInfo.cpp">
+      <Filter>Source Files\support</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>Source Files\support</Filter>
+    </ClCompile>
+    <ClCompile Include="zipmake.c">
+      <Filter>Source Files\support</Filter>
+    </ClCompile>
+    <ClCompile Include="httpinterface.cpp">
+      <Filter>Source Files\Communications</Filter>
+    </ClCompile>
+    <ClCompile Include="LoopSeqInfo.cpp">
+      <Filter>Source Files\Content Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="LoopSeqXML_Handler.cpp">
+      <Filter>Source Files\Content Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="ManifestInfo.cpp">
+      <Filter>Source Files\Content Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="ManifestXML_Handler.cpp">
+      <Filter>Source Files\Content Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="NewsXML_Handler.cpp">
+      <Filter>Source Files\Content Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="WidgieXML.cpp">
+      <Filter>Source Files\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="history.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginEdit.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="mfcconsole.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Splash.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Widgie.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="WidgieDlg.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="WidgieThread.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="netadapter.cpp">
+      <Filter>Source Files\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="Ping.c">
+      <Filter>Source Files\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="w3c.cpp">
+      <Filter>Source Files\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="winnet_io.cpp">
+      <Filter>Source Files\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="Picture.cpp">
+      <Filter>Source Files\Media Control\Picture</Filter>
+    </ClCompile>
+    <ClCompile Include="logoDialog.cpp">
+      <Filter>Source Files\Media Control\NewsFlash</Filter>
+    </ClCompile>
+    <ClCompile Include="NewsBarThread.cpp">
+      <Filter>Source Files\Media Control\NewsFlash</Filter>
+    </ClCompile>
+    <ClCompile Include="NewsDialog.cpp">
+      <Filter>Source Files\Media Control\NewsFlash</Filter>
+    </ClCompile>
+    <ClCompile Include="Newsflash.cpp">
+      <Filter>Source Files\Media Control\NewsFlash</Filter>
+    </ClCompile>
+    <ClCompile Include="NewsflashInfo.cpp">
+      <Filter>Source Files\Media Control\NewsFlash</Filter>
+    </ClCompile>
+    <ClCompile Include="AVI PlayerDlg.cpp">
+      <Filter>Source Files\Media Control\Avi</Filter>
+    </ClCompile>
+    <ClCompile Include="playwnd.cpp">
+      <Filter>Source Files\Media Control\Avi</Filter>
+    </ClCompile>
+    <ClCompile Include="shockwaveflash.cpp">
+      <Filter>Source Files\Media Control\Flash</Filter>
+    </ClCompile>
+    <ClCompile Include="swFlashDialog.cpp">
+      <Filter>Source Files\Media Control\Flash</Filter>
+    </ClCompile>
+    <ClCompile Include="HtmlCtrl.cpp">
+      <Filter>Source Files\Media Control\HttpPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="HtmlWindow.cpp">
+      <Filter>Source Files\Media Control\HttpPlayer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ConfigEdit.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SmartInfo.h">
+      <Filter>Source Files\support</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Source Files\support</Filter>
+    </ClInclude>
+    <ClInclude Include="version.h">
+      <Filter>Source Files\support</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ziplib.h">
+      <Filter>Source Files\support</Filter>
+    </ClInclude>
+    <ClInclude Include="zipmake.h">
+      <Filter>Source Files\support</Filter>
+    </ClInclude>
+    <ClInclude Include="httpinterface.h">
+      <Filter>Source Files\Communications</Filter>
+    </ClInclude>
+    <ClInclude Include="LoopSeqInfo.h">
+      <Filter>Source Files\Content Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="LoopSeqXML_Handler.h">
+      <Filter>Source Files\Content Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="ManifestInfo.h">
+      <Filter>Source Files\Content Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="ManifestXML_Handler.h">
+      <Filter>Source Files\Content Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="NewsXML_Handler.h">
+      <Filter>Source Files\Content Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="WidgieXML.h">
+      <Filter>Source Files\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="history.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginEdit.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Splash.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Widgie.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="WidgieDlg.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="netadapter.h">
+      <Filter>Source Files\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Ping.h">
+      <Filter>Source Files\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="w3c.h">
+      <Filter>Source Files\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="winnet_io.h">
+      <Filter>Source Files\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Source Files\Media Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Picture.h">
+      <Filter>Source Files\Media Control\Picture</Filter>
+    </ClInclude>
+    <ClInclude Include="logoDialog.h">
+      <Filter>Source Files\Media Control\NewsFlash</Filter>
+    </ClInclude>
+    <ClInclude Include="NewsBarThread.h">
+      <Filter>Source Files\Media Control\NewsFlash</Filter>
+    </ClInclude>
+    <ClInclude Include="NewsDialog.h">
+      <Filter>Source Files\Media Control\NewsFlash</Filter>
+    </ClInclude>
+    <ClInclude Include="Newsflash.h">
+      <Filter>Source Files\Media Control\NewsFlash</Filter>
+    </ClInclude>
+    <ClInclude Include="NewsflashInfo.h">
+      <Filter>Source Files\Media Control\NewsFlash</Filter>
+    </ClInclude>
+    <ClInclude Include="AVI PlayerDlg.h">
+      <Filter>Source Files\Media Control\Avi</Filter>
+    </ClInclude>
+    <ClInclude Include="playwnd.h">
+      <Filter>Source Files\Media Control\Avi</Filter>
+    </ClInclude>
+    <ClInclude Include="shockwaveflash.h">
+      <Filter>Source Files\Media Control\Flash</Filter>
+    </ClInclude>
+    <ClInclude Include="swFlashDialog.h">
+      <Filter>Source Files\Media Control\Flash</Filter>
+    </ClInclude>
+    <ClInclude Include="HtmlCtrl.h">
+      <Filter>Source Files\Media Control\HttpPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="HtmlWindow.h">
+      <Filter>Source Files\Media Control\HttpPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Widgie.rc">
+      <Filter>Source Files\Core</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\hackers.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="news_logo.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Widgie.Application\Images\news_logo.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="news_logo_scroll.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Widgie.Application\Images\news_logo_scroll.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="splashlogo.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="splashlogo.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Widgie.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Widgie.Application\Config\config.xml">
+      <Filter>XML Config</Filter>
+    </None>
+    <None Include="Widgie.Application\Config\loop.xml">
+      <Filter>XML Config</Filter>
+    </None>
+    <None Include="Widgie.Application\Config\manifest.xml">
+      <Filter>XML Config</Filter>
+    </None>
+    <None Include="PasswordDlg.htm" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuildStep Include="todo_items.txt" />
+  </ItemGroup>
+</Project>

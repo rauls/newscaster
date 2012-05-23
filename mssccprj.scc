@@ -1,0 +1,17 @@
+SCC = This is a Source Code Control file
+
+[Dvorak.vcproj]
+SCC_Aux_Path = "\\router\ral\Projects\ACTek\iTV\vss"
+SCC_Project_Name = "$/Dvorak", BAAAAAAA
+
+[Dvorak.sln]
+SCC_Aux_Path = "\\router\ral\Projects\ACTek\iTV\vss"
+SCC_Project_Name = "$/Dvorak", BAAAAAAA
+
+[Widgie.sln]
+SCC_Aux_Path = "C:\Program Files\Microsoft Visual Studio\VSS"
+SCC_Project_Name = "$/Widgie", BAAAAAAA
+
+[Widgie.vcproj]
+SCC_Aux_Path = "C:\Program Files\Microsoft Visual Studio\VSS"
+SCC_Project_Name = "$/Widgie", BAAAAAAA

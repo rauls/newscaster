@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<defaults>
+	<name>Global Sign Config</name>
+   <configversion>1</configversion>
+	<http_server>127.0.0.1</http_server>
+
+	<volume_default>10</volume_default>
+	<volume_max>10</volume_max>
+	<bright_default>10</bright_default>
+	<bright_range>10</bright_range>
+
+	<news_font>Arial</news_font>
+	<text_colour>0xffffff</text_colour>
+	<font_height>75</font_height>
+	<bar_height>90</bar_height>
+
+	<server_content_path>/content/</server_content_path>
+	<news_filename>/content/config/newsflash.xml</news_filename>
+	<manifest_filename>/content/config/manifest.xml</manifest_filename>
+	<loop_sequence_filename>/mdid2/webservices/imageviewer.asmx</loop_sequence_filename>
+
+	<xml_download_interval_time>00:05</xml_download_interval_time>
+	<xml_download_interval_day>0</xml_download_interval_day>
+	<news_download_interval_time>01:10</news_download_interval_time>
+	<news_download_interval_day>0</news_download_interval_day>
+
+	<load_image>front_screen.jpg</load_image>
+	<download_exe>widgie_001.exe</download_exe>
+</defaults>

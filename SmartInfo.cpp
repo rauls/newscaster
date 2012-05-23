@@ -76,11 +76,11 @@ CString QueryHDDSmartCommand( int driveNumber, int smartCommand, long &resultDat
 		if ((hSMARTIOCTL = CreateFile("\\\\.\\SMARTVSD", 0,0,0,
 			CREATE_NEW, 0, 0)) == INVALID_HANDLE_VALUE)
 		{
-			sprintf(Temp,"Unable to open SMARTVSD, error code: 0x%lX\r\n", GetLastError());
+			sprintf_s(Temp,"Unable to open SMARTVSD, error code: 0x%lX\r\n", GetLastError());
 		}
 		else
 		{
-			sprintf(Temp,"SMARTVSD opened successfully\r\n");
+			sprintf_s(Temp,"SMARTVSD opened successfully\r\n");
 		}
 		
 		Result+=Temp;
@@ -91,12 +91,12 @@ CString QueryHDDSmartCommand( int driveNumber, int smartCommand, long &resultDat
 		if ((hSMARTIOCTL = CreateFile("\\\\.\\PhysicalDrive0",GENERIC_READ | GENERIC_WRITE,FILE_SHARE_READ|FILE_SHARE_WRITE,NULL,
 			OPEN_EXISTING,0,NULL)) == INVALID_HANDLE_VALUE)
 		{
-			sprintf(Temp, "Unable to open physical drive, error code: 0x%lX\r\n", GetLastError());
+			sprintf_s(Temp, "Unable to open physical drive, error code: 0x%lX\r\n", GetLastError());
 		}
 		/*
 		else
 				{
-					sprintf(Temp, "Physical drive opened successfully\r\n");
+					sprintf_s(Temp, "Physical drive opened successfully\r\n");
 				}
 		*/
 		
@@ -120,19 +120,19 @@ CString QueryHDDSmartCommand( int driveNumber, int smartCommand, long &resultDat
 			sizeof(VersionParams),
 			&cbBytesReturned, NULL) )
     {
-		sprintf(Temp,"DFP_GET_VERSION returned:\r\n");
+		sprintf_s(Temp,"DFP_GET_VERSION returned:\r\n");
 		Result+=Temp;
-		sprintf(Temp,"\tbVersion        = %d\r\n", VersionParams.bVersion);
+		sprintf_s(Temp,"\tbVersion        = %d\r\n", VersionParams.bVersion);
 		Result+=Temp;
-		sprintf(Temp,"\tbRevision       = %d\r\n", VersionParams.bRevision);
+		sprintf_s(Temp,"\tbRevision       = %d\r\n", VersionParams.bRevision);
 		Result+=Temp;
-		sprintf(Temp,"\tfCapabilities   = 0x%lx\r\n", VersionParams.fCapabilities);
+		sprintf_s(Temp,"\tfCapabilities   = 0x%lx\r\n", VersionParams.fCapabilities);
 		Result+=Temp;
-		sprintf(Temp,"\tbReserved       = 0x%x\r\n", VersionParams.bReserved);
+		sprintf_s(Temp,"\tbReserved       = 0x%x\r\n", VersionParams.bReserved);
 		Result+=Temp;
-		sprintf(Temp,"\tbIDEDeviceMap   = 0x%x\r\n", VersionParams.bIDEDeviceMap);
+		sprintf_s(Temp,"\tbIDEDeviceMap   = 0x%x\r\n", VersionParams.bIDEDeviceMap);
 		Result+=Temp;
-		sprintf(Temp,"\tcbBytesReturned = %d\r\n\r\n", cbBytesReturned);
+		sprintf_s(Temp,"\tcbBytesReturned = %d\r\n\r\n", cbBytesReturned);
 		Result+=Temp;
 
 		// force drive 0 to be looked at.
@@ -141,7 +141,7 @@ CString QueryHDDSmartCommand( int driveNumber, int smartCommand, long &resultDat
 	}
     else
     {
-        sprintf(Temp,"DFP_GET_VERSION failed.\r\n");
+        sprintf_s(Temp,"DFP_GET_VERSION failed.\r\n");
 		Result+=Temp;
     }
 
@@ -173,7 +173,7 @@ CString QueryHDDSmartCommand( int driveNumber, int smartCommand, long &resultDat
 					i,
 					&cbBytesReturned))
 				{
-					sprintf(Temp,"SMART Enabled on Drive: %d\r\n", i);
+					sprintf_s(Temp,"SMART Enabled on Drive: %d\r\n", i);
 					Result+=Temp;
 					//
 					// Mark the drive as SMART enabled
@@ -182,14 +182,14 @@ CString QueryHDDSmartCommand( int driveNumber, int smartCommand, long &resultDat
 				}
 				else
 	    		{
-					sprintf(Temp,"SMART Enable Command Failed, Drive: %d.\r\n",i);
+					sprintf_s(Temp,"SMART Enable Command Failed, Drive: %d.\r\n",i);
 					Result+=Temp;
-					sprintf(Temp," DriverStatus: bDriverError=0x%X, bIDEStatus=0x%X\r\n\r\n", 
+					sprintf_s(Temp," DriverStatus: bDriverError=0x%X, bIDEStatus=0x%X\r\n\r\n", 
 	    					OutCmd.DriverStatus.bDriverError, 
 	    					OutCmd.DriverStatus.bIDEError);
 					Result+=Temp;
 	    		}
-				sprintf(Temp,"\tcbBytesReturned: %d\r\n\r\n", cbBytesReturned);
+				sprintf_s(Temp,"\tcbBytesReturned: %d\r\n\r\n", cbBytesReturned);
 				Result+=Temp;
 			}
 
@@ -219,14 +219,14 @@ CString QueryHDDSmartCommand( int driveNumber, int smartCommand, long &resultDat
 
 	       	else
 	       		{
-	       			sprintf(Temp,"Identify Command Failed on Drive: %d\r\n", i);
+	       			sprintf_s(Temp,"Identify Command Failed on Drive: %d\r\n", i);
 					Result+=Temp;
-					sprintf(Temp," DriverStatus: bDriverError=0x%X, bIDEStatus=0x%X\r\n\r\n", 
+					sprintf_s(Temp," DriverStatus: bDriverError=0x%X, bIDEStatus=0x%X\r\n\r\n", 
 					((PSENDCMDOUTPARAMS)IdOutCmd)->DriverStatus.bDriverError, 
 					((PSENDCMDOUTPARAMS)IdOutCmd)->DriverStatus.bIDEError);
 					Result+=Temp;
 	        	}
-	    		sprintf(Temp,"\tcbBytesReturned: %d\r\n\r\n", cbBytesReturned);
+	    		sprintf_s(Temp,"\tcbBytesReturned: %d\r\n\r\n", cbBytesReturned);
 				Result+=Temp;
 	    }
 
@@ -250,8 +250,8 @@ CString QueryHDDSmartCommand( int driveNumber, int smartCommand, long &resultDat
 					(PSENDCMDOUTPARAMS)&AttrOutCmd, 
 					i)))
 			{
-				sprintf(Temp,"\r\nSMART Read Attr Command Failed on Drive: %d.\r\n", i);
-				sprintf(Temp," DriverStatus: bDriverError=0x%X, bIDEStatus=0x%X\r\n\r\n", 
+				sprintf_s(Temp,"\r\nSMART Read Attr Command Failed on Drive: %d.\r\n", i);
+				sprintf_s(Temp," DriverStatus: bDriverError=0x%X, bIDEStatus=0x%X\r\n\r\n", 
 					((PSENDCMDOUTPARAMS)AttrOutCmd)->DriverStatus.bDriverError, 
 					((PSENDCMDOUTPARAMS)AttrOutCmd)->DriverStatus.bIDEError);
 			}	
@@ -260,9 +260,9 @@ CString QueryHDDSmartCommand( int driveNumber, int smartCommand, long &resultDat
 			else if (!(DoReadThresholdsCmd(hSMARTIOCTL, &scip, 
 							(PSENDCMDOUTPARAMS)&ThreshOutCmd, i)))
 			{
-				sprintf(Temp,"\r\nSMART Read Thrsh Command Failed on Drive: %d.\r\n", i);
+				sprintf_s(Temp,"\r\nSMART Read Thrsh Command Failed on Drive: %d.\r\n", i);
 				Result+=Temp;
-				sprintf(Temp," DriverStatus: bDriverError=0x%X, bIDEStatus=0x%X\r\n\r\n", 
+				sprintf_s(Temp," DriverStatus: bDriverError=0x%X, bIDEStatus=0x%X\r\n\r\n", 
 					((PSENDCMDOUTPARAMS)ThreshOutCmd)->DriverStatus.bDriverError, 
 					((PSENDCMDOUTPARAMS)ThreshOutCmd)->DriverStatus.bIDEError);
 				Result+=Temp;
@@ -357,11 +357,11 @@ CString DisplayIdInfo(PIDSECTOR pids, PSENDCMDINPARAMS pSCIP, BYTE bIDCmd, BYTE 
 	if (bIDCmd == IDE_ID_FUNCTION)
 	{
 		char Temp[512]="";
-		sprintf(Temp,"Drive %d is an IDE Hard drive%s\r\n", bDriveNum, (
+		sprintf_s(Temp,"Drive %d is an IDE Hard drive%s\r\n", bDriveNum, (
 			bDfpDriveMap >> bDriveNum & 1) ? " that supports SMART" : "");
 
 		Result+=Temp;
-		sprintf(Temp,"\t#Cylinders: %d, #Heads: %d, #Sectors per Track: %d\r\n",
+		sprintf_s(Temp,"\t#Cylinders: %d, #Heads: %d, #Sectors per Track: %d\r\n",
 				pids->wNumCyls, 
 				pids->wNumHeads, 
 				pids->wSectorsPerTrack);
@@ -373,7 +373,7 @@ CString DisplayIdInfo(PIDSECTOR pids, PSENDCMDINPARAMS pSCIP, BYTE bIDCmd, BYTE 
 	else
 	{
 		char Temp[512]="";
-		sprintf(Temp,"Drive %d is an ATAPI device.\r\n", bDriveNum); 
+		sprintf_s(Temp,"Drive %d is an ATAPI device.\r\n", bDriveNum); 
 		Result+=Temp;
 	}
 
@@ -385,10 +385,10 @@ CString DisplayIdInfo(PIDSECTOR pids, PSENDCMDINPARAMS pSCIP, BYTE bIDCmd, BYTE 
 		sizeof pids->sModelNumber);
 
 	memset(szOutBuffer,0, sizeof(szOutBuffer));
-	strncpy((char*) szOutBuffer, pids->sModelNumber, sizeof(pids->sModelNumber));
+	strncpy_s((char*) szOutBuffer, sizeof(szOutBuffer), pids->sModelNumber, sizeof(pids->sModelNumber));
 
 	char Temp[512]="";
-	sprintf(Temp, "\tModel number: %s\r\n", szOutBuffer);
+	sprintf_s(Temp, "\tModel number: %s\r\n", szOutBuffer);
 	Result+=Temp;
 
 
@@ -400,9 +400,9 @@ CString DisplayIdInfo(PIDSECTOR pids, PSENDCMDINPARAMS pSCIP, BYTE bIDCmd, BYTE 
 		sizeof pids->sFirmwareRev);
 
 	memset(szOutBuffer,0, sizeof(szOutBuffer));
-	strncpy((char*) szOutBuffer, pids->sFirmwareRev, sizeof(pids->sFirmwareRev));
+	strncpy_s((char*) szOutBuffer, sizeof(szOutBuffer), pids->sFirmwareRev, sizeof(pids->sFirmwareRev));
 
-	sprintf(Temp, "\tFirmware rev: %s\r\n", szOutBuffer);
+	sprintf_s(Temp, "\tFirmware rev: %s\r\n", szOutBuffer);
 	Result+=Temp;
 
 	//
@@ -413,9 +413,9 @@ CString DisplayIdInfo(PIDSECTOR pids, PSENDCMDINPARAMS pSCIP, BYTE bIDCmd, BYTE 
 		sizeof pids->sSerialNumber);
 
 	memset(szOutBuffer,0, sizeof(szOutBuffer));
-	strncpy((char*) szOutBuffer, pids->sSerialNumber, sizeof(pids->sSerialNumber));
+	strncpy_s((char*) szOutBuffer, sizeof(szOutBuffer), pids->sSerialNumber, sizeof(pids->sSerialNumber));
 
-	sprintf(Temp, "\tSerial number: %s\r\n",szOutBuffer);
+	sprintf_s(Temp, "\tSerial number: %s\r\n",szOutBuffer);
 	Result+=Temp;
 
 	return Result;
@@ -584,15 +584,15 @@ CString DoPrintData(PCHAR pAttrBuffer, PCHAR pThrsBuffer, BYTE bDriveNum)
 	// Print the drive number
 	//
 	char Temp[512]="";
-	sprintf(Temp,"\r\nData for Drive Number %d\n", bDriveNum);
+	sprintf_s(Temp,"\r\nData for Drive Number %d\n", bDriveNum);
 	Result+=Temp;
 	//
 	// Print the revisions of the data structures
 	//
-	sprintf(Temp, "Attribute Structure Revision          Threshold Structure Revision\r\n");
+	sprintf_s(Temp, "Attribute Structure Revision          Threshold Structure Revision\r\n");
 	Result+=Temp;
 
-	sprintf(Temp,"             %d                                      %d\r\n\r\n", 
+	sprintf_s(Temp,"             %d                                      %d\r\n\r\n", 
 				(WORD)pAttrBuffer[0], 
 				(WORD)pThrsBuffer[0]);
 
@@ -601,7 +601,7 @@ CString DoPrintData(PCHAR pAttrBuffer, PCHAR pThrsBuffer, BYTE bDriveNum)
 	// Print the header and loop through the structures, printing
 	// the structures when the attribute ID is known.
 	//
-	sprintf(Temp, "   -Attribute Name-      -Attribute Value-     -Threshold Value-\r\n");
+	sprintf_s(Temp, "   -Attribute Name-      -Attribute Value-     -Threshold Value-\r\n");
 	Result+=Temp;
 
 	pDA = (PDRIVEATTRIBUTE)&pAttrBuffer[2];
@@ -614,7 +614,7 @@ CString DoPrintData(PCHAR pAttrBuffer, PCHAR pThrsBuffer, BYTE bDriveNum)
 		{
 			if (Attr > MAX_KNOWN_ATTRIBUTES)
 				Attr = MAX_KNOWN_ATTRIBUTES+1;
-			sprintf(Temp,"%2X %-29s%d%20c%d\r\n", 
+			sprintf_s(Temp,"%2X %-29s%d%20c%d\r\n", 
 					pDA->bAttrID,
 					pAttrNames[Attr], 
 					pDA->bAttrValue, 
@@ -652,22 +652,22 @@ CString PrintIDERegs(PSENDCMDINPARAMS pscip)
 	char Temp[512]="";
 	CString Result;
 
-	sprintf(Temp,"\tIDE TASK FILE REGISTERS:\r\n");
+	sprintf_s(Temp,"\tIDE TASK FILE REGISTERS:\r\n");
 	Result+=Temp;
 
-	sprintf(Temp,"\t\tbFeaturesReg     = 0x%X\r\n", pscip->irDriveRegs.bFeaturesReg);
+	sprintf_s(Temp,"\t\tbFeaturesReg     = 0x%X\r\n", pscip->irDriveRegs.bFeaturesReg);
 	Result+=Temp;
-	sprintf(Temp,"\t\tbSectorCountReg  = 0x%X\r\n", pscip->irDriveRegs.bSectorCountReg);
+	sprintf_s(Temp,"\t\tbSectorCountReg  = 0x%X\r\n", pscip->irDriveRegs.bSectorCountReg);
 	Result+=Temp;
-	sprintf(Temp,"\t\tbSectorNumberReg = 0x%X\r\n", pscip->irDriveRegs.bSectorNumberReg);
+	sprintf_s(Temp,"\t\tbSectorNumberReg = 0x%X\r\n", pscip->irDriveRegs.bSectorNumberReg);
 	Result+=Temp;
-	sprintf(Temp,"\t\tbCylLowReg       = 0x%X\r\n", pscip->irDriveRegs.bCylLowReg);
+	sprintf_s(Temp,"\t\tbCylLowReg       = 0x%X\r\n", pscip->irDriveRegs.bCylLowReg);
 	Result+=Temp;
-	sprintf(Temp,"\t\tbCylHighReg      = 0x%X\r\n", pscip->irDriveRegs.bCylHighReg);
+	sprintf_s(Temp,"\t\tbCylHighReg      = 0x%X\r\n", pscip->irDriveRegs.bCylHighReg);
 	Result+=Temp;
-	sprintf(Temp,"\t\tbDriveHeadReg    = 0x%X\r\n", pscip->irDriveRegs.bDriveHeadReg); 
+	sprintf_s(Temp,"\t\tbDriveHeadReg    = 0x%X\r\n", pscip->irDriveRegs.bDriveHeadReg); 
 	Result+=Temp;
-	sprintf(Temp,"\t\tStatus           = 0x%X\r\n", pscip->irDriveRegs.bCommandReg);
+	sprintf_s(Temp,"\t\tStatus           = 0x%X\r\n", pscip->irDriveRegs.bCommandReg);
 	Result+=Temp;
 
 	return Result;

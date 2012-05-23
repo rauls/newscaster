@@ -2,7 +2,7 @@
 #include <afxwin.h>
 #include <afxmt.h>      // for synchronization objects
 #include <afxext.h>
-#include <afxisapi.h>
+//#include <afxisapi.h>
 #include <list>
 #include <algorithm>
 #include <fstream>

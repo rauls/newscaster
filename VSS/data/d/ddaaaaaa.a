@@ -1,0 +1,30 @@
+rem start up our app
+echo off
+
+:TOP
+rem copy a newly downloaded update over the main exe
+copy Media\widgie.exe widgie.exe
+
+echo Running Main App...
+widgie.exe
+echo Errorcode is %errorlevel%
+if errorlevel 1 if not errorlevel 2 goto DONE
+if errorlevel 2 if not errorlevel 3 goto REBOOT
+if errorlevel 3 if not errorlevel 4 goto TEST
+
+rem restart our batch file
+echo Restarting Application...
+echo Restarting App...
+goto TOP
+
+
+:REBOOT
+echo Rebooting now...
+exit
+goto TOP
+
+:DONE
+echo Exiting now...
+exit
+goto TOP
+

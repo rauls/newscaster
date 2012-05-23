@@ -7,6 +7,7 @@
 #include <afxsock.h>
 
 #include <shlobj.h>
+#include <strsafe.h>
 
 #include "Widgie.h"
 #include "WidgieThread.h"
@@ -522,7 +523,7 @@ BOOL CWidgieApp::OpenSplashLogo( void )
     dialogDC = m_splash.GetDC();
 
 #ifdef _DEBUG
-	cfgUse2ndMonitor = true
+	cfgUse2ndMonitor = true;
 #endif
    
 	if( GetSystemMetrics(SM_CMONITORS) > 1 && cfgUse2ndMonitor )

@@ -222,10 +222,10 @@ private:
     void GetNextLanguage();
 
 public:
-	virtual ResetLastDownloadTime()
+	virtual void ResetLastDownloadTime()
 	{
 		ptheApp->cfgLastDownloadTime = (CTime::GetCurrentTime() - ptheApp->cfgDownloadInterval);
-	};
+	}
 
 
 	void DoScrollerUpdate(void);

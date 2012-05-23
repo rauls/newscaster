@@ -1,0 +1,1219 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML><HEAD><TITLE>Visual SourceSafe 6.0d Readme</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=utf-8">
+<META content=Readmess name=MS-HAID>
+<META content="Microsoft FrontPage 5.0" name=GENERATOR></HEAD>
+<BODY onclick="checkExpand( )" text=#000000 vLink=#0000ff link=#0000ff 
+bgColor=#ffffff><FONT face=Verdana size=2>
+<SCRIPT language=JSCRIPT>
+
+  function checkExpand( )
+  {
+     if ("" != event.srcElement.id)
+     {
+        var ch = event.srcElement.id + "Child";
+        var el = document.all[ch];
+        if (null != el)
+        {
+           el.style.display = "none" == el.style.display ? "" : "none";
+           if (el.style.display != "none")
+           event.returnValue=false;
+        }
+     }
+  }
+
+</SCRIPT>
+<H2>Microsoft<SUP>®</SUP> Visual SourceSafe<SUP>®</SUP> 6.0d</H2>
+<P>© 2002 Microsoft Corporation. All rights reserved. </P>
+<P>Other product and company names herein may be the trademarks of their 
+respective owners. </P>
+<P><I>Visual SourceSafe Readme</I> includes updated information for the 
+documentation provided with Microsoft<FONT face=Symbol><SPAN 
+style="FONT-FAMILY: Symbol"></SPAN></FONT> Visual Studio -- Development System 
+for Windows® and the Internet. The information in this document is more 
+up-to-date than the information in the Help system.</P>
+<H3></H3>
+<P>Contents <FONT face=Verdana,Arial,Helvetica color=#000000 size=2>- Click any 
+of the items below</FONT></P>
+<H5><A href="readmess.htm#Topic_10">Release Description</A></H5>
+<H5><A class=ex id=KnownProblems title="Click to expand or collapse." 
+href="#">Known Problems</A></H5>
+<DIV id=KnownProblemsChild style="DISPLAY: none">
+<BLOCKQUOTE><A href="readmess.htm#Topic_19">Login to Local Visual SourceSafe 
+  Database Fails</A> </BLOCKQUOTE>
+<BLOCKQUOTE><A href="readmess.htm#Topic_20">Installing on a Novell Network 
+  Server</A> </BLOCKQUOTE>
+<BLOCKQUOTE><A href="readmess.htm#Topic_22">MBCS/DBCS Users</A> </BLOCKQUOTE>
+<BLOCKQUOTE><A href="readmess.htm#Topic_24">Unicode Files</A> </BLOCKQUOTE>
+<BLOCKQUOTE><A href="readmess.htm#Topic_25">Technical Support Phone 
+  Numbers</A> </BLOCKQUOTE>
+<BLOCKQUOTE><A href="readmess.htm#Topic_26">Windows 2000 Logo Compliance</A> 
+</BLOCKQUOTE></DIV>
+<H5><A class=ex id=GettingStarted title="Click to expand or collapse." 
+href="#">Getting Started</A></H5>
+<DIV id=GettingStartedChild style="DISPLAY: none">
+<BLOCKQUOTE><A href="readmess.htm#Topic_30">Before You Run Setup</A> 
+</BLOCKQUOTE></DIV>
+<H5><A class=ex id=Installation title="Click to expand or collapse." 
+href="#">Installation</A></H5>
+<DIV id=InstallationChild style="DISPLAY: none">
+<BLOCKQUOTE><A href="readmess.htm#Topic_40">Visual SourceSafe 6.0d Setup</A> 
+</BLOCKQUOTE>
+<BLOCKQUOTE><A href="readmess.htm#Topic_41">Installing Visual SourceSafe 6.0d 
+  over Visual SourceSafe 6.0 SP6, Visual SourceSafe 6.0c, or Earlier</A> </BLOCKQUOTE>
+<BLOCKQUOTE><A href="readmess.htm#Topic_42">Installation Options</A> 
+</BLOCKQUOTE>
+<BLOCKQUOTE><A href="readmess.htm#Topic_43">Installing Visual SourceSafe 
+  Standalone Version</A> </BLOCKQUOTE>
+<BLOCKQUOTE><A href="readmess.htm#Topic_44">Installing Multiple Versions of 
+  Visual Studio 6.0 Products "Side-by-Side" on the Same Computer</A> </BLOCKQUOTE>
+<BLOCKQUOTE><A href="readmess.htm#Topic_45">Using NetSetup to Install VSS from a Network Server</A> </BLOCKQUOTE>
+<BLOCKQUOTE><A href="readmess.htm#Topic_47">Deleting VSS</A> </BLOCKQUOTE></DIV>
+<H5><A class=ex id=GeneralNotesandTips title="Click to expand or collapse." 
+href="#">General Notes and Tips</A></H5>
+<DIV id=GeneralNotesandTipsChild style="DISPLAY: none">
+<BLOCKQUOTE><A href="readmess.htm#Topic_50">New Features in VSS 6.0</A> 
+</BLOCKQUOTE>
+<BLOCKQUOTE><A href="readmess.htm#Topic_51">Maintaining Your VSS Database</A> 
+</BLOCKQUOTE>
+<BLOCKQUOTE><A href="readmess.htm#Topic_52">Loss of Network Connection 
+  Produces Numerical Error Message</A> </BLOCKQUOTE>
+<BLOCKQUOTE><A href="readmess.htm#Topic_53">System Date/Time</A> </BLOCKQUOTE>
+<BLOCKQUOTE><A href="readmess.htm#Topic_54">Using the Command Line After 
+  Running a Client Setup</A> </BLOCKQUOTE>
+<BLOCKQUOTE><A href="readmess.htm#Topic_55">Details on Defining a Shadow 
+  Folder in Visual SourceSafe</A> </BLOCKQUOTE>
+<BLOCKQUOTE><A href="readmess.htm#Topic_57">VSS Home Page</A> </BLOCKQUOTE>
+<BLOCKQUOTE><A href="readmess.htm#Topic_58">Microsoft Knowledge Base</A> 
+</BLOCKQUOTE>
+<BLOCKQUOTE><A href="readmess.htm#Topic_59">VSS Newsgroup</A> 
+</BLOCKQUOTE></DIV>
+<H5><A class=ex id=BestPractices title="Click to expand or collapse." 
+href="#">Best Practices</A></H5>
+<DIV id=BestPracticesChild style="DISPLAY: none">
+<BLOCKQUOTE><A href="readmess.htm#Topic_60">Introduction</A> </BLOCKQUOTE>
+<BLOCKQUOTE><A href="readmess.htm#Topic_61">General Database 
+  Recommendations</A> </BLOCKQUOTE>
+<BLOCKQUOTE><A href="readmess.htm#Topic_62">How Visual SourceSafe Tracks 
+  Files</A> </BLOCKQUOTE>
+<BLOCKQUOTE><A href="readmess.htm#Topic_63">Finding and Repairing Data 
+  Corruption</A> </BLOCKQUOTE>
+<BLOCKQUOTE><A href="readmess.htm#Topic_64">Backup and Restore</A> 
+</BLOCKQUOTE></DIV>
+<P>&nbsp;</P>
+<H3><A name=Topic_10></A>Visual SourceSafe 6.0d Release Description</H3>
+<P>Visual SourceSafe (VSS) version 6.0d is a re-release. It contains a modified 
+installation program and updated VSS files containing all bug fixes made since 
+VSS 6.0 released. </P>
+<P>The installation program for VSS 6.0d has been modified to ensure an upgrade 
+of your existing VSS 6.0 installations. For the latest installation notes, see 
+<A href="readmess.htm#Topic_40">Installation</A>.</P><BR>
+<H3>Known Problems</H3><BR>
+<H4><A name=Topic_19></A>Login to Local Visual SourceSafe Database Fails</H4>
+<P>Users that do not log in as an Administrator or Power User on the local 
+computer cannot access a local SourceSafe database when it is installed to the default location on a 
+Windows NT 4.0, Windows 2000 or Windows XP NTFS partition. If you attempt to access a SourceSafe 
+database under these conditions the following error appears, "Unable to open user 
+login file ...\VSS\data\loggedin\<I>username</I>.log" where <I>username</I> is 
+your SourceSafe login name. </P>
+<P>To work around this issue either install the SourceSafe database to a UNC 
+path or log in as a Power User or Administrator. </P>
+<P>For more details about this issue, see <A 
+href="http://www.microsoft.com/windows2000/techinfo/planning/security/secdefs.asp">http://www.microsoft.com/windows2000/techinfo/planning/security/secdefs.asp</A>. 
+</P><BR>
+<H4><A name=Topic_20></A>Installing on a Novell Network Server</H4>
+<P>Novell NetWare servers can be configured to handle either long file names or 
+file names in the 8.3 file name format. If the Novell NetWare server can handle 
+only file names in the 8.3 format, the regular Visual Studio installation 
+process cannot install on the Novell NetWare server. To install VSS on a Novell 
+NetWare server that can handle only file names in the 8.3 format, use the 
+following steps. </P>
+<P><B>To install from the Visual Studio compact discs (CDs):</B></P>
+<OL>
+  <LI>Insert Disk 2. 
+  <LI>Switch to the VSS_SS folder. 
+  <LI>Run the following command: setup.exe /F 
+  <LI>Click <B>Server Applications</B>. 
+  <LI>When prompted for the installation location, change it to the Novell 
+  NetWare Server. </LI></OL><BR>
+<P><B>To install from the Visual SourceSafe standalone CDs:</B></P>
+<OL>
+  <LI>Insert the Visual SourceSafe CD. 
+  <LI>Run the following command: setup.exe /F </LI></OL><BR>
+<A name=Topic_22></A></FONT><FONT face=Verdana><b>MBCS/DBCS Users</b></FONT><FONT face=Verdana size=2><P>VSS 6.<I>x</I> handles MBCS (multibyte character sets) and DBCS (double-byte 
+character sets) differently from earlier versions of VSS. If you are upgrading 
+an existing installation of VSS that has a file called ssud.dll, rename it so 
+that VSS 6.<I>x</I> does not recognize it. For example, rename the file to 
+ssud.bak. If you do not rename it, you may have trouble in the input method 
+editor (IME) with font association (FA) turned off or it may generate GPFs when 
+dialog boxes that are new to VSS 6.<I>x</I> are displayed. </P><BR>
+
+<H4><A name=Topic_24></A>Unicode Files</H4>
+<P>Visual SourceSafe cannot handle Unicode files. When a file is first added to 
+SourceSafe, SourceSafe automatically detects whether the file is in text or 
+binary format. If Unicode files are added as text format files, SourceSafe can 
+corrupt them.</P>
+<P>To work around this issue, add all Unicode files to SourceSafe as binary 
+format files. You can override the file type automatic detection feature by 
+clicking the Advanced button in File Add dialog box when you are adding a file. 
+If the Unicode file has already been added, you can access the file properties 
+in SourceSafe and change the file type to Binary.</P><BR>
+<H4><A name=Topic_25></A>Technical Support Phone Numbers</H4>
+<P>The Technical Support phone number (900) 555-2300 is no longer in service. If 
+you need technical support, go to the Product Support Services page on the 
+Microsoft Corporation Web site (<A 
+href="http://support.microsoft.com">http://support.microsoft.com</A>). 
+The fees are:</P>
+<UL>
+  <LI>$195 for Web Response; choose "online support request". 
+  <LI>$245 for 800 number 1-800-936-5800 (for all developer support issues) 
+</LI></UL><BR>
+<H4><A name=Topic_26></A>Windows 2000 Logo Compliance</H4>Visual 
+SourceSafe is not certified for the Windows 2000 logo. Visual SourceSafe and its 
+Setup program do not comply with the Application Specification for Windows 2000 
+at <A 
+href="http://msdn.microsoft.com/certification/appspec.asp">http://msdn.microsoft.com/certification/appspec.asp</A> 
+and have not been independently tested by VeriTest for compliance to the 
+Application Specification for Windows 2000. For details on certification for 
+Windows, see <A 
+href="http://msdn.microsoft.com/certification/">http://msdn.microsoft.com/certification/</A>. 
+
+<H3>Getting Started</H3><BR>
+<H4><A name=Topic_30></A>Before You Run Setup</H4>
+<P>
+<UL>
+  <LI>Review the hardware and software requirements. </LI></UL><BR>
+<H3>Installation</H3>
+<H4><A name=Topic_40></A>Visual SourceSafe 6.0d Setup</H4>
+<P>
+<UL>
+  <LI>Visual SourceSafe 6.0d requires Internet Explorer version 4.01 SP1 or 
+  later to enable the Help system. Visual SourceSafe 6.0d does not include a 
+  distribution of Internet Explorer, so you must install it before you install VSS 
+  6.0d. You can find the latest version of Internet Explorer at <A 
+  href="http://www.microsoft.com/windows/ie/">http://www.microsoft.com/windows/ie/</A>. 
+  The VSS 6.0d Setup program checks for the minimum required version of Internet 
+  Explorer and displays a message if it does not detect it. You can continue the 
+  installation, but it is strongly recommended that you quit the VSS 6.0d Setup 
+  program and install Internet Explorer version 4.01 SP1 or later before 
+  resuming Setup. 
+  <LI>If you are installing Visual SourceSafe on Windows NT 4.0, Visual 
+  SourceSafe requires Windows NT 4.0 Service Pack 6 (SP6) or later. Visual 
+  SourceSafe 6.0d does not include a distribution of Windows NT 4.0 SP6, so you 
+  must install it before you install VSS 6.0d. You can find the latest service 
+  packs for Windows NT 4.0 at <A 
+  href="http://www.microsoft.com/ntserver/nts/downloads/recommended/SP6/allSP6.asp">http://www.microsoft.com/ntserver/nts/downloads/recommended/SP6/allSP6.asp</A>. 
+  The VSS 6.0d Setup program checks for the minimum required Windows NT 4.0 
+  configuration and displays a message if it does not detect it. You can 
+  continue the installation, but it is strongly recommended that you quit the VSS 
+  6.0d Setup program and install Windows NT 4.0 SP6 or later before resuming 
+  Setup. 
+  <LI>If you already have VSS 6.0 installed on your system, the VSS 6.0d Setup 
+  program upgrades your current installation to version 6.0d. Click <B>Yes</B> 
+  when you are asked to upgrade and select the same installation you currently 
+  have on your system. 
+  <LI>VSS 6.0d is a minor release to VSS 6.0 and cannot run side-by-side with 
+  another installation of VSS 6.0. Either upgrade your existing VSS 6.0 
+  installation to 6.0d or do not install VSS 6.0d on the same system. 
+  <LI>If you upgrade your existing server share installation to VSS 6.0d, your 
+  clients can upgrade to VSS 6.0d by rerunning the Netsetup program and choosing 
+  to upgrade their existing installation. 
+  <LI><B>Slow Setup: </B>When you install VSS 6.0d, Setup performs a drive check 
+  which, especially for larger drives, can be very time consuming. </LI></UL><BR>
+<H4><A name=Topic_41></A>Installing VSS 6.0d Over VSS 6.0 SP6, Visual SourceSafe 6.0c, or Earlier</H4>
+<P>When you run the VSS 6.0d Setup program on a computer that has VSS 6.0 with 
+SP1, SP2, SP3, SP4, SP5, or SP6 installed, the Setup program displays the following 
+message: </P>
+<BLOCKQUOTE>The Installation Wizard has detected an older version of Visual 
+  SourceSafe 6.0 installed on your computer. Visual SourceSafe 6.0d does not support side-by-side 
+  installation with other versions of Visual SourceSafe 6.0. The topic 
+  "Installing VSS 6.0d over VSS 6.0c, VSS 6.0 SP6, or Earlier" in the Visual SourceSafe 6.0 readme 
+  describes the valid configurations that Visual SourceSafe 6.0d supports. To 
+  upgrade your existing Visual SourceSafe 6.0 installation with Visual 
+  SourceSafe 6.0d, continue with 
+  Setup and accept the upgrade installation path when prompted. </BLOCKQUOTE>
+<BLOCKQUOTE>Do you want to continue? </BLOCKQUOTE>
+<P>This warning is valid because installing VSS 6.0d side-by-side with VSS 6.0 
+is not supported. Answer <B>Yes</B> to this message and to a subsequent message 
+asking you if you are certain you want to continue. </P>
+<P>When Setup continues, it states that you have an older version of the product 
+already installed and asks whether you would like to upgrade it. Click Next to 
+accept the selected folder location. When prompted for the specific installation 
+type, select the type already installed on your system. </P><BR>
+<H4><A name=Topic_42></A>Installation Options</H4>
+<H5>General Notes</H5>
+<P>The source code control database maintained by VSS must be on a drive that is 
+accessible to all users working on projects controlled by VSS. The most 
+versatile method of working with VSS is to perform a server installation to a 
+network drive and a Netsetup installation on each workstation. </P>
+
+<H4><A name=Topic_43></A>Installing Visual SourceSafe Standalone Version</H4><BR>
+<H5>Installing the Shared Database Server</H5>
+<P>A shared database server installation creates a database and installs the Administrator program and utilities, the client programs, and NetSetup for client installation from a server. For users who will need only the client programs, NetSetup is the recommended installation method. NetSetup copies the core executable files and libraries onto the user's hard disk and then configures registry settings to use the database that has been created on the server. </P>
+
+<P>If you are upgrading VSS, a new database is not created.</P>
+
+<P class="labelproc"><B>To install Visual SourceSafe Shared Database Server version</B>
+
+<OL type="1">
+	<LI>Insert the VSS compact disc in the CD-ROM drive of the server or a computer connected to the server. </li>
+
+	<LI>Double-click Setup.exe. </li>
+
+	<LI>Follow the instructions in the Setup Wizard. </li>
+
+	<LI>When prompted to select the installation type, click <B>Shared Database Server</B>.</li>
+
+	<LI>Secure your database.</li>
+</OL>
+
+<P>After you have installed VSS, you must create your VSS users and grant them permissions to run NetSetup. </P>
+
+<H5>Installing Standalone VSS</H5>
+<P>A Standalone installation creates a database and installs the Administrator program and utilities and the client programs. If you are upgrading VSS, a new database is not created.</P>
+
+<P class="labelproc"><B>To install Visual SourceSafe Standalone version</B>
+
+<OL type="1">
+	<LI>Insert the VSS compact disc in the CD-ROM drive of the computer.</li>
+
+	<LI>Double-click Setup.exe.</li>
+
+	<LI>Follow the instructions in the Setup Wizard.</li>
+
+	<LI>When prompted to select the installation type, click <B>Standalone</B>.</li>
+
+	<LI>Secure your database.</li>
+</OL>
+
+
+<H5>Installing a Custom Version</H5>
+<P>A custom installation installs only the Visual SourceSafe components that you select. You can choose from the following options during a custom installation.</P>
+<div><table cellspacing="0", border="1">
+
+<TR VALIGN="top">
+<TH align="left">Option</TH>
+<TH align="left">Description</TH>
+</TR>
+
+<TR VALIGN="top">
+<TD>Administrative Programs</TD>
+<TD>Installs the Visual SourceSafe Administrator program and utilities</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD>Client Programs</TD>
+<TD>Installs the Visual SourceSafe Explorer and command-line programs for client users.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD>Conversion Utilities</TD>
+<TD>Installs utilities to convert databases from other version control systems to the Visual SourceSafe format.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD>Create SourceSafe Database</TD>
+<TD>Installs or converts Visual SourceSafe database directories and files. If you are upgrading, a new database is not created.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD>Enable SourceSafe Integration</TD>
+<TD>Registers Visual SourceSafe for integration into the Visual Studio .NET development environment.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD>Help files</TD>
+<TD>Installs the Visual SourceSafe Help files.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD>Network Client Setup</TD>
+<TD>Installs NetSetup for client installation from a server.</TD>
+</TR>
+</table></div>
+
+<P class="labelproc"><B>To perform a custom installation</B>
+
+<OL type="1">
+	<LI>Insert the VSS compact disc in the CD-ROM drive.</li>
+
+	<LI>Double-click Setup.exe.</li>
+
+	<LI>Follow the instructions in the Setup Wizard.</li>
+
+	<LI>When prompted to select the installation type, click <B>Custom</B>.</li>
+
+	<LI>Select the options that you want to install, and then click <B>Continue</B>.</li>
+
+	<LI>Secure your database.</li>
+</OL>
+<H4><A name=Topic_44></A>Installing Multiple Versions of Visual Studio 6.0 
+Products Side-by-Side on the Same Computer</H4>
+<P>Visual Studio products with the same version and in the same language—Visual 
+C++<SUP>®</SUP> and Visual Basic<SUP>®</SUP> version 6.0 in English, for 
+example—can be installed separately on the same workstation. Microsoft supports 
+such installations. The Visual Studio 6.0 Installation Wizard detects if other 
+versions of the 6.0 product line have been installed on a workstation. </P>
+<P>Mixing different language versions, point releases, or product tiers on the 
+same workstation is generally not supported. This means that the installation 
+can fail, one or more of Visual Studio 6.0 products may not work even if the 
+installation succeeds, or in the worst case, you may not be able to remove any 
+of the products completely. </P>
+<P>If the wizard generates a warning during installation, the safest action is 
+to uninstall the Visual Studio 6.0 product before proceeding. The detection 
+scheme checks for the following scenarios: </P>
+<UL>
+  <LI>Users <B>installing different language versions</B> of the same product. 
+  For example, Japanese Visual Basic and English Visual Basic. Installation of 
+  certain combinations is supported. </LI></UL><BR>
+<TABLE cols=2 cellPadding=0 rules=rows border=1 frame=below>
+  <TBODY>
+  <TR>
+    <TD><FONT size=2>
+      <P><B>Product</B></P></FONT></TD>
+    <TD><FONT size=2>
+      <P><B>Supported Installation</B></P></FONT></TD></TR>
+  <TR>
+    <TD><FONT size=2>
+      <P>Visual Basic</P></FONT></TD>
+    <TD><FONT size=2>
+      <P>Install in two different locations</P></FONT></TD></TR>
+  <TR>
+    <TD><FONT size=2>
+      <P>Visual C++</P></FONT></TD>
+    <TD><FONT size=2>
+      <P>No side-by-side installation is supported.</P></FONT></TD></TR>
+  <TR>
+    <TD><FONT size=2>
+      <P>Visual FoxPro</P></FONT></TD>
+    <TD><FONT size=2>
+      <P>Install in two different locations</P></FONT></TD></TR>
+  <TR>
+    <TD><FONT size=2>
+      <P>Visual InterDev</P></FONT></TD>
+    <TD><FONT size=2>
+      <P>Install in the same location. You must reinstall after removing one 
+      version.</P></FONT></TD></TR>
+  <TR>
+    <TD><FONT size=2>
+      <P>Visual J++</P></FONT></TD>
+    <TD><FONT size=2>
+      <P>Install in the same location. You must reinstall after removing one 
+      version.</P></FONT></TD></TR>
+  <TR>
+    <TD><FONT size=2>
+      <P>Visual SourceSafe</P></FONT></TD>
+    <TD><FONT size=2>
+      <P>Install in the same location. You must reinstall after removing one 
+      version.</P>
+      <P><B>Note</B>&nbsp;&nbsp;&nbsp;The UI language chosen when you run Visual 
+      SourceSafe is based on the system's language settings. If that language is 
+      not installed for Visual SourceSafe, it uses English 
+  instead.</P></FONT></TD></TR>
+  <TR>
+    <TD><FONT size=2>
+      <P>MSDN</P></FONT></TD>
+    <TD><FONT size=2>
+      <P>Install in default directory.</P></FONT></TD></TR></TBODY></TABLE>
+<UL>
+  <LI>Users <B>installing different tiers of Visual Studio 6.0 products</B>. For 
+  example, Visual J++ Standard Edition and Visual InterDev Professional Edition. 
+  Installing different tiers of the same product on the same workstation is not 
+  supported. 
+  <LI>Users <B>installing point releases</B>. Upgrading a later point release of 
+  Visual Studio over an earlier point release is supported. However, installing 
+  earlier versions over later versions is not supported. 
+  <LI>Users <B>installing stand-alone versions of Visual Studio 6.0 products 
+  over the versions installed from Visual Studio 6.0 Professional or 
+  Enterprise</B>. For example, Visual FoxPro 6.0 over Visual Studio Professional 
+  6.0. Installing a stand-alone version of the same language versions (English) 
+  of Visual Studio 6.0 products is supported. It is safe to install Visual 
+  FoxPro 6.0 (English) from the stand-alone version on a workstation that 
+  already has Visual Basic 6.0 installed from Visual Studio Professional 
+  Edition. </LI></UL><BR>
+<H4><A name=Topic_45></A>Using NetSetup to Install VSS from a Network Server</H4>
+<P>The client programs are Visual SourceSafe Explorer and the command-line program. For users who need only the client programs, NetSetup is the recommended installation method. NetSetup copies the core executable files and libraries onto you computer's hard disk and then configures registry settings to use the database that has been created on the server. </P>
+
+<BLOCKQUOTE class="dtBlock">
+<b class="le">Note</b>&nbsp;&nbsp;&nbsp;A Visual SourceSafe license for each client is required to use NetSetup.</BLOCKQUOTE><B>To install using NetSetup:</B></P>
+
+<OL>
+	<LI>Contact your administrator for the location of Netsetup.exe, setup procedures, and the CD-Key.</li>
+
+	<LI>In Windows Explorer, navigate to the main folder containing the VSS Server installation. </li>
+
+	<LI>Double-click Netsetup.exe. </li>
+
+	<LI>Follow the instructions in the Installation Wizard, using <B>Change Folder</B> to change the default installation path.</li>
+
+	<LI>Click <B>OK</B>.</li>
+</OL>
+
+<BR>
+
+
+<H4><A name=Topic_47></A>Deleting VSS</H4>
+<P>If you delete a VSS installation (including the database) and then attempt to 
+run Setup, Setup may try to install VSS in the Recycle bin (if the old database 
+is found here). This happens only if the Recycle bin hasn't recently been 
+emptied. To remedy the problem:</P>
+<OL>
+  <LI>Empty the Recycle bin. 
+  <LI>Run Setup again, and verify that the default directory for VSS is no 
+  longer the Recycle bin. </LI></OL><BR>
+<H3>General Notes and Tips</H3>
+<H4><A name=Topic_50></A>New Features in VSS 6.0</H4>
+<P>Microsoft VSS 6.0 adds many new features. Some of the highlights include:</P>
+<UL>
+  <LI><B>Create database</B> – Available in the Visual SourceSafe Admin 
+  application. With it, you can create a new VSS database in any location. To 
+  use this command, on the Tools menu, click Create Database. 
+  <LI><B>Archive and restore </B>- Now available in the Visual SourceSafe Admin 
+  application in addition to the command line. 
+  <LI><B>Label promotion</B> - You can promote, or add, a file to an existing 
+  label. 
+  <LI><B>Move files</B> - When you move a file, VSS automatically shares the 
+  file to a new project and then deletes it from the original project. In the 
+  new project, the file appears as shared. 
+  <LI><B>Compare differences in multiple projects</B> - You can compare 
+  differences in a project against another project, compare in two different 
+  local folders, or compare a project against any directory, not just its 
+  working directory. 
+  <LI><B>Deploy individual files from the interface</B> - In VSS 6.0, using the 
+  VSS Explorer, you can now deploy a file as well as an individual folder. 
+  <LI><B>Filter history information</B> - You can now view history of files and 
+  projects without including labels. 
+  <LI><B>Clean temp directory option</B> - A quick, easy way to delete all files 
+  from the temp directory used by VSS, provided the files are not open. 
+  <LI><B>Check external hyperlinks</B> - In VSS 6.0, Check Hyperlinks now works 
+  on external hyperlinks, or jumps outside the project, as well as internal 
+  hyperlinks, or jumps within the project. 
+  <LI><B>Create desktop shortcuts to VSS databases (from VSS Explorer)</B> - You 
+  can create a shortcut on your desktop that opens a specified VSS database in 
+  the specified project. 
+  <LI><B>HTML Help</B> - This version uses HTML Help rather than WinHelp. 
+</LI></UL><BR>
+<H4><A name=Topic_51></A>Maintaining Your VSS Database</H4>
+<P>It is still advisable to back up the drive where your VSS database resides 
+regularly. It is important to use full backups, not incremental or differential 
+backups, to avoid problems. </P>
+<P>In addition, you should run the ANALYZE program periodically to maintain 
+database integrity. If a corruption is found, the ANALYZE program can usually 
+repair the problem. Updates to the ANALYZE tool are posted periodically on the 
+VSS Web site, <A 
+href="http://msdn.microsoft.com/ssafe/">http://www.msdn.microsoft.com/ssafe/downloads/updates.asp</A>. 
+You can check that site to see if there is a version of ANALYZE more recent than 
+the one shipped with this product.</P>
+<P><B>To run ANALYZE:</B></P>
+<OL>
+  <LI>Click <B>Start</B> and point to <B>Programs</B>. 
+  <LI>Click <B>Microsoft Visual SourceSafe</B> (if you installed VSS with 
+  Microsoft Visual Studio, click Microsoft Visual Studio, then click Visual 
+  SourceSafe). 
+  <LI>Click either Analyze VSS DB or Analyze &amp; Fix VSS DB. </LI></OL>
+<BLOCKQUOTE><B>Note</B>&nbsp;&nbsp;&nbsp;It is always advisable to run the 
+  Analyze utility and back up older databases before upgrading them to the 
+  6.<I>x</I> format. </BLOCKQUOTE>
+<H4><A name=Topic_52></A>Loss of Network Connection Produces Numerical Error 
+Message</H4>
+<P>If you are using VSS on a remote database and you lose your connection to the 
+server, the following error occurs: </P>
+<BLOCKQUOTE>"unknown error - 20038," (or similar) </BLOCKQUOTE>
+<P>If you see this error, you have lost your network connection.</P>
+<P><B>To correct the situation</B> </P>
+<OL>
+  <LI>Restore your network connection. 
+  <LI>Restart VSS to continue your work. </LI></OL><BR>
+<H4><A name=Topic_53></A>System Date/Time</H4>
+<P>VSS uses the date and time that your local computer stores. If your computer 
+is not synchronized with other computers, unpredictable results can occur. For 
+instance, you check in a file after someone else, but VSS determines your 
+checkin happened first because your system clock was off. </P>
+<P>The best solution for this problem is to synchronize your local date and time 
+with the network on a regular basis. With Windows NT this can be done with a 
+Domain Time Source Server. Check the <A 
+href="http://www.novell.com/">http://www.novell.com/</A> site for information on 
+time synchronization with Novell NetWare servers. </P><BR>
+<H4><A name=Topic_54></A>Using the Command Line after Running a Client 
+Setup</H4>
+<P>If you are working from the command line and receive the following message 
+"No VSS database (SRCSAFE.INI) found. Use the SSDIR environment variable or run 
+netsetup.", set the SSDIR variable. This tells VSS where to find the Srcsafe.ini 
+file for the VSS server installation to which you want to connect. You can do 
+this by typing the following at the command prompt: </P>
+<BLOCKQUOTE>set ssdir=\\server\share\vss </BLOCKQUOTE>
+<P>Where \\server\share\vss is the folder where the Srcsafe.ini file is located. 
+</P>
+<P><B>Note</B>&nbsp;&nbsp;&nbsp;There should not be a space between the equal 
+sign and the location of the VSS server installation. For example, the following 
+will not work: </P>
+<BLOCKQUOTE>set ssdir= \\server\share\vss. </BLOCKQUOTE>
+<H4><A name=Topic_55></A>Details on Defining a Shadow Folder in Visual 
+SourceSafe</H4>
+<P>A shadow folder is a live mirror (on the file system) of the projects in the 
+Visual SourceSafe (VSS) database. </P>
+<P>For a shared database, you must set up the shadow folder with a Universal 
+Naming Convention (UNC) path, such as \\Server\Share\Shadow, to avoid failure 
+when changes are made from a computer other than the one used to set up the 
+shadow. </P>
+<P>For example, instead of defining the shadow folder as D:\VSSShadow, you can 
+define the shadow folder as: \\server\D\Shadow. </P>
+<P>Confirm that all the Visual SourceSafe users have read/write access to the 
+UNC directory. </P>
+<P>If you create a shadow folder for a VSS project, the Windows user permissions for the VSS folders are not inherited by the shadow folder. Grant Read and Write permissions for the shadow folder to all VSS users, and grant only Read permissions to any Windows users who require read-only access to the shadow folder.
+<br><br>
+It is recommended that you create a shadow folder on a different share from the VSS database so that Windows users with read-only access to the shadow folder do not have any access permissions for the share that contains the database. It is also recommended that you create a shadow folder for a specific VSS project, not for the root project $, so that Windows users who have access to the shadow folder have access to only that VSS project and not to your entire database.
+<br><br>
+<b>Note</b>   When you delete a file or project from a VSS project, that file or project is not deleted from the shadow folder.
+</P>
+<H4><A name=Topic_57></A>VSS Home Page</H4>
+<P>Microsoft VSS has a home page on the Internet. This home page features a 
+variety of information including articles on VSS, a self-running demonstration 
+that you can download, a collection of helpful VSS utilities, and much more. The 
+URL for the home page is: <A 
+href="http://www.msdn.microsoft.com/ssafe/">http://www.msdn.microsoft.com/ssafe.</A> 
+</P>
+<P><BR>
+<H4><A name=Topic_58></A>Microsoft Knowledge Base</H4>
+<P>If you encounter problems or have questions not addressed here or in the 
+online documentation, you can search the Microsoft Knowledge Base at <A 
+href="http://support.microsoft.com/support/">http://support.microsoft.com/support</A>. 
+The Knowledge Base is also available on the <I>MSDN Library Visual Studio 
+6.0</I>. </P><BR>
+<H4><A name=Topic_59></A>VSS Newsgroup</H4>
+<P>You can exchange information with other VSS users by visiting a newsgroup on 
+the Internet. For details, see <A 
+href="http://communities.microsoft.com/newsgroups">http://communities.microsoft.com/newsgroups</A> 
+</P>
+<P><B>Note</B>&nbsp;&nbsp;&nbsp;Microsoft does not provide support for messages 
+posted to the newsgroup. </P><BR>
+<H3>Best Practices</H3>
+<P>The most up-to-date SourceSafe Best Practices Guide can be found at: <A 
+href="http://msdn.microsoft.com/library/default.asp?URL=/library/techart/vssbest.htm">http://msdn.microsoft.com/library/default.asp?URL=/library/techart/vssbest.htm</A>. 
+This guide is in English only.</P>
+<H4><A name=Topic_60></A>Introduction</H4>
+<P>Under normal operation in a stable environment, Visual SourceSafe provides 
+excellent storage and security for your current source data and past revisions. 
+However, as with any database product, data corruption can occur. This section 
+outlines recommended practices to help avoid corruption problems. Although all 
+the practices can help minimize the impact of corruption, one of the most 
+valuable is using a data repair utility called Analyze. The Analyze tool ships 
+with Visual SourceSafe. It checks for and repairs many common data write errors. 
+Run Analyze on your Visual SourceSafe database with your regular full backup 
+schedule to ensure the stability and security of your source data.</P>
+<P><B>Important</B>&nbsp;&nbsp;&nbsp;When using Visual SourceSafe, make sure 
+that you are running the latest version of the applications. Microsoft 
+periodically releases service packs for our applications that correct known 
+issues. We recommend that you install the service packs as soon as possible.</P>
+<P>Customers who want to upgrade their Visual SourceSafe client to the latest 
+Visual Studio Service Pack releases should use the Service Pack installations 
+instead of running netsetup.exe again.</P><BR>
+<H4><A name=Topic_61></A>General Database Recommendations</H4>
+<H5>Database Size</H5>
+<P>Under normal use, your Visual SourceSafe database should not exceed 3 to 5 
+GB. To determine an appropriate size, consider the amount of free space on the 
+server, the relationship among the projects being stored, the amount of file 
+history you need to access quickly, and user tolerance for reduced performance. 
+Although Visual SourceSafe does not have a size limitation, on very large 
+databases it takes longer to perform normal operations and maintenance tasks, 
+such as running Analyze. Visual SourceSafe does not limit the number of 
+databases you can put on a server.</P>
+<P>To reduce potential file size, keep projects that are not interrelated in 
+separate databases. You can use the Archive and Restore utilities included in 
+Visual SourceSafe version 5.0 and later to move projects to another database or 
+to remove outdated history from a project.</P>
+<H5>Location</H5>
+<P>Although you can store Visual SourceSafe databases on any Microsoft 
+Windows®-compatible file server (Windows NT, Novell, and so on), 
+database performance is best on Windows NT. Network operations are generally 
+faster. In addition, in the Windows-based server environment you can run Analyze 
+and other highly intensive file I/O operations directly on the server, often 
+dramatically decreasing execution time.</P>
+<H5>Analyze Frequency</H5>
+<P>Use the Analyze tool shipped with Visual SourceSafe to detect and repair 
+problems in the database structure. When you run Analyze regularly, especially 
+in high-use situations, you can discover small problems and fix them before they 
+become worse. Run Analyze weekly or, at minimum, monthly as part of regular 
+maintenance.</P>
+<P>While running Analyze directly on your production database, you must lock out 
+users. To minimize the impact, restore your regular backup to another location 
+and run Analyze on that copy. Another way that you can create a duplicate 
+on-line copy of your VSS database is to use the ROBOCOPY utility from the 
+Windows NT Resource Kit. This utility copies all the files in a folder and 
+subfolders; however, if a file is in use, it will retry the copy instead of just 
+failing. You can use this method to create a backup of your database on another 
+server as well. If you detect problems in the backup that need to be resolved, 
+you can then lock out users from the production database while making any 
+necessary fixes. If Analyze returns no errors, you do not need to interrupt user 
+connections. This method also checks the validity of the backup strategy.</P>
+<P>Each time you run the Analyze utility, create a list of all items in the 
+database. This list is useful in determining which logical file name is related 
+to an error based on the file name (for example, Abcaaaaa.a) for which the error 
+is reported.</P>
+<P><B>To create the physical list</B></P>
+<UL>
+  <LI>At the command prompt, type: 
+  <BLOCKQUOTE>SS PHYSICAL $/ -R–O@PHYSICAL.TXT </BLOCKQUOTE></LI></UL>
+<P>For more detailed information on Analyze, see <A 
+href="readmess.htm#Topic_63">Finding and Repairing Data Corruption</A> later in 
+this document.</P>
+<H5>Free Disk Space</H5>
+<P><B>Caution</B>&nbsp;&nbsp;&nbsp;Do not allow Visual SourceSafe or the Analyze 
+tool to run out of disk space while running. Running out of disk space in the 
+middle of a complex operation can create serious database corruption.</P>
+<P>Visual SourceSafe does check for disk space. However, due to performance 
+concerns, it does not check for space on every disk write operation. To avoid 
+possible database corruption, make sure there is enough free space on the server 
+so that a complete copy of the database can be created during normal Analyze 
+operations.</P>
+<H5>Sharing and Branching</H5>
+<P>Use the Sharing and Branching features of Visual SourceSafe with discretion. 
+Avoid Sharing or Branching across top-level projects because it complicates the 
+process of archiving a project and restoring it into another database. Moreover, 
+when you branch files and then delete them, the space is not recovered until all 
+copies of the branched file in the database are destroyed.</P>
+<H5>Number of Users</H5>
+<P>The acceptable number of users varies depending on the performance of the 
+server and the network. When you control the size of the database, performance 
+improves, and more users can access the database with reasonable performance. 
+The number of full-access users you have determines the number of licenses that 
+you need for Visual SourceSafe.</P>
+<H5>Server Rights</H5>
+<P>All users must have permission to modify 
+files in the Data folder and its subfolders in the directory tree. These 
+permissions must also be applied to the share permissions. If a user receives 
+the message “Unable to create user login file,” that user does not have the 
+proper permissions to the VSS database location.</P>
+<P>Each database has its own User and Rights management systems. You cannot 
+interrelate these files.</P>
+<H5>Ss.ini and SSAdmin.ini Files</H5>
+<P>Users' Ss.ini files are limited to 64 KB and a maximum of 10 different 
+computer-specific settings. Each time a user logs on from a different computer, 
+the Ss.ini saves the window positions and other computer-specific information. 
+If you are experiencing unusual user-specific problems, try deleting unnecessary 
+entries in the user's Ss.ini file.</P>
+<H5>Working Folders</H5>
+<P>To maintain file integrity, make sure that all users have their own working 
+folders for all projects. When multiple users share a working folder, a file 
+checked out by one user can be modified by anyone with access to that folder. 
+Maintaining separate working folders ensures that users modify only files they 
+have checked out themselves.</P>
+<H5>System Clocks</H5>
+<P>Synchronize the dates and system clocks for all Visual SourceSafe client 
+computers with the Visual SourceSafe server. This prevents checkin and checkout 
+operations from appearing to happen out of sequence and affects any labels that 
+are applied. Synchronizing dates and system clocks is particularly important 
+when users from different time zones access the same database.</P>
+<P>You can set up a computer running Windows NT Server to act as a Domain Time 
+Source server for users to synchronize their local date and time with the 
+network. For additional information, see the Knowledge Base article "How to Set 
+Up and Synchronize with Domain Time Source Servers (search on article ID 
+Q131715).</P>
+<H5>New Databases</H5>
+<P>Avoid creating a new database by copying an existing one. Doing so can 
+potentially cause problems because the globally unique identifier (GUID) in the 
+Um.dat will be the same for both databases. For details on how to create a new 
+database, see Knowledge Base article Q123467, "How to Create a New Database in 
+SourceSafe."</P>
+<H5>Moving Databases or Visual SourceSafe Installations</H5>
+<P>To move a Visual SourceSafe installation, copy the entire VSS folder and all 
+of its subfolders to the new location. However, do not use XCOPY to do this 
+because it does not copy some zero-byte files. Instead, use Windows Explorer to 
+copy the folder(s). After you have copied the installation, Visual SourceSafe 
+clients must change the <B>#include</B> statement in their local Srcsafe.ini 
+file to reflect the new location. No other modifications are necessary. To move 
+just the database itself, perform the same operation on the Data folder and then 
+modify the DATA_PATH line of the server Srcsafe.ini instead of the client 
+Srcsafe.ini. When specifying the DATA_PATH, use the UNC method (\\SERVER\SHARE). 
+For details, see Knowledge Base article Q176909, "HOWTO: Move a VSS Database or 
+Project to New Location."</P>
+<P><B>Tip</B>&nbsp;&nbsp;&nbsp;After you have moved the VSS location, you can 
+create a Srcsafe.ini file in the old location with a <B>#include</B> statement 
+pointing to the new SrcSafe.ini location. This provides time for users to change 
+their links.</P>
+<H5>Integrated Environments</H5>
+<P>When using Visual SourceSafe through the integration in the development 
+environments (Microsoft Visual Basic®, Microsoft Visual C++®, Microsoft Access, 
+Microsoft FrontPage®, and so on) use the integrated component to perform Visual 
+SourceSafe operations that can be done within that environment. For example, do 
+not check out and check in files from both the Visual SourceSafe Explorer and 
+integrated environments. This is very important because Visual SourceSafe does 
+not understand the links between the source files the way the integrated 
+development environment does. For instance, in Visual Basic a form can be made 
+up of a FRM and a FRX file. Visual Basic knows to check out both files at the 
+same time, but SourceSafe does not. Checking only one file out in the Visual 
+SourceSafe Explorer causes the files to get out of sync in Visual Basic and 
+hence corrupted.</P><BR>
+<H4><A name=Topic_62></A>How Visual SourceSafe Tracks Files</H4>
+<P>Visual SourceSafe is a file-based version control system that is designed for 
+use on multiple, industry-standard network servers. No special program needs to 
+be run on the server during normal use. The core of a Visual SourceSafe database 
+is the Data directory; it has a unique structure that is designed for maximum 
+flexibility. A Visual SourceSafe database consists of the following files and 
+folders.</P>
+<TABLE 
+style="MARGIN-LEFT: 4pt; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-COLLAPSE: collapse; BORDER-BOTTOM-STYLE: none; mso-border-alt: solid silver .5pt; mso-padding-alt: 0pt 4.0pt 0pt 4.0pt" 
+cellSpacing=0 cellPadding=0 border=1>
+  <TBODY>
+  <TR>
+    <TD 
+    style="BORDER-RIGHT: silver 0.5pt solid; PADDING-RIGHT: 4pt; BORDER-TOP: silver 0.5pt solid; PADDING-LEFT: 4pt; BACKGROUND: #e2e2e2; PADDING-BOTTOM: 0pt; BORDER-LEFT: silver 0.5pt solid; PADDING-TOP: 0pt; BORDER-BOTTOM: silver 0.5pt solid; mso-shading: windowtext; mso-pattern: gray-50 silver" 
+    vAlign=top><FONT size=2>
+      <P><B>File/folder</B></P></FONT></TD>
+    <TD 
+    style="BORDER-RIGHT: silver 0.5pt solid; PADDING-RIGHT: 4pt; BORDER-TOP: silver 0.5pt solid; PADDING-LEFT: 4pt; BACKGROUND: #e2e2e2; PADDING-BOTTOM: 0pt; BORDER-LEFT: silver 0.5pt; PADDING-TOP: 0pt; BORDER-BOTTOM: silver 0.5pt solid; mso-shading: windowtext; mso-pattern: gray-50 silver; mso-border-left-alt: solid silver .5pt" 
+    vAlign=top><FONT size=2>
+      <P><B>Description<B></P></B></B></FONT></TD></TR>
+  <TR>
+    <TD 
+    style="BORDER-RIGHT: silver 0.5pt solid; PADDING-RIGHT: 4pt; BORDER-TOP: silver 0.5pt; PADDING-LEFT: 4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: silver 0.5pt solid; PADDING-TOP: 0pt; BORDER-BOTTOM: silver 0.5pt solid; mso-border-top-alt: solid silver .5pt" 
+    vAlign=top><FONT size=2>
+      <P>SrcSafe.ini</P></FONT></TD>
+    <TD 
+    style="BORDER-RIGHT: silver 0.5pt solid; PADDING-RIGHT: 4pt; PADDING-LEFT: 4pt; PADDING-BOTTOM: 0pt; BORDER-TOP-STYLE: none; PADDING-TOP: 0pt; BORDER-BOTTOM: silver 0.5pt solid; BORDER-LEFT-STYLE: none; mso-border-left-alt: solid silver .5pt; mso-border-top-alt: solid silver .5pt" 
+    vAlign=top><FONT size=2>
+      <P>Visual SourceSafe database global settings and configuration 
+      information for all users.</P></FONT></TD></TR>
+  <TR>
+    <TD 
+    style="BORDER-RIGHT: silver 0.5pt solid; PADDING-RIGHT: 4pt; BORDER-TOP: silver 0.5pt; PADDING-LEFT: 4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: silver 0.5pt solid; PADDING-TOP: 0pt; BORDER-BOTTOM: silver 0.5pt solid; mso-border-top-alt: solid silver .5pt" 
+    vAlign=top><FONT size=2>
+      <P>Users.txt</P></FONT></TD>
+    <TD 
+    style="BORDER-RIGHT: silver 0.5pt solid; PADDING-RIGHT: 4pt; PADDING-LEFT: 4pt; PADDING-BOTTOM: 0pt; BORDER-TOP-STYLE: none; PADDING-TOP: 0pt; BORDER-BOTTOM: silver 0.5pt solid; BORDER-LEFT-STYLE: none; mso-border-left-alt: solid silver .5pt; mso-border-top-alt: solid silver .5pt" 
+    vAlign=top><FONT size=2>
+      <P>List of all users of the Visual SourceSafe database.</P></FONT></TD></TR>
+  <TR>
+    <TD 
+    style="BORDER-RIGHT: silver 0.5pt solid; PADDING-RIGHT: 4pt; BORDER-TOP: silver 0.5pt; PADDING-LEFT: 4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: silver 0.5pt solid; PADDING-TOP: 0pt; BORDER-BOTTOM: silver 0.5pt solid; mso-border-top-alt: solid silver .5pt" 
+    vAlign=top><FONT size=2>
+      <P class=Text>Data\Aaaaaaaa.cnt</P></FONT></TD>
+    <TD 
+    style="BORDER-RIGHT: silver 0.5pt solid; PADDING-RIGHT: 4pt; PADDING-LEFT: 4pt; PADDING-BOTTOM: 0pt; BORDER-TOP-STYLE: none; PADDING-TOP: 0pt; BORDER-BOTTOM: silver 0.5pt solid; BORDER-LEFT-STYLE: none; mso-border-left-alt: solid silver .5pt; mso-border-top-alt: solid silver .5pt" 
+    vAlign=top><FONT size=2>
+      <P class=Text>Physical name of last file added to the 
+    database.</P></FONT></TD></TR>
+  <TR>
+    <TD 
+    style="BORDER-RIGHT: silver 0.5pt solid; PADDING-RIGHT: 4pt; BORDER-TOP: silver 0.5pt; PADDING-LEFT: 4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: silver 0.5pt solid; PADDING-TOP: 0pt; BORDER-BOTTOM: silver 0.5pt solid; mso-border-top-alt: solid silver .5pt" 
+    vAlign=top><FONT size=2>
+      <P class=Text>Data\Crcs.dat</P></FONT></TD>
+    <TD 
+    style="BORDER-RIGHT: silver 0.5pt solid; PADDING-RIGHT: 4pt; PADDING-LEFT: 4pt; PADDING-BOTTOM: 0pt; BORDER-TOP-STYLE: none; PADDING-TOP: 0pt; BORDER-BOTTOM: silver 0.5pt solid; BORDER-LEFT-STYLE: none; mso-border-left-alt: solid silver .5pt; mso-border-top-alt: solid silver .5pt" 
+    vAlign=top><FONT size=2>
+      <P class=Text>CRC information used to speed up the get and check-out 
+      processes (Visual SourceSafe 6.0 format databases only).</P></FONT></TD></TR>
+  <TR>
+    <TD 
+    style="BORDER-RIGHT: silver 0.5pt solid; PADDING-RIGHT: 4pt; BORDER-TOP: silver 0.5pt; PADDING-LEFT: 4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: silver 0.5pt solid; PADDING-TOP: 0pt; BORDER-BOTTOM: silver 0.5pt solid; mso-border-top-alt: solid silver .5pt" 
+    vAlign=top><FONT size=2>
+      <P class=Text>Data\Names.dat</P></FONT></TD>
+    <TD 
+    style="BORDER-RIGHT: silver 0.5pt solid; PADDING-RIGHT: 4pt; PADDING-LEFT: 4pt; PADDING-BOTTOM: 0pt; BORDER-TOP-STYLE: none; PADDING-TOP: 0pt; BORDER-BOTTOM: silver 0.5pt solid; BORDER-LEFT-STYLE: none; mso-border-left-alt: solid silver .5pt; mso-border-top-alt: solid silver .5pt" 
+    vAlign=top><FONT size=2>
+      <P class=Text>Long file name information.</P></FONT></TD></TR>
+  <TR>
+    <TD 
+    style="BORDER-RIGHT: silver 0.5pt solid; PADDING-RIGHT: 4pt; BORDER-TOP: silver 0.5pt; PADDING-LEFT: 4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: silver 0.5pt solid; PADDING-TOP: 0pt; BORDER-BOTTOM: silver 0.5pt solid; mso-border-top-alt: solid silver .5pt" 
+    vAlign=top><FONT size=2>
+      <P class=Text>Data\Rights.dat</P></FONT></TD>
+    <TD 
+    style="BORDER-RIGHT: silver 0.5pt solid; PADDING-RIGHT: 4pt; PADDING-LEFT: 4pt; PADDING-BOTTOM: 0pt; BORDER-TOP-STYLE: none; PADDING-TOP: 0pt; BORDER-BOTTOM: silver 0.5pt solid; BORDER-LEFT-STYLE: none; mso-border-left-alt: solid silver .5pt; mso-border-top-alt: solid silver .5pt" 
+    vAlign=top><FONT size=2>
+      <P class=Text>User and project security information.</P></FONT></TD></TR>
+  <TR>
+    <TD 
+    style="BORDER-RIGHT: silver 0.5pt solid; PADDING-RIGHT: 4pt; BORDER-TOP: silver 0.5pt; PADDING-LEFT: 4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: silver 0.5pt solid; PADDING-TOP: 0pt; BORDER-BOTTOM: silver 0.5pt solid; mso-border-top-alt: solid silver .5pt" 
+    vAlign=top><FONT size=2>
+      <P class=Text>Data\Status.dat</P></FONT></TD>
+    <TD 
+    style="BORDER-RIGHT: silver 0.5pt solid; PADDING-RIGHT: 4pt; PADDING-LEFT: 4pt; PADDING-BOTTOM: 0pt; BORDER-TOP-STYLE: none; PADDING-TOP: 0pt; BORDER-BOTTOM: silver 0.5pt solid; BORDER-LEFT-STYLE: none; mso-border-left-alt: solid silver .5pt; mso-border-top-alt: solid silver .5pt" 
+    vAlign=top><FONT size=2>
+      <P class=Text>Visual SourceSafe Explorer cache file (used to speed up the 
+      display of the Visual SourceSafe Explorer).</P></FONT></TD></TR>
+  <TR>
+    <TD 
+    style="BORDER-RIGHT: silver 0.5pt solid; PADDING-RIGHT: 4pt; BORDER-TOP: silver 0.5pt; PADDING-LEFT: 4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: silver 0.5pt solid; PADDING-TOP: 0pt; BORDER-BOTTOM: silver 0.5pt solid; mso-border-top-alt: solid silver .5pt" 
+    vAlign=top><FONT size=2>
+      <P class=Text>Data\Um.dat</P></FONT></TD>
+    <TD 
+    style="BORDER-RIGHT: silver 0.5pt solid; PADDING-RIGHT: 4pt; PADDING-LEFT: 4pt; PADDING-BOTTOM: 0pt; BORDER-TOP-STYLE: none; PADDING-TOP: 0pt; BORDER-BOTTOM: silver 0.5pt solid; BORDER-LEFT-STYLE: none; mso-border-left-alt: solid silver .5pt; mso-border-top-alt: solid silver .5pt" 
+    vAlign=top><FONT size=2>
+      <P class=Text>User management information (names and passwords) and the 
+      database identifier (GUID).</P></FONT></TD></TR>
+  <TR>
+    <TD 
+    style="BORDER-RIGHT: silver 0.5pt solid; PADDING-RIGHT: 4pt; BORDER-TOP: silver 0.5pt; PADDING-LEFT: 4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: silver 0.5pt solid; PADDING-TOP: 0pt; BORDER-BOTTOM: silver 0.5pt solid; mso-border-top-alt: solid silver .5pt" 
+    vAlign=top><FONT size=2>
+      <P class=Text>Data\Version.dat</P></FONT></TD>
+    <TD 
+    style="BORDER-RIGHT: silver 0.5pt solid; PADDING-RIGHT: 4pt; PADDING-LEFT: 4pt; PADDING-BOTTOM: 0pt; BORDER-TOP-STYLE: none; PADDING-TOP: 0pt; BORDER-BOTTOM: silver 0.5pt solid; BORDER-LEFT-STYLE: none; mso-border-left-alt: solid silver .5pt; mso-border-top-alt: solid silver .5pt" 
+    vAlign=top><FONT size=2>
+      <P class=Text>Visual SourceSafe database version.</P></FONT></TD></TR>
+  <TR>
+    <TD 
+    style="BORDER-RIGHT: silver 0.5pt solid; PADDING-RIGHT: 4pt; BORDER-TOP: silver 0.5pt; PADDING-LEFT: 4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: silver 0.5pt solid; PADDING-TOP: 0pt; BORDER-BOTTOM: silver 0.5pt solid; mso-border-top-alt: solid silver .5pt" 
+    vAlign=top><FONT size=2>
+      <P class=Text>Data\A…Z (folders)</P></FONT></TD>
+    <TD 
+    style="BORDER-RIGHT: silver 0.5pt solid; PADDING-RIGHT: 4pt; PADDING-LEFT: 4pt; PADDING-BOTTOM: 0pt; BORDER-TOP-STYLE: none; PADDING-TOP: 0pt; BORDER-BOTTOM: silver 0.5pt solid; BORDER-LEFT-STYLE: none; mso-border-left-alt: solid silver .5pt; mso-border-top-alt: solid silver .5pt" 
+    vAlign=top><FONT size=2>
+      <P class=Text>Folders containing log files and data 
+files.</P></FONT></TD></TR>
+  <TR>
+    <TD 
+    style="BORDER-RIGHT: silver 0.5pt solid; PADDING-RIGHT: 4pt; BORDER-TOP: silver 0.5pt; PADDING-LEFT: 4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: silver 0.5pt solid; PADDING-TOP: 0pt; BORDER-BOTTOM: silver 0.5pt solid; mso-border-top-alt: solid silver .5pt" 
+    vAlign=top><FONT size=2>
+      <P class=Text>Data\Backup (folder)</P></FONT></TD>
+    <TD 
+    style="BORDER-RIGHT: silver 0.5pt solid; PADDING-RIGHT: 4pt; PADDING-LEFT: 4pt; PADDING-BOTTOM: 0pt; BORDER-TOP-STYLE: none; PADDING-TOP: 0pt; BORDER-BOTTOM: silver 0.5pt solid; BORDER-LEFT-STYLE: none; mso-border-left-alt: solid silver .5pt; mso-border-top-alt: solid silver .5pt" 
+    vAlign=top><FONT size=2>
+      <P class=Text>Contains analyze log file (analyze.log), list of bad files 
+      (analyze.bad), and backups of files changed by Analyze.</P></FONT></TD></TR>
+  <TR>
+    <TD 
+    style="BORDER-RIGHT: silver 0.5pt solid; PADDING-RIGHT: 4pt; BORDER-TOP: silver 0.5pt; PADDING-LEFT: 4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: silver 0.5pt solid; PADDING-TOP: 0pt; BORDER-BOTTOM: silver 0.5pt solid; mso-border-top-alt: solid silver .5pt" 
+    vAlign=top><FONT size=2>
+      <P class=Text>Data\Labels (folder)</P></FONT></TD>
+    <TD 
+    style="BORDER-RIGHT: silver 0.5pt solid; PADDING-RIGHT: 4pt; PADDING-LEFT: 4pt; PADDING-BOTTOM: 0pt; BORDER-TOP-STYLE: none; PADDING-TOP: 0pt; BORDER-BOTTOM: silver 0.5pt solid; BORDER-LEFT-STYLE: none; mso-border-left-alt: solid silver .5pt; mso-border-top-alt: solid silver .5pt" 
+    vAlign=top><FONT size=2>
+      <P class=Text>Label cache information used for label promotion (Visual 
+      SourceSafe 6.0 format databases only).</P></FONT></TD></TR>
+  <TR>
+    <TD 
+    style="BORDER-RIGHT: silver 0.5pt solid; PADDING-RIGHT: 4pt; BORDER-TOP: silver 0.5pt; PADDING-LEFT: 4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: silver 0.5pt solid; PADDING-TOP: 0pt; BORDER-BOTTOM: silver 0.5pt solid; mso-border-top-alt: solid silver .5pt" 
+    vAlign=top><FONT size=2>
+      <P class=Text>Data\Locks (folder)</P></FONT></TD>
+    <TD 
+    style="BORDER-RIGHT: silver 0.5pt solid; PADDING-RIGHT: 4pt; PADDING-LEFT: 4pt; PADDING-BOTTOM: 0pt; BORDER-TOP-STYLE: none; PADDING-TOP: 0pt; BORDER-BOTTOM: silver 0.5pt solid; BORDER-LEFT-STYLE: none; mso-border-left-alt: solid silver .5pt; mso-border-top-alt: solid silver .5pt" 
+    vAlign=top><FONT size=2>
+      <P class=Text>Used if Visual SourceSafe locking is 
+  enabled.</P></FONT></TD></TR>
+  <TR>
+    <TD 
+    style="BORDER-RIGHT: silver 0.5pt solid; PADDING-RIGHT: 4pt; BORDER-TOP: silver 0.5pt; PADDING-LEFT: 4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: silver 0.5pt solid; PADDING-TOP: 0pt; BORDER-BOTTOM: silver 0.5pt solid; mso-border-top-alt: solid silver .5pt" 
+    vAlign=top><FONT size=2>
+      <P class=Text>Data\Loggedin (folder)</P></FONT></TD>
+    <TD 
+    style="BORDER-RIGHT: silver 0.5pt solid; PADDING-RIGHT: 4pt; PADDING-LEFT: 4pt; PADDING-BOTTOM: 0pt; BORDER-TOP-STYLE: none; PADDING-TOP: 0pt; BORDER-BOTTOM: silver 0.5pt solid; BORDER-LEFT-STYLE: none; mso-border-left-alt: solid silver .5pt; mso-border-top-alt: solid silver .5pt" 
+    vAlign=top><FONT size=2>
+      <P class=Text>Contains user logon files and an Admin.lck file if the 
+      database is locked.</P></FONT></TD></TR>
+  <TR>
+    <TD 
+    style="BORDER-RIGHT: silver 0.5pt solid; PADDING-RIGHT: 4pt; BORDER-TOP: silver 0.5pt; PADDING-LEFT: 4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: silver 0.5pt solid; PADDING-TOP: 0pt; BORDER-BOTTOM: silver 0.5pt solid; mso-border-top-alt: solid silver .5pt" 
+    vAlign=top><FONT size=2>
+      <P class=Text>Users (folder)</P></FONT></TD>
+    <TD 
+    style="BORDER-RIGHT: silver 0.5pt solid; PADDING-RIGHT: 4pt; PADDING-LEFT: 4pt; PADDING-BOTTOM: 0pt; BORDER-TOP-STYLE: none; PADDING-TOP: 0pt; BORDER-BOTTOM: silver 0.5pt solid; BORDER-LEFT-STYLE: none; mso-border-left-alt: solid silver .5pt; mso-border-top-alt: solid silver .5pt" 
+    vAlign=top><FONT size=2>
+      <P class=Text>Contains Template.ini, which stores default values for the 
+      Ss.ini file for new users. The Users folder also contains a subfolder for 
+      each user. This subfolder contains an Ss.ini file defining user-specific 
+      settings. The Admin folder also contains Ssadmin.ini, which defines 
+      administrator settings.</P></FONT></TD></TR></TBODY></TABLE>
+<P>Visual SourceSafe creates two files in the Data directory for every file and 
+project that you add to Visual SourceSafe (with one exception described later in 
+this section). These file pairs are distributed evenly across the A through Z 
+subdirectories in the Data directory. The file without an extension (such as 
+QRBAAAAA) is the log file for the file type being stored. The log file contains 
+internal information for Visual SourceSafe, such as who added the file, where it 
+exists, and all the differences between the versions of the file. The file with 
+an .a or .b extension (such as QRBAAAAA.A) is the most recent version of the 
+actual file, stored under a Visual SourceSafe physical name. Each time a file is 
+checked in, the extension it is saved with alternates between .a and .b.</P>
+<P>When a user checks in a file, it is copied from their working directory to 
+the Data directory and renamed with the physical name and either an .a or .b 
+extension, whichever is not currently there. Visual SourceSafe then calculates 
+the differences between the .a and .b files and stores it in the log file (the 
+file without an extension). After the log file is updated, the old copy of the 
+data file is deleted. Under normal circumstances you should never have both .a 
+and .b extensions for one physical file name.</P>
+<P><B>Caution</B>&nbsp;&nbsp;&nbsp;Never rename an .a or .b file in the DATA 
+folder. Although doing so appears to correct the immediate problem that you are 
+experiencing (such as: The file QRBAAAAA.A not found.), it will make the 
+previous versions of the file unrecoverable. If you receive this error, restore 
+the file pair from a recent backup.</P>
+<P>When you share a file from another project, no new file pair is created in 
+the Visual SourceSafe database. Instead, Visual SourceSafe creates a reference 
+in the original file's log, noting that the file also exists in another 
+project.</P><BR>
+<H4><A name=Topic_63></A>Finding and Repairing Data Corruption</H4>
+<P>Use the Analyze tool, located in the Microsoft Win32<SUP>®</SUP> directory, 
+to check for and correct corruption problems. You should run it as frequently as 
+is practical—once a week is recommended, or at a minimum, once a month. Analyze 
+checks all the files in the Visual SourceSafe Data directory for corruption or 
+disconnected links and often repairs these with proper switch settings. Because 
+Analyze is so thorough, it can be slow to run. The amount of time that Analyze 
+takes to run depends on the contents and structure of the database, such as the 
+amount of sharing and branching and the total number of files.</P>
+<P>For best performance, all users should log off Visual SourceSafe before you 
+run Analyze.exe. If you use the -F switch to repair problems, users must log 
+off. However, if you want to run Analyze.exe without requiring users to log off, 
+you can use the -X switch.</P>
+<P><B>Note</B>&nbsp;&nbsp;&nbsp;Due to the amount of file I/O required, you can 
+dramatically improve performance by running Analyze locally (that is, on the 
+server) rather than across the network.</P>
+<P>Analyze has several switches you can use to tell it what to do when running. 
+Do not try to use every switch at once. The more Analyze is required to do, the 
+longer it takes to run. </P>
+<P>When you run Analyze, it executes in the following four passes.</P>
+<OL>
+  <LI>Analyze checks every file in the Data directory to make sure that it is 
+  valid and is not corrupt. 
+  <LI>Analyze checks the relationships between parents (projects) and children 
+  (files and projects). 
+  <LI>Analyze checks the relationships between shared and branched files. 
+  <LI>Analyze checks the files Um.dat, Rights.dat, and Names.dat and performs 
+  cleanup operations. </LI></OL>
+<P>Analyze supports the following switches.</P>
+<TABLE 
+style="MARGIN-LEFT: 4pt; WIDTH: 453.25pt; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-COLLAPSE: collapse; BORDER-BOTTOM-STYLE: none; mso-border-alt: solid silver .5pt; mso-padding-alt: 0pt 4.0pt 0pt 4.0pt" 
+cellSpacing=0 cellPadding=0 width=604 border=1>
+  <TBODY>
+  <TR>
+    <TD 
+    style="BORDER-RIGHT: silver 0.5pt solid; PADDING-RIGHT: 4pt; BORDER-TOP: silver 0.5pt solid; PADDING-LEFT: 4pt; BACKGROUND: #e2e2e2; PADDING-BOTTOM: 0pt; BORDER-LEFT: silver 0.5pt solid; WIDTH: 54pt; PADDING-TOP: 0pt; BORDER-BOTTOM: silver 0.5pt solid; mso-shading: windowtext; mso-pattern: gray-50 silver" 
+    vAlign=top width=72><FONT size=2>
+      <P><B>Switch</B></P></FONT></TD>
+    <TD 
+    style="BORDER-RIGHT: silver 0.5pt solid; PADDING-RIGHT: 4pt; BORDER-TOP: silver 0.5pt solid; PADDING-LEFT: 4pt; BACKGROUND: #e2e2e2; PADDING-BOTTOM: 0pt; BORDER-LEFT: silver 0.5pt; PADDING-TOP: 0pt; BORDER-BOTTOM: silver 0.5pt solid; mso-shading: windowtext; mso-pattern: gray-50 silver; mso-border-left-alt: solid silver .5pt" 
+    vAlign=top><FONT size=2>
+      <P><B>Description</B></P></FONT></TD></TR>
+  <TR>
+    <TD 
+    style="BORDER-RIGHT: silver 0.5pt solid; PADDING-RIGHT: 4pt; BORDER-TOP: silver 0.5pt; PADDING-LEFT: 4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: silver 0.5pt solid; WIDTH: 54pt; PADDING-TOP: 0pt; BORDER-BOTTOM: silver 0.5pt solid; mso-border-top-alt: solid silver .5pt" 
+    vAlign=top width=72><FONT size=2>
+      <P>-B<I>&lt;folder&gt;</I></P></FONT></TD>
+    <TD 
+    style="BORDER-RIGHT: silver 0.5pt solid; PADDING-RIGHT: 4pt; PADDING-LEFT: 4pt; PADDING-BOTTOM: 0pt; BORDER-TOP-STYLE: none; PADDING-TOP: 0pt; BORDER-BOTTOM: silver 0.5pt solid; BORDER-LEFT-STYLE: none; mso-border-left-alt: solid silver .5pt; mso-border-top-alt: solid silver .5pt" 
+    vAlign=top><FONT size=2>
+      <P>Specifies the folder to use for backup.</P></FONT></TD></TR>
+  <TR>
+    <TD 
+    style="BORDER-RIGHT: silver 0.5pt solid; PADDING-RIGHT: 4pt; BORDER-TOP: silver 0.5pt; PADDING-LEFT: 4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: silver 0.5pt solid; WIDTH: 54pt; PADDING-TOP: 0pt; BORDER-BOTTOM: silver 0.5pt solid; mso-border-top-alt: solid silver .5pt" 
+    vAlign=top width=72><FONT size=2>
+      <P>-C</P></FONT></TD>
+    <TD 
+    style="BORDER-RIGHT: silver 0.5pt solid; PADDING-RIGHT: 4pt; PADDING-LEFT: 4pt; PADDING-BOTTOM: 0pt; BORDER-TOP-STYLE: none; PADDING-TOP: 0pt; BORDER-BOTTOM: silver 0.5pt solid; BORDER-LEFT-STYLE: none; mso-border-left-alt: solid silver .5pt; mso-border-top-alt: solid silver .5pt" 
+    vAlign=top><FONT size=2>
+      <P>Compresses unused space. (This simply removes blank space and does not 
+      compress the log files.) This pass can generate a large number of files in 
+      the backup folder and should be used only when there is plenty of disk 
+      space available.</P></FONT></TD></TR>
+  <TR>
+    <TD 
+    style="BORDER-RIGHT: silver 0.5pt solid; PADDING-RIGHT: 4pt; BORDER-TOP: silver 0.5pt; PADDING-LEFT: 4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: silver 0.5pt solid; WIDTH: 54pt; PADDING-TOP: 0pt; BORDER-BOTTOM: silver 0.5pt solid; mso-border-top-alt: solid silver .5pt" 
+    vAlign=top width=72><FONT size=2>
+      <P>-D</P></FONT></TD>
+    <TD 
+    style="BORDER-RIGHT: silver 0.5pt solid; PADDING-RIGHT: 4pt; PADDING-LEFT: 4pt; PADDING-BOTTOM: 0pt; BORDER-TOP-STYLE: none; PADDING-TOP: 0pt; BORDER-BOTTOM: silver 0.5pt solid; BORDER-LEFT-STYLE: none; mso-border-left-alt: solid silver .5pt; mso-border-top-alt: solid silver .5pt" 
+    vAlign=top><FONT size=2>
+      <P>Deletes unused files.</P></FONT></TD></TR>
+  <TR>
+    <TD 
+    style="BORDER-RIGHT: silver 0.5pt solid; PADDING-RIGHT: 4pt; BORDER-TOP: silver 0.5pt; PADDING-LEFT: 4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: silver 0.5pt solid; WIDTH: 54pt; PADDING-TOP: 0pt; BORDER-BOTTOM: silver 0.5pt solid; mso-border-top-alt: solid silver .5pt" 
+    vAlign=top width=72><FONT size=2>
+      <P>-DB</P></FONT></TD>
+    <TD 
+    style="BORDER-RIGHT: silver 0.5pt solid; PADDING-RIGHT: 4pt; PADDING-LEFT: 4pt; PADDING-BOTTOM: 0pt; BORDER-TOP-STYLE: none; PADDING-TOP: 0pt; BORDER-BOTTOM: silver 0.5pt solid; BORDER-LEFT-STYLE: none; mso-border-left-alt: solid silver .5pt; mso-border-top-alt: solid silver .5pt" 
+    vAlign=top><FONT size=2>
+      <P>Deletes the Backup folder.</P>
+      <P><B>Caution</B>&nbsp;&nbsp;&nbsp;If you find corruption, create backup 
+      copies of logs before running Analyze with the -DB 
+switch.</P></FONT></TD></TR>
+  <TR>
+    <TD 
+    style="BORDER-RIGHT: silver 0.5pt solid; PADDING-RIGHT: 4pt; BORDER-TOP: silver 0.5pt; PADDING-LEFT: 4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: silver 0.5pt solid; WIDTH: 54pt; PADDING-TOP: 0pt; BORDER-BOTTOM: silver 0.5pt solid; mso-border-top-alt: solid silver .5pt" 
+    vAlign=top width=72><FONT size=2>
+      <P>-F</P></FONT></TD>
+    <TD 
+    style="BORDER-RIGHT: silver 0.5pt solid; PADDING-RIGHT: 4pt; PADDING-LEFT: 4pt; PADDING-BOTTOM: 0pt; BORDER-TOP-STYLE: none; PADDING-TOP: 0pt; BORDER-BOTTOM: silver 0.5pt solid; BORDER-LEFT-STYLE: none; mso-border-left-alt: solid silver .5pt; mso-border-top-alt: solid silver .5pt" 
+    vAlign=top><FONT size=2>
+      <P>Automatically fixes corrupted files. (Requires users to log off 
+      database.)</P></FONT></TD></TR>
+  <TR>
+    <TD 
+    style="BORDER-RIGHT: silver 0.5pt solid; PADDING-RIGHT: 4pt; BORDER-TOP: silver 0.5pt; PADDING-LEFT: 4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: silver 0.5pt solid; WIDTH: 54pt; PADDING-TOP: 0pt; BORDER-BOTTOM: silver 0.5pt solid; mso-border-top-alt: solid silver .5pt" 
+    vAlign=top width=72><FONT size=2>
+      <P>-I-</P></FONT></TD>
+    <TD 
+    style="BORDER-RIGHT: silver 0.5pt solid; PADDING-RIGHT: 4pt; PADDING-LEFT: 4pt; PADDING-BOTTOM: 0pt; BORDER-TOP-STYLE: none; PADDING-TOP: 0pt; BORDER-BOTTOM: silver 0.5pt solid; BORDER-LEFT-STYLE: none; mso-border-left-alt: solid silver .5pt; mso-border-top-alt: solid silver .5pt" 
+    vAlign=top><FONT size=2>
+      <P>When the analysis is complete, the program quits. (Useful if running in 
+      a batch script.)</P></FONT></TD></TR>
+  <TR>
+    <TD 
+    style="BORDER-RIGHT: silver 0.5pt solid; PADDING-RIGHT: 4pt; BORDER-TOP: silver 0.5pt; PADDING-LEFT: 4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: silver 0.5pt solid; WIDTH: 54pt; PADDING-TOP: 0pt; BORDER-BOTTOM: silver 0.5pt solid; mso-border-top-alt: solid silver .5pt" 
+    vAlign=top width=72><FONT size=2>
+      <P>-V1</P></FONT></TD>
+    <TD 
+    style="BORDER-RIGHT: silver 0.5pt solid; PADDING-RIGHT: 4pt; PADDING-LEFT: 4pt; PADDING-BOTTOM: 0pt; BORDER-TOP-STYLE: none; PADDING-TOP: 0pt; BORDER-BOTTOM: silver 0.5pt solid; BORDER-LEFT-STYLE: none; mso-border-left-alt: solid silver .5pt; mso-border-top-alt: solid silver .5pt" 
+    vAlign=top><FONT size=2>
+      <P>Displays only critical errors. (This is the default setting, if no -V 
+      switch is used.)</P></FONT></TD></TR>
+  <TR>
+    <TD 
+    style="BORDER-RIGHT: silver 0.5pt solid; PADDING-RIGHT: 4pt; BORDER-TOP: silver 0.5pt; PADDING-LEFT: 4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: silver 0.5pt solid; WIDTH: 54pt; PADDING-TOP: 0pt; BORDER-BOTTOM: silver 0.5pt solid; mso-border-top-alt: solid silver .5pt" 
+    vAlign=top width=72><FONT size=2>
+      <P>-V2</P></FONT></TD>
+    <TD 
+    style="BORDER-RIGHT: silver 0.5pt solid; PADDING-RIGHT: 4pt; PADDING-LEFT: 4pt; PADDING-BOTTOM: 0pt; BORDER-TOP-STYLE: none; PADDING-TOP: 0pt; BORDER-BOTTOM: silver 0.5pt solid; BORDER-LEFT-STYLE: none; mso-border-left-alt: solid silver .5pt; mso-border-top-alt: solid silver .5pt" 
+    vAlign=top><FONT size=2>
+      <P>Displays only significant errors.</P></FONT></TD></TR>
+  <TR>
+    <TD 
+    style="BORDER-RIGHT: silver 0.5pt solid; PADDING-RIGHT: 4pt; BORDER-TOP: silver 0.5pt; PADDING-LEFT: 4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: silver 0.5pt solid; WIDTH: 54pt; PADDING-TOP: 0pt; BORDER-BOTTOM: silver 0.5pt solid; mso-border-top-alt: solid silver .5pt" 
+    vAlign=top width=72><FONT size=2>
+      <P>-V3</P></FONT></TD>
+    <TD 
+    style="BORDER-RIGHT: silver 0.5pt solid; PADDING-RIGHT: 4pt; PADDING-LEFT: 4pt; PADDING-BOTTOM: 0pt; BORDER-TOP-STYLE: none; PADDING-TOP: 0pt; BORDER-BOTTOM: silver 0.5pt solid; BORDER-LEFT-STYLE: none; mso-border-left-alt: solid silver .5pt; mso-border-top-alt: solid silver .5pt" 
+    vAlign=top><FONT size=2>
+      <P>Displays all errors and inconsistencies.</P></FONT></TD></TR>
+  <TR>
+    <TD 
+    style="BORDER-RIGHT: silver 0.5pt solid; PADDING-RIGHT: 4pt; BORDER-TOP: silver 0.5pt; PADDING-LEFT: 4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: silver 0.5pt solid; WIDTH: 54pt; PADDING-TOP: 0pt; BORDER-BOTTOM: silver 0.5pt solid; mso-border-top-alt: solid silver .5pt" 
+    vAlign=top width=72><FONT size=2>
+      <P>-V4</P></FONT></TD>
+    <TD 
+    style="BORDER-RIGHT: silver 0.5pt solid; PADDING-RIGHT: 4pt; PADDING-LEFT: 4pt; PADDING-BOTTOM: 0pt; BORDER-TOP-STYLE: none; PADDING-TOP: 0pt; BORDER-BOTTOM: silver 0.5pt solid; BORDER-LEFT-STYLE: none; mso-border-left-alt: solid silver .5pt; mso-border-top-alt: solid silver .5pt" 
+    vAlign=top><FONT size=2>
+      <P>Displays errors, inconsistencies, and informational 
+  notes.</P></FONT></TD></TR>
+  <TR>
+    <TD 
+    style="BORDER-RIGHT: silver 0.5pt solid; PADDING-RIGHT: 4pt; BORDER-TOP: silver 0.5pt; PADDING-LEFT: 4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: silver 0.5pt solid; WIDTH: 54pt; PADDING-TOP: 0pt; BORDER-BOTTOM: silver 0.5pt solid; mso-border-top-alt: solid silver .5pt" 
+    vAlign=top width=72><FONT size=2>
+      <P>-X</P></FONT></TD>
+    <TD 
+    style="BORDER-RIGHT: silver 0.5pt solid; PADDING-RIGHT: 4pt; PADDING-LEFT: 4pt; PADDING-BOTTOM: 0pt; BORDER-TOP-STYLE: none; PADDING-TOP: 0pt; BORDER-BOTTOM: silver 0.5pt solid; BORDER-LEFT-STYLE: none; mso-border-left-alt: solid silver .5pt; mso-border-top-alt: solid silver .5pt" 
+    vAlign=top><FONT size=2>
+      <P>Does not attempt to lock the database when analyzing. (Recommended only 
+      when users must remain logged on while Analyze.exe runs; -X cannot be used 
+      with -F. If Analyze tries to access a file that is in use while in this 
+      mode, it will quit and you will need to re-run it at a later 
+      time.)</P></FONT></TD></TR></TBODY></TABLE>
+<P>Running Analyze in the following order provides good coverage.</P>
+<TABLE 
+style="MARGIN-LEFT: 4pt; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-COLLAPSE: collapse; BORDER-BOTTOM-STYLE: none; mso-border-alt: solid silver .5pt; mso-padding-alt: 0pt 4.0pt 0pt 4.0pt" 
+cellSpacing=0 cellPadding=0 border=1>
+  <TBODY>
+  <TR>
+    <TD 
+    style="BORDER-RIGHT: silver 0.5pt solid; PADDING-RIGHT: 4pt; BORDER-TOP: silver 0.5pt solid; PADDING-LEFT: 4pt; BACKGROUND: #e2e2e2; PADDING-BOTTOM: 0pt; BORDER-LEFT: silver 0.5pt solid; WIDTH: 223pt; PADDING-TOP: 0pt; BORDER-BOTTOM: silver 0.5pt solid; mso-shading: windowtext; mso-pattern: gray-50 silver" 
+    vAlign=top width=297><FONT size=2>
+      <P><B>Command line</B></P></FONT></TD>
+    <TD 
+    style="BORDER-RIGHT: silver 0.5pt solid; PADDING-RIGHT: 4pt; BORDER-TOP: silver 0.5pt solid; PADDING-LEFT: 4pt; BACKGROUND: #e2e2e2; PADDING-BOTTOM: 0pt; BORDER-LEFT: silver 0.5pt; WIDTH: 223pt; PADDING-TOP: 0pt; BORDER-BOTTOM: silver 0.5pt solid; mso-shading: windowtext; mso-pattern: gray-50 silver; mso-border-left-alt: solid silver .5pt" 
+    vAlign=top width=297><FONT size=2>
+      <P><B>Description</B></P></FONT></TD></TR>
+  <TR>
+    <TD 
+    style="BORDER-RIGHT: silver 0.5pt solid; PADDING-RIGHT: 4pt; BORDER-TOP: silver 0.5pt; PADDING-LEFT: 4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: silver 0.5pt solid; WIDTH: 223pt; PADDING-TOP: 0pt; BORDER-BOTTOM: silver 0.5pt solid; mso-border-top-alt: solid silver .5pt" 
+    vAlign=top width=297><FONT size=2>
+      <P>Analyze –V4 <I>&lt;database path&gt;</I></P></FONT></TD>
+    <TD 
+    style="BORDER-RIGHT: silver 0.5pt solid; PADDING-RIGHT: 4pt; PADDING-LEFT: 4pt; PADDING-BOTTOM: 0pt; WIDTH: 223pt; BORDER-TOP-STYLE: none; PADDING-TOP: 0pt; BORDER-BOTTOM: silver 0.5pt solid; BORDER-LEFT-STYLE: none; mso-border-left-alt: solid silver .5pt; mso-border-top-alt: solid silver .5pt" 
+    vAlign=top width=297><FONT size=2>
+      <P>The first pass should always locate problems before trying to fix 
+      them.</P></FONT></TD></TR>
+  <TR>
+    <TD 
+    style="BORDER-RIGHT: silver 0.5pt solid; PADDING-RIGHT: 4pt; BORDER-TOP: silver 0.5pt; PADDING-LEFT: 4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: silver 0.5pt solid; WIDTH: 223pt; PADDING-TOP: 0pt; BORDER-BOTTOM: silver 0.5pt solid; mso-border-top-alt: solid silver .5pt" 
+    vAlign=top width=297><FONT size=2>
+      <P>Analyze -F –V4 <I>&lt;database path&gt;</I></P></FONT></TD>
+    <TD 
+    style="BORDER-RIGHT: silver 0.5pt solid; PADDING-RIGHT: 4pt; PADDING-LEFT: 4pt; PADDING-BOTTOM: 0pt; WIDTH: 223pt; BORDER-TOP-STYLE: none; PADDING-TOP: 0pt; BORDER-BOTTOM: silver 0.5pt solid; BORDER-LEFT-STYLE: none; mso-border-left-alt: solid silver .5pt; mso-border-top-alt: solid silver .5pt" 
+    vAlign=top width=297><FONT size=2>
+      <P>If errors are reported in the first pass, run Analyze again in fix mode 
+      to correct them.</P></FONT></TD></TR>
+  <TR>
+    <TD 
+    style="BORDER-RIGHT: silver 0.5pt solid; PADDING-RIGHT: 4pt; BORDER-TOP: silver 0.5pt; PADDING-LEFT: 4pt; PADDING-BOTTOM: 0pt; BORDER-LEFT: silver 0.5pt solid; WIDTH: 223pt; PADDING-TOP: 0pt; BORDER-BOTTOM: silver 0.5pt solid; mso-border-top-alt: solid silver .5pt" 
+    vAlign=top width=297><FONT size=2>
+      <P>Analyze -F -C –V4 <I>&lt;database path&gt;</I></P></FONT></TD>
+    <TD 
+    style="BORDER-RIGHT: silver 0.5pt solid; PADDING-RIGHT: 4pt; PADDING-LEFT: 4pt; PADDING-BOTTOM: 0pt; WIDTH: 223pt; BORDER-TOP-STYLE: none; PADDING-TOP: 0pt; BORDER-BOTTOM: silver 0.5pt solid; BORDER-LEFT-STYLE: none; mso-border-left-alt: solid silver .5pt; mso-border-top-alt: solid silver .5pt" 
+    vAlign=top width=297><FONT size=2>
+      <P>Run this pass when you have “Found a DIFF” and “Found a COMMENT” errors 
+      that you want removed.</P>
+      <P><B>Caution</B>&nbsp;&nbsp;&nbsp;Since the DIFF and COMMENT messages can 
+      occur in a large number of files, it is extremely important that you have 
+      enough disk space available when running a Compress pass on your 
+      database.</P></FONT></TD></TR></TBODY></TABLE>
+<P>Each time Analyze runs, it places an Analyze.log file in the Backup folder 
+along with a file called Analyze.bad. The Analyze.bad file contains a list of 
+all files in which Analyze found problems. When Analyze fixes a file, it first 
+creates a copy of the file in the Backup folder so that the repair can be undone 
+if necessary. Each time Analyze runs, it requires that the Backup folder is 
+either empty or does not exist. If there is sufficient disk space, it is a good 
+practice to rename the Backup folders instead of deleting them. This history can 
+prove very useful in troubleshooting corruption issues. The errors and messages 
+reported by Analyze are discussed at length in Knowledge Base article Q152807, 
+"INFO: Error Messages from Analyze Tool of Visual SourceSafe."</P>
+<P>Analyze can also re-create the Status.dat, Names.dat, and Rights.dat files. 
+To do this, rename or delete the files you want rebuilt, and run Analyze -F. 
+Analyze re-creates the Names.dat file with the spaces in long file names 
+appearing as underscores. You then need to rename the file using Visual 
+SourceSafe Explorer. The Rights.dat file is re-created, but as an empty 
+structure; you need to add permissions for each user again.</P>
+<P>Microsoft occasionally updates the Analyze tool to include more checking or 
+to improve performance. For the latest version of Analyze, visit the Microsoft 
+Visual SourceSafe Web site located at <A 
+href="http://msdn.microsoft.com/ssafe/default.asp">http://msdn.microsoft.com/ssafe/default.asp</A>.</P><BR>
+<H4><A name=Topic_64></A>Backup and Restore</H4>
+<P>Backups should be performed regularly as part of the daily or weekly file 
+maintenance and security process. When backing up your Visual SourceSafe 
+database, make sure you are getting a full backup of the database. Although you 
+can use incremental backups, you should avoid them because some of the files 
+from the database may not be able to be restored. If users are logged on to 
+Visual SourceSafe and actively using the product, the files they have open will 
+not be backed up by most standard backup utilities. There are several backup and 
+copy utilities that can back up open files. However, if you use these utilities 
+and someone is actively updating a file in Visual SourceSafe when the file is 
+backed up, the backup may be corrupted.</P>
+<P><B>Note</B>&nbsp;&nbsp;&nbsp;Do not schedule Analyze to run at the same time 
+as a backup of the database. If the backup program has files open that Analyze 
+is trying to open, Analyze will shut down unexpectedly. </P>
+<P>Visual SourceSafe automatically closes any files opened by Visual SourceSafe 
+or an integrated application after 15 minutes of inactivity. (This requires 
+Service Pack 3 of Visual SourceSafe 5.0 or later.) The user still appears to be 
+logged on to Visual SourceSafe and the files will be reopened when they start 
+working again. However, the Rights.dat and Status.dat files remain open any time 
+users are logged on and will not be backed up. You can rebuild these if needed 
+using the Analyze utility. Each time the administrator modifies the rights by 
+project information for a Visual SourceSafe database, Visual SourceSafe copies 
+the Rights.dat file to a Rights.bak file. If necessary, you can rename the 
+Rights.bak file during a restore process.</P>
+<P><B>Caution</B>&nbsp;&nbsp;&nbsp;Never restore a complete backup of a database 
+over an existing database. Visual SourceSafe maintains very complex links 
+between files. Restoring a whole database backup over an existing database may 
+confuse the links between files and cause incorrect versions of the files to be 
+displayed in the database.</P>
+<H5>Prevent Power Loss</H5>
+<P>A disaster-recovery study by Contingency Planning Research found that power 
+loss caused 27 percent of data-center disasters in which there was actual data 
+loss in addition to loss of service. This figure includes power outages due to 
+environmental disasters such as snowstorms, tornadoes, and hurricanes. To 
+minimize these disasters, invest in an uninterruptible power supply (UPS). 
+Windows NT Server includes built-in support for UPS.</P>
+<H5>Install Fault-Tolerant Storage</H5>
+<P>RAID technology minimizes data loss due to problems accessing a hard disk. 
+RAID is a fault-tolerant disk configuration in which part of the physical 
+storage capacity contains redundant information about the data stored on the 
+disks. You can regenerate the data using this redundant information if one of 
+the disks or the access path to it fails or if a sector on the disk cannot be 
+read.</P>
+<UL>
+  <LI>Install RAID Level 1 for the operating system and logs. 
+  <LI>Install RAID Level 5 or RAID 0+1 for data. </LI></UL>
+<P>For information about how to make your server more reliable, see the 
+following resources:</P>
+<P><A 
+href="http://www.microsoft.com/windows2000/techinfo/howitworks/management/relavail.asp">http://www.microsoft.com/windows2000/techinfo/howitworks/management/relavail.asp</A></P>
+<P><A 
+href="http://www.microsoft.com/NTServer/nts/deployment/planguide/HighAvail.asp">http://www.microsoft.com/NTServer/nts/deployment/planguide/HighAvail.asp</A></P>
+<BR>
+<P>&nbsp;</P><BR>
+<UL></UL></FONT></BODY></HTML>
