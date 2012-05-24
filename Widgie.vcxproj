@@ -219,7 +219,7 @@
     <Link>
       <AdditionalOptions>/MACHINE:I386
  %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalDependencies>libs\zlib.lib;.\libs\cdx.lib;libs\xerces-c_2.lib;VFW32.lib;ddraw.lib;dxguid.lib;shlwapi.lib;winmm.lib;wininet.lib;rasapi32.lib;quartz.lib;msacm32.lib;olepro32.lib;strmiids.lib;netapi32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>libs\zlib.lib;.\libs\cdx.lib;libs\xerces-c_2.lib;VFW32.lib;shlwapi.lib;winmm.lib;wininet.lib;rasapi32.lib;quartz.lib;msacm32.lib;olepro32.lib;strmiids.lib;netapi32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <ShowProgress>LinkVerboseLib</ShowProgress>
       <OutputFile>.\NewsCaster.Screensaver\NewscasterD.exe</OutputFile>
       <SuppressStartupBanner>false</SuppressStartupBanner>

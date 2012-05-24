@@ -9,11 +9,12 @@
 //------------------------------------------------------------------------------
 
 
+#include <tchar.h>
 #include <dshow.h>
 #include <commctrl.h>
 #include <commdlg.h>
 #include <stdio.h>
-#include <tchar.h>
+#include <strsafe.h>
 #include <atlbase.h>
 
 #include "playwnd.h"

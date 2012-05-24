@@ -10,7 +10,7 @@
 #include "utils.h"
 
 
-//#undef CDX
+#undef CDX
 
 
 #ifdef CDX
