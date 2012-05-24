@@ -13,7 +13,7 @@
 	<server_content_path>/content/</server_content_path>
 	<news_filename>/news.xml</news_filename>
 	<manifest_filename>/manifest.xml</manifest_filename>
-	<loop_sequence_filename>/loopsequence.xml</loop_sequence_filename>
+	<loop_sequence_filename>/slideshow.xml</loop_sequence_filename>
 	<xml_download_interval_time>00:30</xml_download_interval_time>
 	<xml_download_interval_day>0</xml_download_interval_day>
 	<news_download_interval_time>01:00</news_download_interval_time>

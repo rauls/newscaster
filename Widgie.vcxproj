@@ -82,12 +82,13 @@
     <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\Widgie.Application\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\obj\Widgie\Debug\</IntDir>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Newscaster Debug|Win32'">.\NewsCaster.Screensaver\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Newscaster Debug|Win32'">NewsCaster.Screensaver\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Newscaster Debug|Win32'">C:\obj\Widgie\Debugnews\</IntDir>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Newscaster Debug|Win32'">true</LinkIncremental>
     <OutDir Condition="'$(Configuration)|$(Platform)'=='Newscaster Release|Win32'">$(Configuration)\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Newscaster Release|Win32'">$(Configuration)\</IntDir>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Newscaster Release|Win32'">true</LinkIncremental>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Newscaster Debug|Win32'">NewsCaster</TargetName>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <Midl>
