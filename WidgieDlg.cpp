@@ -1235,10 +1235,13 @@ void CWidgieDlg::NextJPEG()
 {
     if(	!moviePlaying() )
     {
+        int numberOfImages = 0;
 		ImpList *impList = AppData->GetImpressionList();
 
-        int numberOfImages = impList->GetCount();
-        
+		if( impList && (unsigned int)impList != 0xfeeefeee ) {
+	        numberOfImages = impList->GetCount();
+		}
+
         if (numberOfImages > 0) // only look for and display the next image if it is actually there
         {
             if (imageCount >= numberOfImages)

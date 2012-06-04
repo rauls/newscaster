@@ -88,7 +88,7 @@
     <OutDir Condition="'$(Configuration)|$(Platform)'=='Newscaster Release|Win32'">$(Configuration)\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Newscaster Release|Win32'">$(Configuration)\</IntDir>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Newscaster Release|Win32'">true</LinkIncremental>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='Newscaster Debug|Win32'">NewsCaster</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Newscaster Debug|Win32'">NewsCasterD</TargetName>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <Midl>

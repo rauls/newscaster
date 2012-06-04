@@ -1,12 +1,6 @@
 /*
- * File Subject to Copyright and Non-Disclosure Provisions.
- * The intellectual property rights in the material in this file are solely
- * owned by ACTek.
- * Any disclosure, use, reproduction, storage in any electronic or other
- * database, or copying of the material requires ACTek prior approval.
- *
- * (c) 2001 ACTek Pty. Ltd.
- * All rights reserved. Commercial in Confidence.
+ * (c) Raul Sobon.
+ * All rights reserved. .
  */
 
 /**
