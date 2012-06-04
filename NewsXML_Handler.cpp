@@ -231,8 +231,10 @@ void NewsXML_Handler::characters(const   XMLCh* const    chars,
 		<item href="http://seven.com.au/news/topstories/76188">
 			<string>Jobless rates fall</string>
 		</item>
-*/
 
+	RSS / CHANNEL / TITLE,DESC
+		
+*/
 void NewsXML_Handler::startElement(const   XMLCh* const    uri,
                             const   XMLCh* const    localname,
                             const   XMLCh* const    qname,
@@ -332,7 +334,7 @@ void NewsXML_Handler::endElement(const XMLCh* const uri,
 			{	
 				if ((gotText == true) && (gotDate == true) && (gotText == true))
 				{
-					//OutDebugs( "Adding news - %s", currentNewsFlash.data.text.GetBuffer(0) );
+					OutDebugs( "Adding news - %s", currentNewsFlash.data.text.GetBuffer(0) );
 					m_NewsCaptions->AddTail(currentNewsFlash.data);
 					currentNewsFlash.data.text.Empty();
 					//currentNewsFlash = m_NewsCaptions->GetTail();
@@ -365,7 +367,7 @@ void NewsXML_Handler::endElement(const XMLCh* const uri,
 					currentNewsFlash.data.nMonth = currentTime.GetMonth();
 					currentNewsFlash.data.nSec = currentTime.GetSecond();
 					currentNewsFlash.data.nYear= currentTime.GetYear();
-					//OutDebugs( "Adding news - %s", currentNewsFlash.data.text.GetBuffer(0) );
+					OutDebugs( "Adding news - %s", currentNewsFlash.data.text.GetBuffer(0) );
 					m_NewsCaptions->AddTail(currentNewsFlash.data);
 
 					currentNewsFlash.data.text.Empty();

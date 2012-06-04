@@ -2760,15 +2760,15 @@ void CWidgieXML::ParseNews()
 		//		char* xmlFile = newsPath.GetBuffer(newsPath.GetLength()); /* "C:\\xml\\news.xml"; */   
 		CString newsPath = CFG->cfgLocalBaseDir + CFG->cfgLocalXML_Dir + CFG->cfgLocalNewsName;
 
-#ifdef _DEBUG2
 		struct stat sbuf;
 		// if the xml file doesnt exist, download it...
 		if( stat( newsPath.GetBuffer(0), &sbuf ) ){
-			DownloadText( CFG->cfgIPandPort, CFG->cfghttpFileName, CFG->cfgLocalBaseDir + CFG->cfgLocalXML_Dir + CFG->cfgLocalNewsName);
+			;
+			//DownloadText( CFG->cfgIPandPort, CFG->cfghttpFileName, CFG->cfgLocalBaseDir + CFG->cfgLocalXML_Dir + CFG->cfgLocalNewsName);
+		} else {
+			OutDebugs( "Parsing RSS NEWS XML file %s", newsPath.GetBuffer(0) );
+			parser->parse( newsPath.GetBuffer(0) );
 		}
-#endif
-		OutDebugs( "Parsing RSS NEWS XML file %s", newsPath.GetBuffer(0) );
-		parser->parse( newsPath.GetBuffer(0) );
 
 		if( CFG->cfgUseRSSNews )
 		{

@@ -320,7 +320,9 @@ void NewsDialog::OnTimer(UINT nIDEvent)
 				//bgBrush.DeleteObject();
                 m_bkInit = TRUE;
             }
-            ReleaseDC( dialogDC );
+
+			if( dialogDC )
+	            ReleaseDC( dialogDC );
 
 			// zip the scroller away fast...
 			if (m_zipoff)
@@ -499,6 +501,7 @@ BOOL NewsDialog::LoadNextCaption()
 			if (validNewsFound)
 			{
 				newsflash1->NewsString = m_nextnewsflash.data.text;
+				OutDebugs( "NEWSDIALOG - " + newsflash1->NewsString );
 			}
 			else
 			{
