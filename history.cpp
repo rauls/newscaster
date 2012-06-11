@@ -133,6 +133,10 @@ void Log_App_Event(int impressionID, CString eventMessage)
 
 #include <shlwapi.h>
 
+void Log_App_Error(CString msg)
+{
+	Log_App_Error( msg.GetBuffer(0) );
+}
 
 void Log_App_Error(char * details)
 {
@@ -140,11 +144,7 @@ void Log_App_Error(char * details)
 
     CString dateString = currentTime.Format("%Y-%m-%d");
     CString timeString = currentTime.Format("%H:%M:%S");
-
-	CString txt;
-
-	txt.Format( "%s %s - %s", dateString.GetBuffer(0), timeString.GetBuffer(0),  details );
-
+	CString txt = dateString + " " + timeString + " " + CString(details);
 	Log_App_FileWrite( FN_ERRORS, txt.GetBuffer(0) );
 }
 

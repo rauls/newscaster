@@ -16,12 +16,12 @@
 
     <impression>
       <id>1000</id>
-		<image_file>http://www.fallsview.com/Stream/netcam.jpg</image_file>
+		<image_file>http://media.niagarafallshotels.com/webcam-images/falls/fallscam-still.jpg</image_file>
     </impression>
 
     <impression>
       <id>1001</id>
-		<image_file>http://www.caroline.ococean.com/axis-cgi/jpg/image.cgi?resolution=640x480</image_file>
+		<image_file>http://oceancitymd.gov/cams/capture1.jpg</image_file>
     </impression>
 
     <impression>
@@ -31,12 +31,12 @@
 
     <impression>
       <id>1003</id>
-		<image_file>http://www.kobenzl.at/webcam/pos1.jpg</image_file>
+		<image_file>http://rz-home.de/~spkko/spk-koblenz/webcam/bild1/spkimgw1.jpg</image_file>
     </impression>
 
     <impression>
       <id>1004</id>
-		<image_file>http://linuxweb1.ris.at/~steyrat/webcam/image.jpg</image_file>
+		<image_file>http://linwebfailover.linuxwebcluster.ris.at/~steyrat/webcam/000/000/E00000.jpg</image_file>
     </impression>
 
     <impression>
@@ -51,7 +51,7 @@
 
     <impression>
       <id>1006</id>
-		<image_file>http://www.dvv.de/webcam/nordgross.jpg</image_file>
+		<image_file>http://cams.ski.com.au/img/buller1.jpg</image_file>
     </impression>
 
     <impression>
@@ -59,34 +59,86 @@
 		<image_file>http://www.akademischer-seglerverein.de/ASVIM.de.Hires.WebCam.Image.jpg</image_file>
     </impression>
 
+
     <impression>
       <id>1008</id>
-		<image_file>http://webcam.humlak.cz/hires/namesti/1600x1200.jpg</image_file>
+		<image_file>http://kamery.humlnet.cz/images/webcams/trutnov/1600x1200.jpg</image_file>
+    </impression>
+	<impression>
+      <id>1008</id>
+		<image_file>http://kamery.humlnet.cz/images/webcams/gablenz/1600x1200.jpg</image_file>
     </impression>
     <impression>
       <id>1008</id>
-		<image_file>http://webcam.humlak.cz/hires/pecpodsnezkou/1600x1200.jpg</image_file>
+		<image_file>http://kamery.humlnet.cz/images/webcams/bobovka/1600x1200.jpg</image_file>
     </impression>
     <impression>
       <id>1008</id>
-		<image_file>http://webcam.humlak.cz/hires/zacler/1600x1200.jpg</image_file>
+		<image_file>http://kamery.humlnet.cz/images/webcams/janskelazne/1600x1200.jpg</image_file>
     </impression>
+    <impression>
+      <id>1008</id>
+		<image_file>http://kamery.humlnet.cz/images/webcams/zacler/1600x1200.jpg</image_file>
+    </impression>
+    <impression>
+      <id>1008</id>
+		<image_file>http://kamery.humlnet.cz/images/webcams/litomerice/1600x1200.jpg</image_file>
+    </impression>
+    <impression>
+      <id>1008</id>
+		<image_file>http://kamery.humlnet.cz/images/webcams/trutnov/1600x1200.jpg</image_file>
+    </impression>
+	
 
     <impression>
       <id>10091</id>
-		<image_file>http://www.ora-webcam.com/webcam_pierwindsurf/1280_wide_pierwindsurf.jpg</image_file></impression>
+		<image_file>http://wifidata.edv-sommer.de/in/webcam_gardasee/shaka-torbole-aktuell-1280.jpg</image_file></impression>
 
     <impression>
       <id>10092</id>
-		<image_file>http://www.adelsdorf.de/webcam2/webcam-1280.jpg</image_file></impression>
+		<image_file>http://www.adelsdorf.de/webcam2/webcam-20-1280.jpg</image_file></impression>
 
     <impression>
       <id>10093</id>
-		<image_file>http://www.kristall.tv/images/camMega.jpg</image_file></impression>
+		<image_file>http://www.tauernhof.com/img/camVga.jpg</image_file></impression>
+    <impression>
+      <id>10093.2</id>
+		<image_file>http://www.kristall.eu/images/camVga.jpg</image_file></impression>
+    <impression>
+      <id>10093.3</id>
+		<image_file>http://www.salzburger-bergadvent.at/webcam/adventmarkt-grossarl.jpg</image_file></impression>
+    <impression>
+      <id>10093.4</id>
+		<image_file>http://kristall.eu/images/webcam/webcam-ski-amade-grossarl.jpg</image_file></impression>
+    <impression>
+      <id>10093.5</id>
+		<image_file>http://www.lammwirt.at/images/camVga.jpg</image_file></impression>
+    <impression>
+      <id>10093.6</id>
+		<image_file>http://www.rattersberghof.at/images/camVga.jpg</image_file></impression>
+    <impression>
+      <id>10093.7</id>
+		<multimedia_file>http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4</multimedia_file>
+		</impression>
+    <impression>
+      <id>10093.8</id>
+		<image_file>http://holiday.grossarltal.info/webcam/webcam.jpg</image_file></impression>
+    <impression>
+      <id>10093.9</id>
+		<image_file>http://www.grossarltal.at/webcams/camVGA_Palfenhof.jpg</image_file></impression>
+    <impression>
+      <id>10093.10</id>
+		<image_file>http://www.almroesl.at/~webcam/webcam/forsthaus.jpg</image_file></impression>
+    <impression>
+      <id>10093.11</id>
+		<image_file>http://www.grossarltal.at/webcams/camVga-Mitterling.jpg</image_file></impression>
+    <impression>
+      <id>10093.12</id>
+		<image_file>http://www.altepost.cc/fileadmin/content/webcam/cam_1.jpg</image_file></impression>
 
     <impression>
       <id>10094</id>
-		<image_file>http://home.btconnect.com/minack//webcam.jpg</image_file></impression>
+		<image_file>http://www.minack.com/webcams/stagecam.jpg</image_file></impression>
 
     <impression>
       <id>10095</id>
@@ -124,19 +176,19 @@
 
     <impression>
       <id>1012</id>
-		<image_file>http://www.wrl.unsw.edu.au/coastalimaging/argus/goldcst/latest/c4.snap.jpg</image_file>	</impression>
+		<image_file>http://webcams.bsch.au.com/surfers_paradise_nw/760x570.jpg</image_file>	</impression>
 
     <impression>
       <id>1013</id>
-		<image_file>http://www.cmdl.noaa.gov/obop/spo/images/cmdlfullsize.jpg</image_file></impression>
+		<image_file>http://www.esrl.noaa.gov/gmd/webdata/spo/webcam/cmdlfullsize.jpg</image_file></impression>
 
     <impression>
       <id>1014</id>
-		<image_file>http://vlbi.leipzig.ifag.de/ohiggins/ohig-web1.jpg</image_file></impression>
+		<image_file>http://ivs.bkg.bund.de/vlbi/ohiggins/ohig-web1.jpg</image_file></impression>
 
     <impression>
       <id>1014</id>
-		<image_file>http://vlbi.leipzig.ifag.de/ohiggins/ohig-pingi-z.jpg</image_file></impression>
+		<image_file>http://antarctica.martingrund.de/ohig-pingi.jpg</image_file></impression>
 
     <impression>
       <id>1015</id>
@@ -160,11 +212,25 @@
 	</impression>
 
    <impression>
-      <id>1020</id><image_file>http://www.techcom.it/immagini/webcam/webcam.jpg</image_file>
+      <id>1020</id><image_file>http://www.holimites.info/webcamh/dolomites_webcam.jpg</image_file>
 	</impression>
 
    <impression>
-      <id>1021</id><image_file>http://www.ds-shanghai.org.cn/webcam/image.jpg</image_file>
+      <id>1020-2</id><image_file>http://www.bremboski.it/webcam/foppolo.jpg</image_file>
+	</impression>
+	
+   <impression>
+      <id>1020-3</id><image_file>http://www.giglionews.com/isoladelgiglio_porto.jpg</image_file>
+	</impression>
+	
+   <impression>
+      <id>1020-4</id><image_file>http://webcam.neveazzurra.it/macugnaga.jpg</image_file>
+	</impression>
+	
+	
+
+   <impression>
+      <id>1021</id><image_file>http://www.zeitcam.com/data/shanghai/latest.jpg</image_file>
 	</impression>
 
 

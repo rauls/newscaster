@@ -13,13 +13,11 @@
 #undef APSTUDIO_READONLY_SYMBOLS
 
 /////////////////////////////////////////////////////////////////////////////
-// English (U.S.) resources
+// English (United States) resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
-#ifdef _WIN32
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 #pragma code_page(1252)
-#endif //_WIN32
 
 /////////////////////////////////////////////////////////////////////////////
 //
@@ -81,7 +79,7 @@ END
 //
 
 #ifdef APSTUDIO_INVOKED
-GUIDELINES DESIGNINFO 
+GUIDELINES DESIGNINFO
 BEGIN
     IDD_WIDGIE_DIALOG, DIALOG
     BEGIN
@@ -99,17 +97,17 @@ END
 // String Table
 //
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     IDP_SOCKETS_INIT_FAILED "Windows sockets initialization failed."
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     IDS_NAME                "Newscaster Screensaver"
 END
 
-#endif    // English (U.S.) resources
+#endif    // English (United States) resources
 /////////////////////////////////////////////////////////////////////////////
 
 
@@ -117,10 +115,8 @@ END
 // English (Australia) resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENA)
-#ifdef _WIN32
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_AUS
 #pragma code_page(1252)
-#endif //_WIN32
 
 /////////////////////////////////////////////////////////////////////////////
 //
@@ -138,8 +134,7 @@ STYLE DS_SETFONT | WS_POPUP
 FONT 8, "MS Sans Serif", 0, 0, 0x0
 BEGIN
     CONTROL         "",IDC_SHOCKWAVEFLASH1,
-                    "{D27CDB6E-AE6D-11CF-96B8-444553540000}",0x0,22,18,101,
-                    50
+                    "{D27CDB6E-AE6D-11CF-96B8-444553540000}",0x0,22,18,101,50
 END
 
 IDD_SPLASH DIALOGEX 0, 0, 551, 368
@@ -162,8 +157,7 @@ BEGIN
 END
 
 IDD_CONFIGEDIT DIALOGEX 0, 0, 386, 347
-STYLE DS_SETFONT | DS_MODALFRAME | DS_SETFOREGROUND | DS_3DLOOK | 
-    DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+STYLE DS_SETFONT | DS_MODALFRAME | DS_SETFOREGROUND | DS_3DLOOK | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
 CAPTION "Config Settings..."
 FONT 8, "MS Shell Dlg", 400, 0, 0x1
 BEGIN
@@ -171,23 +165,19 @@ BEGIN
     PUSHBUTTON      "Cancel",IDCANCEL,329,326,50,14
     EDITTEXT        IDC_DEFAULTLENGTH,7,15,40,14,ES_AUTOHSCROLL | ES_NUMBER
     LTEXT           "Default Image Duration",IDC_STATIC,50,17,83,8
-    LISTBOX         IDC_RSSLIST,7,217,372,102,LBS_SORT | 
-                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_RSSLIST,7,217,372,102,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
     EDITTEXT        IDC_RSSEDIT,7,205,321,13,ES_AUTOHSCROLL
     PUSHBUTTON      "Add RSS",IDC_ADDRSS,329,204,50,14
     PUSHBUTTON      "Add Url",IDC_ADDURL,329,88,50,14
-    LISTBOX         IDC_URLS,7,102,372,88,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
-                    WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_URLS,7,102,372,88,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
     EDITTEXT        IDC_URLEDIT,7,89,321,13,ES_AUTOHSCROLL
     LTEXT           "Image list sources...",IDC_STATIC,7,78,131,8
     LTEXT           "Source news RSS links",IDC_STATIC,7,193,115,8
-    CONTROL         "Blended Fade Transitions",IDC_BLENDFADE,"Button",
-                    BS_AUTOCHECKBOX | WS_TABSTOP,38,31,122,10
+    CONTROL         "Blended Fade Transitions",IDC_BLENDFADE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,38,31,122,10
 END
 
 IDD_LOGINEDIT DIALOGEX 0, 0, 236, 134
-STYLE DS_SETFONT | DS_MODALFRAME | DS_SETFOREGROUND | DS_3DLOOK | 
-    DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+STYLE DS_SETFONT | DS_MODALFRAME | DS_SETFOREGROUND | DS_3DLOOK | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
 CAPTION "Login Details..."
 FONT 8, "MS Shell Dlg", 400, 0, 0x1
 BEGIN
@@ -197,8 +187,7 @@ BEGIN
     EDITTEXT        IDC_PASSWORD,60,24,71,14,ES_PASSWORD | ES_AUTOHSCROLL
     LTEXT           "Password",IDC_STATIC,21,27,32,8
     LTEXT           "Username",IDC_STATIC,20,10,33,8
-    LTEXT           "Please enter the username and password for the login to PlasmaNet sign in or just change the Slideshow ID by itself.",
-                    IDC_STATIC,15,86,150,28
+    LTEXT           "Please enter the username and password for the login to PlasmaNet sign in or just change the Slideshow ID by itself.",IDC_STATIC,15,86,150,28
     EDITTEXT        IDC_SLIDESHOW,60,41,71,14,ES_AUTOHSCROLL
     LTEXT           "Slideshow ID",IDC_STATIC,11,44,42,8
 END
@@ -217,7 +206,7 @@ END
 //
 
 #ifdef APSTUDIO_INVOKED
-GUIDELINES DESIGNINFO 
+GUIDELINES DESIGNINFO
 BEGIN
     IDD_NEWSFLASH_DIALOG1, DIALOG
     BEGIN

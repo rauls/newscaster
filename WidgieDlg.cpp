@@ -92,6 +92,9 @@ CWidgieDlg::CWidgieDlg(CWnd* pParent /*=NULL*/)
 		// NOTE: the ClassWizard will add member initialization here
 	//}}AFX_DATA_INIT
 	// Note that LoadIcon does not require a subsequent DestroyIcon in Win32
+	OutDebugs("MainDlg created....");
+	newsThread = NULL;
+	m_lastStatusTime = 0;
     
 	m_hIcon = AfxGetApp()->LoadIcon(IDR_MAINFRAME);
 
@@ -107,6 +110,13 @@ CWidgieDlg::CWidgieDlg(CWnd* pParent /*=NULL*/)
 	buttonSoundPtr[3] = NULL;
 	buttonSoundPtr[4] = NULL;
 }
+
+/////////////////////////////////////////////////////////////////////////////
+CWidgieDlg::~CWidgieDlg()
+{
+	OutDebugs("MainDlg ended.");
+}
+
 
 void CWidgieDlg::DoDataExchange(CDataExchange* pDX)
 {
@@ -143,7 +153,7 @@ BOOL CWidgieDlg::InitApplication()
 	textColor = 0x00FF00;			// green
 	textColorBG = 0x00;				// black
 
-	OutDebugs( "DEBUG: Init Starting" );
+	OutDebugs( "DEBUG: InitApplication() Starting" );
 
 	CString vstr = CString(AfxGetAppName()) + " Version " PRODUCT_VERSION_STR;
 
@@ -376,13 +386,13 @@ void CWidgieDlg::ShowDialog( BOOL showLogo )
 // This gets called when we exit so we can cleanup after our mess ;)
 void CWidgieDlg::ExitCleanup(void)
 {
-	OutDebugs( "ExitCleanup" );
+	OutDebugs( "MainDlg::ExitCleanup" );
 
 	shuttingDown = TRUE;
 
 	if( alreadyDownloading )
 	{
-		OutDebugs( "DEBUG: File is downloading, waiting till its stopped to exit" );
+		OutDebugs( "MainDlg: File is downloading, waiting till its stopped to exit" );
 
 		int t_1 = timeGetTime();
 		while( alreadyDownloading && (timeGetTime()-t_1) < 5000 )				// TIMEOUT after 5 seconds
@@ -404,8 +414,7 @@ void CWidgieDlg::ExitCleanup(void)
 	}
 
 	CString msg;
-	msg.Format( "Application %s v%s  Shutting down", AfxGetAppName(), PRODUCT_VERSION_STR );
-
+	msg.Format( "MainDlg: Application %s v%s  Shutting down", AfxGetAppName(), PRODUCT_VERSION_STR );
 	Log_App_Event( 0, msg );
 	Log_App_Error( msg.GetBuffer(0) );
 
@@ -413,24 +422,26 @@ void CWidgieDlg::ExitCleanup(void)
 	// stop the movies if we hit EXIT
 	if( moviePlaying() )
 	{
+		OutDebugs("MainDlg: Stopping movie.");
 		StopMoviePlayback();
 //		Sleep( 2000 );
 	}
 
+	OutDebugs("MainDlg: Stopping timers.");
 	/* Kill all the timers so no code runs so the OS can clean up */
     StopTimers();
 	this->KillTimer(ONEMIN_TIMER);
 
 	if( AppData )
 	{
+		OutDebugs("MainDlg: Closedown.");
 		AppData->CloseDown();
-
 		FreeAllLists();
 	}
 
 	if( loadingImpression )
 	{
-		OutDebugs( "Waiting for loading impression to end..." );
+		OutDebugs( "MainDlg: Waiting for loading impression to end..." );
 		int t_1 = timeGetTime();
 		while( loadingImpression && (timeGetTime()-t_1) < 3000 )			// TIMEOUT after 15 seconds
 			Sleep( 10 );
@@ -439,13 +450,7 @@ void CWidgieDlg::ExitCleanup(void)
 	if( newsThread )
 	{
 		OutDebugs( "Main Dialog - Deleting newsbar thread" );
-		if( CFG->cfgShowScrollLogo )
-			((NewsBarThread *)newsThread)->CNewsBar.logoDlg.CloseWindow();
-		((NewsBarThread *)newsThread)->CNewsBar.EndCleanup();
-		//((NewsBarThread *)newsThread)->CNewsBar.DestroyWindow();
-		//((NewsBarThread *)newsThread)->Delete();
-		((NewsBarThread *)newsThread)->Die();
-
+		((NewsBarThread *)newsThread)->Shutdown();
 		delete newsThread;
 		OutDebugs( "Main Dialog - Deleted newsbar" );
 		newsThread = NULL;
@@ -453,8 +458,15 @@ void CWidgieDlg::ExitCleanup(void)
     
 	if( AppData )
 	{
-		OutDebugs( "Deleting AppData" );
+		OutDebugs( "Main Dialog - Deleting AppData" );
+		Sleep(1);
 		delete AppData;
+	}
+
+	DestroyIcon( m_hIcon );
+
+	if( dialogDC ) {
+		ReleaseDC( dialogDC );
 	}
 
 	OutDebugs( "Main Dialog - ExitCleanup Done." );
@@ -2170,6 +2182,8 @@ int CWidgieDlg::SetupMovie(void)
 			*HeaderBuffer == *ValidM2THeader ||
 			*HeaderBuffer == *ValidASFHeader ||
 			movieToShow.Find( ".mpg" ) >0 ||
+			movieToShow.Find( ".mp4" ) >0 ||
+			movieToShow.Find( ".mkv" ) >0 ||
 			movieToShow.Find( ".mpeg" ) >0 ||
 			movieToShow.Find( ".m2v" ) >0 ||
 			movieToShow.Find( ".vob" ) >0

@@ -48,6 +48,7 @@ void Log_App_CellInfo( CString eventMessage, CString name );
 void Log_App_FileError(App_Error error, CString filename, CString details);
 
 void Log_App_Error( char * details);
+void Log_App_Error( CString msg );
 
 void Log_App_Debug( CString details );
 

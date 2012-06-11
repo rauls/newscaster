@@ -35,6 +35,7 @@ IMPLEMENT_DYNCREATE(NewsBarThread, CWinThread)
 NewsBarThread::NewsBarThread()
 {
 	running = TRUE;
+	shuttingDown = FALSE;
 }
 
 NewsBarThread::~NewsBarThread()
@@ -144,6 +145,16 @@ void NewsBarThread::setAppData(CWidgieXML* pAppDataRef)
     pAppData = &pAppDataRef;
 }
 
+
+void NewsBarThread::Shutdown()
+{
+	shuttingDown = TRUE;
+	if( CFG->cfgShowScrollLogo )
+		CNewsBar.logoDlg.CloseWindow();
+	CNewsBar.EndCleanup();
+	Die();
+}
+
 /** 
  *  Destroys the newBar and the thread
  *
@@ -154,11 +165,15 @@ void NewsBarThread::setAppData(CWidgieXML* pAppDataRef)
 
 void NewsBarThread::Die()
 {
+	shuttingDown = TRUE;
 	running = FALSE;
 
 	OutDebugs( "NewsBarThread - Die" );
 
 	CNewsBar.DestroyWindow();
+
+	//((NewsBarThread *)newsThread)->CNewsBar.DestroyWindow();
+	//((NewsBarThread *)newsThread)->Delete();
 
 	//AfxEndThread(1);
 }

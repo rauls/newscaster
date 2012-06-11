@@ -1,10 +1,117 @@
-2005-10-18 07:14:41 - Application Newscaster v1.0.177  Restarted (192.168.1.21/Ethernet LAN), Startup sequence begun...
-2005-10-18 07:14:59 - Application Newscaster v1.0.177  Restarted (192.168.1.21/Ethernet LAN), Startup sequence begun...
-2005-10-18 07:17:45 - Application Newscaster v1.0.177  Restarted (192.168.1.21/Ethernet LAN), Startup sequence begun...
-2005-10-18 07:22:51 - Application Newscaster v1.0.177  Restarted (192.168.1.21/Ethernet LAN), Startup sequence begun...
-2005-10-18 07:45:00 - Application Newscaster v1.0.177  Restarted (192.168.1.21/Ethernet LAN), Startup sequence begun...
-2005-10-18 07:46:56 - Application Newscaster v1.0.177  Restarted (192.168.1.21/Ethernet LAN), Startup sequence begun...
-2005-10-18 07:47:38 - Application Newscaster v1.0.177  Restarted (192.168.1.21/Ethernet LAN), Startup sequence begun...
-2005-10-18 07:58:54 - Application Newscaster v1.0.177  Restarted (192.168.1.21/Ethernet LAN), Startup sequence begun...
-2005-10-18 07:59:10 - Application Newscaster v1.0.177  Restarted (192.168.1.21/Ethernet LAN), Startup sequence begun...
-2005-10-18 20:27:12 - Application Newscaster v1.0.177  Restarted (192.168.1.21/Ethernet LAN), Startup sequence begun...
+2012-06-06 18:22:34 - Application NewsCasterD v1.0.38  Restarted (192.168.26.73/Ethernet LAN), Startup sequence begun...
+2012-06-06 18:22:38 - DEBUG: Init Starting
+2012-06-06 18:22:38 - DEBUG: Parsing News
+2012-06-06 18:22:40 - DEBUG: Slideshow
+2012-06-06 18:22:40 - DEBUG: Config
+2012-06-06 18:22:40 - DEBUG: Manifest
+2012-06-06 18:22:40 - DEBUG: Done.
+2012-06-06 18:23:40 - DEBUG: File is downloading, waiting till its stopped to exit
+2012-06-06 21:43:58 - Application NewsCasterD v1.0.38  Restarted (192.168.245.1/Ethernet LAN), Startup sequence begun...
+2012-06-06 21:43:58 - DEBUG: Init Starting
+2012-06-06 21:43:58 - DEBUG: Parsing News
+2012-06-06 21:44:00 - DEBUG: Slideshow
+2012-06-06 21:44:00 - DEBUG: Config
+2012-06-06 21:44:00 - DEBUG: Manifest
+2012-06-06 21:44:00 - DEBUG: Done.
+2012-06-06 22:29:50 - DEBUG: File is downloading, waiting till its stopped to exit
+2012-06-07 00:50:43 - Application NewsCasterD v1.0.38  Restarted (192.168.245.1/Ethernet LAN), Startup sequence begun...
+2012-06-07 00:50:43 - DEBUG: Init Starting
+2012-06-07 00:50:43 - DEBUG: Parsing News
+2012-06-07 00:50:44 - DEBUG: Slideshow
+2012-06-07 00:50:44 - DEBUG: Config
+2012-06-07 00:50:45 - DEBUG: Manifest
+2012-06-07 00:50:45 - DEBUG: Done.
+2012-06-07 11:22:38 - Application NewsCasterD v1.0.38  Restarted (192.168.26.73/Ethernet LAN), Startup sequence begun...
+2012-06-07 11:22:41 - DEBUG: Init Starting
+2012-06-07 11:22:41 - DEBUG: Parsing News
+2012-06-07 11:22:43 - DEBUG: Slideshow
+2012-06-07 11:22:43 - DEBUG: Config
+2012-06-07 11:22:43 - DEBUG: Manifest
+2012-06-07 11:22:43 - DEBUG: Done.
+2012-06-07 17:08:35 - Application NewsCasterD v1.0.38  Restarted (192.168.26.73/Ethernet LAN), Startup sequence begun...
+2012-06-07 17:08:35 - DEBUG: Init Starting
+2012-06-07 17:08:35 - DEBUG: Parsing News
+2012-06-07 17:08:36 - DEBUG: Slideshow
+2012-06-07 17:08:36 - DEBUG: Config
+2012-06-07 17:08:36 - DEBUG: Manifest
+2012-06-07 17:08:37 - DEBUG: Done.
+2012-06-07 18:50:36 - DEBUG: File is downloading, waiting till its stopped to exit
+2012-06-07 21:03:17 - Application NewsCasterD v1.0.38  Restarted (192.168.245.1/Ethernet LAN), Startup sequence begun...
+2012-06-07 21:03:17 - DEBUG: Init Starting
+2012-06-07 21:03:17 - DEBUG: Parsing News
+2012-06-07 21:03:19 - DEBUG: Slideshow
+2012-06-07 21:03:19 - DEBUG: Config
+2012-06-07 21:03:19 - DEBUG: Manifest
+2012-06-07 21:03:19 - DEBUG: Done.
+2012-06-08 09:44:00 - Application NewsCasterD v1.0.38  Restarted (192.168.26.73/Ethernet LAN), Startup sequence begun...
+2012-06-08 09:44:00 - DEBUG: Init Starting
+2012-06-08 09:44:00 - DEBUG: Parsing News
+2012-06-08 09:44:01 - DEBUG: Slideshow
+2012-06-08 09:44:01 - DEBUG: Config
+2012-06-08 09:44:01 - DEBUG: Manifest
+2012-06-08 09:44:01 - DEBUG: Done.
+2012-06-09 01:41:41 - Application NewsCasterD v1.0.38  Restarted (192.168.245.1/Ethernet LAN), Startup sequence begun...
+2012-06-09 01:41:41 - DEBUG: Init Starting
+2012-06-09 01:41:41 - DEBUG: Parsing News
+2012-06-09 01:41:42 - DEBUG: Slideshow
+2012-06-09 01:41:42 - DEBUG: Config
+2012-06-09 01:41:42 - DEBUG: Manifest
+2012-06-09 01:41:42 - DEBUG: Done.
+2012-06-10 17:28:55 - Application NewsCasterD v1.0.38  Restarted (192.168.245.1/Ethernet LAN), Startup sequence begun...
+2012-06-10 17:28:56 - DEBUG: Init Starting
+2012-06-10 17:28:56 - DEBUG: Parsing News
+2012-06-10 17:28:58 - DEBUG: Slideshow
+2012-06-10 17:28:58 - DEBUG: Config
+2012-06-10 17:28:58 - DEBUG: Manifest
+2012-06-10 17:28:58 - DEBUG: Done.
+2012-06-10 17:55:08 - Application NewsCasterD v1.0.38  Restarted (192.168.245.1/Ethernet LAN), Startup sequence begun...
+2012-06-10 17:55:08 - DEBUG: Init Starting
+2012-06-10 17:55:08 - DEBUG: Parsing News
+2012-06-10 17:55:10 - DEBUG: Slideshow
+2012-06-10 17:55:10 - DEBUG: Config
+2012-06-10 17:55:10 - DEBUG: Manifest
+2012-06-10 17:55:10 - DEBUG: Done.
+2012-06-10 17:59:38 - Application NewsCasterD v1.0.38  Restarted (192.168.245.1/Ethernet LAN), Startup sequence begun...
+2012-06-10 17:59:38 - DEBUG: Init Starting
+2012-06-10 17:59:38 - DEBUG: Parsing News
+2012-06-10 17:59:40 - DEBUG: Slideshow
+2012-06-10 17:59:40 - DEBUG: Config
+2012-06-10 17:59:40 - DEBUG: Manifest
+2012-06-10 17:59:40 - DEBUG: Done.
+2012-06-10 19:06:05 - Application NewsCasterD v1.0.38  Restarted (192.168.245.1/Ethernet LAN), Startup sequence begun...
+2012-06-10 19:06:05 - DEBUG: Init Starting
+2012-06-10 19:06:05 - DEBUG: Parsing News
+2012-06-10 19:06:07 - DEBUG: Slideshow
+2012-06-10 19:06:07 - DEBUG: Config
+2012-06-10 19:06:07 - DEBUG: Manifest
+2012-06-10 19:06:07 - DEBUG: Done.
+2012-06-10 19:06:22 - DEBUG: File is downloading, waiting till its stopped to exit
+2012-06-11 00:49:41 - Application NewsCasterD v1.0.38  Restarted (192.168.245.1/Ethernet LAN), Startup sequence begun...
+2012-06-11 00:49:41 - DEBUG: Init Starting
+2012-06-11 00:49:41 - DEBUG: Parsing News
+2012-06-11 00:49:42 - DEBUG: Slideshow
+2012-06-11 00:49:42 - DEBUG: Config
+2012-06-11 00:49:42 - DEBUG: Manifest
+2012-06-11 00:49:42 - DEBUG: Done.
+2012-06-11 00:51:23 - DEBUG: File is downloading, waiting till its stopped to exit
+2012-06-11 17:23:04 - Application NewsCasterD v1.0.38  Restarted (192.168.245.1/Ethernet LAN), Startup sequence begun...
+2012-06-11 17:23:04 - DEBUG: InitApplication() Starting
+2012-06-11 17:23:04 - DEBUG: Parsing News
+2012-06-11 17:23:06 - DEBUG: Slideshow
+2012-06-11 17:23:06 - DEBUG: Config
+2012-06-11 17:23:06 - DEBUG: Manifest
+2012-06-11 17:23:06 - DEBUG: Done.
+2012-06-11 21:05:44 - Application NewsCasterD v1.0.38  Restarted (192.168.245.1/Ethernet LAN), Startup sequence begun...
+2012-06-11 21:05:44 - DEBUG: InitApplication() Starting
+2012-06-11 21:05:44 - DEBUG: Parsing News
+2012-06-11 21:05:46 - DEBUG: Slideshow
+2012-06-11 21:05:46 - DEBUG: Config
+2012-06-11 21:05:46 - DEBUG: Manifest
+2012-06-11 21:05:46 - DEBUG: Done.
+2012-06-11 21:06:22 - Application NewsCasterD v1.0.38  Restarted (192.168.245.1/Ethernet LAN), Startup sequence begun...
+2012-06-11 21:06:22 - DEBUG: InitApplication() Starting
+2012-06-11 21:06:22 - DEBUG: Parsing News
+2012-06-11 21:06:22 - DEBUG: Slideshow
+2012-06-11 21:06:22 - DEBUG: Config
+2012-06-11 21:06:22 - DEBUG: Manifest
+2012-06-11 21:06:22 - DEBUG: Done.

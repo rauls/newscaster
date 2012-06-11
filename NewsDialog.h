@@ -40,10 +40,13 @@ public:
 	time_t	m_pauseendtime;					// time to stop pausing
 	int 	m_runcount;						// how many times the timer msg gets called.
 	int		m_screenHz;						// screen rate to scroll properly
+	int		m_offset1;
+	int		m_offset2;
 
 	LARGE_INTEGER	m_freqCounter;			// freq for high res counter
 	double			m_msinterval;
 	double			m_usinterval;
+	double			m_mscount;
 
 	LPCRITICAL_SECTION dataChangeSection;
 
@@ -72,7 +75,7 @@ private:
 
 	bool			StartMMTimer(UINT period, bool oneShot, UINT resolution);
 	bool			StopMMTimer(bool bEndTime=FALSE);
-	void			SafeStartTimer( int rate=2 );
+	void			SafeStartTimer( int rate=1 );
 	UINT            m_timerRes;
     UINT            m_timerId;
 

@@ -33,12 +33,13 @@ public:
                                                    that is passed through to the 
                                                    news dialog */
 
-	BOOL running;
-    
-    NewsDialog CNewsBar;                         /* the dialog that holds the 
+	BOOL		running;
+    BOOL		shuttingDown;
+    NewsDialog	CNewsBar;                         /* the dialog that holds the 
                                                    newsbar graphics */
 
 	void setAppData(CWidgieXML* pAppDataRef);   // See C++ implementation
+	void Shutdown();
     void Die();                                 // See C++ implementation
     void BringToFront();                        // See C++ implementation
     

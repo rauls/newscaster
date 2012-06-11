@@ -89,7 +89,7 @@ BOOL CWidgieApp::InitInstance()
         exit(3);
     }
 
-	OutDebugs( "DEBUG: Init" );
+	OutDebugs( "MainApp: InitInstance" );
 
 	cfgIniFilename = GetExeName();
 	cfgIniFilename.Append( ".ini" );
@@ -113,9 +113,8 @@ BOOL CWidgieApp::InitInstance()
 	//  of your final executable, you should remove from the following
 	//  the specific initialization routines you do not need.
 
-    SetAppPriority(THREAD_PRIORITY_BELOW_NORMAL);		//THREAD_PRIORITY_BELOW_NORMAL
+//  SetAppPriority(THREAD_PRIORITY_BELOW_NORMAL);		//THREAD_PRIORITY_BELOW_NORMAL
 //	SetPriorityClass( GetCurrentProcess(), REALTIME_PRIORITY_CLASS );
-
 
     // Get System Settings from the initialisation file and validate them
 
@@ -487,24 +486,22 @@ BOOL CWidgieApp::InitInstance()
 	msg.Format( "ID = %s", cfgID );
 	PrintTextLarge( msg.GetBuffer(0) );
 
+	// ################## SETUP MAIN WINDOW #######################
 	OutDebugs( "Start Main Dialog..." );
     CWidgieDlg dlg;
 	m_pMainWnd = &dlg;
 
-    SetAppPriority(THREAD_PRIORITY_BELOW_NORMAL);		//THREAD_PRIORITY_BELOW_NORMAL  THREAD_PRIORITY_ABOVE_NORMAL
+	//SetAppPriority(THREAD_PRIORITY_BELOW_NORMAL);		//THREAD_PRIORITY_BELOW_NORMAL  THREAD_PRIORITY_ABOVE_NORMAL
 
-	dlg.newsThread = NULL;
-
-	dlg.m_lastStatusTime = 0;
-
-	/* Display ht emain dialog */
+	/* Display the main dialog */
     /* The dialog that is used to display the JPEG advetisments */
 	dlg.DoModal();
 
-	OutDebugs( "Exit Main Dialog." );
+	OutDebugs( "MainDlg ended, Exiting Main ..." );
 
     // Finished with COM
     CoUninitialize();
+
     // Since the dialog has been closed, return FALSE so that we exit the
 	//  application, rather than start the application's message pump.
 	exit( appReturnCode );
@@ -530,9 +527,14 @@ BOOL CWidgieApp::OpenSplashLogo( void )
 	{
 		int w = GetSystemMetrics(SM_CXFULLSCREEN);
 		int y = GetSystemMetrics(SM_CYFULLSCREEN);
+		int vw = GetSystemMetrics(SM_CXVIRTUALSCREEN);
+		int vy = GetSystemMetrics(SM_CYVIRTUALSCREEN);
+		int x2 = vw - w;
+		int y2 = vy - y;
+
 		cfgLeft += w;
-		cfgRight += 1024;
-		cfgBottom = 768;
+		cfgRight += x2;
+		cfgBottom = vy;
 	}
 
 //	Sleep( 10 );		// wait a bit for the window to be ready...

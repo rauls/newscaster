@@ -206,7 +206,7 @@ bool CConfigEdit::ParseLoop( ImpList *impList )
 			parser->parse( defaultLoopFN.GetBuffer(0) );
 		}
 
-		bool currentLoop = defaultHandler->IsCurrent();
+		BOOL currentLoop = defaultHandler->IsCurrent();
 
 		delete parser;
 		delete defaultHandler;

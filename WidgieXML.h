@@ -139,6 +139,7 @@ public:
 	bool ParseConfigDefaults( void );
 
 	void CloseDown();	                    // See C++ implementation
+	BOOL IsShuttingDown();
 
 	bool ImportTelenticeMPL( void );
 
@@ -148,6 +149,7 @@ protected:
 
 private:
     CEdit m_OutputEdit;
+	BOOL	m_shuttingDown;
 
 	// MDID SUPPORT
 	CString GetElement( CString p_xml, CString p_elementName );

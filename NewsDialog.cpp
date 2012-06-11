@@ -8,7 +8,7 @@
 #include "NewsflashInfo.h"
 #include "Newsflash.h"
 #include "utils.h"
-
+#include <sys/timeb.h>
 
 #undef CDX
 
@@ -24,6 +24,14 @@
 #undef THIS_FILE
 static char THIS_FILE[] = __FILE__;
 #endif
+
+// return time as SECS.USECS float
+double timems()
+{
+	struct timeval tv;
+	//gettimeofday( &tv, NULL);
+	return tv.tv_sec + (tv.tv_usec/1000000.0);
+}
 
 
 /**
@@ -64,6 +72,10 @@ NewsDialog::NewsDialog(CWnd* pParent /*=NULL*/) : CDialog(NewsDialog::IDD, pPare
 	m_pauseendtime =
 	m_pausetime = 0;
 
+	m_offset1 = 500;
+	m_offset2 = 500;
+	m_mscount = 0.0;
+
 	QueryPerformanceFrequency( &m_freqCounter );
 
 	{
@@ -72,10 +84,10 @@ NewsDialog::NewsDialog(CWnd* pParent /*=NULL*/) : CDialog(NewsDialog::IDD, pPare
 		if( EnumDisplaySettings( NULL, ENUM_CURRENT_SETTINGS, &DevMode ) )
 		{
 			m_screenHz = DevMode.dmDisplayFrequency;
-		}
-		else
+		} else {
 			m_screenHz = 60;
-
+		}
+		m_screenHz /= 2;
 		m_usinterval = ( (1000000/(double)m_screenHz) - 0 );
 		m_msinterval = m_usinterval/1000.0;
 	}
@@ -684,32 +696,49 @@ void CALLBACK internalTimerProc(UINT id, UINT msg,DWORD dwUser, DWORD dw1, DWORD
 #endif
 	// 1ms timer, so skip 20 to make a 20 ms timer.  or at 60hz its every 16.666ms or 166666us (we hope)
 	{
-#define	INTERVAL	((1000/(float)news->m_screenHz))
+#define	INTERVAL	((1000/(double)news->m_screenHz))
 
+		news->m_mscount += 1.0;
 		static double us_t = 0;
 		static LARGE_INTEGER pcounter, counter;
 
 		QueryPerformanceCounter( &counter );
 
-		double diffus = (counter.QuadPart - pcounter.QuadPart) / (double)(news->m_freqCounter.QuadPart/1000000.0);
-		double diffms = (counter.QuadPart - pcounter.QuadPart) / (double)(news->m_freqCounter.QuadPart/1000.0);
+		double	interval = INTERVAL;
+		double	now = (counter.QuadPart) / (double)(news->m_freqCounter.QuadPart/1000.0);
+		double	diffus = (counter.QuadPart - pcounter.QuadPart) / (double)(news->m_freqCounter.QuadPart/1000000.0);
+		double	diffms = (counter.QuadPart - pcounter.QuadPart) / (double)(news->m_freqCounter.QuadPart/1000.0);
+
+		while( diffus > (us_t-900) && diffus < us_t ) 
+		{
+			QueryPerformanceCounter( &counter );
+			diffus = (counter.QuadPart - pcounter.QuadPart) / (double)(news->m_freqCounter.QuadPart/1000000.0);
+		}
+
+		//OutDebugs("%f: WM_TIMER.... diffus=%f", (float)now, (float)diffus );
+		double lateus = (diffus-us_t);
 
 		// make sure we only do this every 16.6ms, unless we were late last time, we go earlier
-		if( diffus > us_t )
-		{					//diffus > news->m_usinterval
+		if( diffus >= us_t )				// diffus > news->m_usinterval
+		{					
 			pcounter = counter;
 			// ok lets now check if we are early or late and change our next trigger time +- a few us
 			// old code;us_t = news->m_usinterval + (news->m_usinterval-diffus);
 			// new next time = 16666us - latetime;
-			if( us_t == 0 )
+			if( us_t == 0 ) {
 				us_t = news->m_usinterval;
-			else
-				us_t = news->m_usinterval - (diffus-us_t);
-			if( us_t > 10000 )
+			} else
+			if( diffus > us_t && diffus < news->m_usinterval ) {
+				us_t = news->m_usinterval - lateus;
+			} else {
+				us_t = news->m_usinterval;
+			}
+
+			if( us_t > 5000 )
 			{
-				//OutDebugs( "internalTimerProc has been triggered (diffus=%.0f, us_t=%.0f)", diffus, us_t );
-				if( news )
-		            news->DoTimer();
+				if( news )  
+					news->DoTimer();
+				OutDebugs( "internalTimerProc has been triggered (now=%f, diffus=%.0f, us_t=%.0f)", now/1000.0, diffus, us_t );
 			}
 		}
 	}
@@ -724,6 +753,8 @@ bool NewsDialog::StartMMTimer(UINT period, bool oneShot, UINT resolution)
 
 	OutDebugs( "NewsDialog - StartMMTImer" );
 
+	period = 1;
+
 	{
 		TIMECAPS    tc;
 
@@ -732,7 +763,7 @@ bool NewsDialog::StartMMTimer(UINT period, bool oneShot, UINT resolution)
 		{
 			m_timerRes = min(max(tc.wPeriodMin, resolution), tc.wPeriodMax);
 			timeBeginPeriod(m_timerRes);
-			OutDebugs( "timeGetDevCaps has succeeded, period =%d", m_timerRes );
+			OutDebugs( "timeGetDevCaps has succeeded, period =%d, res =%d", period, m_timerRes );
 		}
 		else 
 		{
@@ -811,13 +842,13 @@ void NewsDialog::StartTimers( int mstimer )
 {
 	if( m_timerActive )
 	{
-		//OutDebugs( "NewsDialog - StartTimers/Already active." );
+		OutDebugs( "NewsDialog - StartTimers/Already active." );
 		//StopTimers();
 	}
 
 	if( m_timerActive == FALSE )
 	{
-		//OutDebugs( "NewsDialog - StartTimers" );
+		OutDebugs( "NewsDialog - StartTimers" );
 
 		PauseOff();
 

@@ -4,20 +4,6 @@
 Future Enhancements :
 1. save slideshows to slideshow_nn.xml instead of just one xml file.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 */
 
 #include "stdafx.h"
@@ -135,6 +121,7 @@ static BOOL myDeleteFile( CString file )
 
 CWidgieXML::CWidgieXML( CString language, CEdit* debugEdit )
 {
+	m_shuttingDown = FALSE;
     StrLanguage = language;
 	IntLanguage = 0;
 
@@ -158,6 +145,8 @@ CWidgieXML::CWidgieXML( CString language, CEdit* debugEdit )
 
 void CWidgieXML::CloseDown() 
 {
+	OutDebugs("XML::Closing down" );
+	m_shuttingDown = TRUE;
 	if( myInternetSession )
 	{
 		myInternetSession->Close();
@@ -165,9 +154,18 @@ void CWidgieXML::CloseDown()
 	}
 }
 
+
+BOOL CWidgieXML::IsShuttingDown() 
+{ 
+	if( AFXDIALOG->shuttingDown == TRUE )
+		m_shuttingDown = TRUE;
+	return m_shuttingDown;
+}
+
+
 bool VerifyDestinationDir( CString pPathName )
 {
-	bool Result = CreateDirectory(pPathName , NULL);
+	BOOL Result = CreateDirectory(pPathName , NULL);
 	
 	LPVOID lpMsgBuf;
 
@@ -249,11 +247,14 @@ long CWidgieXML::DownloadXMLNews()
 	DWORD t_beg = timeGetTime();
 static time_t	last_good_download_t = 0;
 
-
 	if( (time(0) - last_good_download_t) < (60*15) )
 	{
 		OutDebugs( "ERROR: Downloading news too fast... 15min wait" );
 		return 0;
+	}
+
+	if( IsShuttingDown() ) {
+		return OutDebugs("Aborting download");
 	}
 
 	long downloadsize = 0, totaldownload = 0;
@@ -263,6 +264,10 @@ static time_t	last_good_download_t = 0;
 		// download all our news RSS feeds.
 		for( int i=0; i< CFG->cfgNewsRSSFeeds.GetCount();i++)
 		{
+			if( IsShuttingDown() ) {
+				break;
+			}
+
 			CString destFile;
 			destFile.Format( "%s\\news%d.rss", CFG->cfgLocalBaseDir + CFG->cfgLocalXML_Dir, i );
 
@@ -367,6 +372,11 @@ long CWidgieXML::DownloadXMLConfig()
 long CWidgieXML::DownloadXMLLoop()
 {
 	DWORD t_beg = timeGetTime();
+
+	if( IsShuttingDown() ) {
+		OutDebugs("Aborting download");
+		return 0;
+	}
 
 	long downloadsize = 0;
 
@@ -587,6 +597,9 @@ long CWidgieXML::DownloadContent()
 		// only download files which do not exist, as we never ovewrite media files, but only use new names....
 		for( POSITION manifpos = fileList.GetHeadPosition(); manifpos != NULL; )
 		{
+			if( IsShuttingDown() ) {
+				break;
+			}
 			mi = fileList.GetNext(manifpos);
 
 			downloadsize +=
@@ -1454,7 +1467,7 @@ long CWidgieXML::DownloadMissingContent( long *pfilesTotal, long *pfilesDone )
 	ImpList *impList = GetImpressionList();
 
 	// go through all impressions, and check to see if any files are missing, if so , then download them
-	while( newPos = impList->FindIndex(imageCount++) )
+	while( (IsShuttingDown() == FALSE) && (newPos = impList->FindIndex(imageCount++)) )
 	{
 	    ImpressionData nextImpression = impList->GetAt(newPos);
 		CString localFilename;
@@ -1531,6 +1544,10 @@ long CWidgieXML::DownloadMissingContent( long *pfilesTotal, long *pfilesDone )
 				}
 			}
 		}
+
+		if( IsShuttingDown() ) 
+			break;
+
 		// ##########################################################
 		// download video file if defined in the slideshow item
 		// these are downloaded directly through the server via static files.
@@ -2434,6 +2451,9 @@ long CWidgieXML::DownloadBin( CString server, CString remoteFile, CString fileTo
 
 bool CWidgieXML::ParseLoop( ImpList *impList, CString languageToUse )
 {
+	if( IsShuttingDown() ) {
+		return FALSE;
+	}
 	// use the language passed as a parameter, otherwise default to the currently global language setting.
 	if( !languageToUse )
 		languageToUse = StrLanguage;
@@ -2550,6 +2570,9 @@ bool CWidgieXML::ParseLoops( void )
 
 	for( POSITION Imppos = impList->GetHeadPosition(); Imppos != NULL; )
 	{
+		if( IsShuttingDown() ) {
+			return false;
+		}
 		CString DebugString;
 		ImpressionData ImpData;
 		ImpData = impList->GetNext(Imppos);
@@ -2610,9 +2633,7 @@ bool CWidgieXML::ImportTelenticeMPL( void )
 	impList = GetImpressionList();
 	for( POSITION Imppos = impList->GetHeadPosition(); Imppos != NULL; )
 	{
-		CString DebugString;
-		ImpressionData ImpData;
-		ImpData = impList->GetNext(Imppos);
+		ImpressionData ImpData = impList->GetNext(Imppos);
 	}
 	return true;
 }
@@ -2775,6 +2796,9 @@ void CWidgieXML::ParseNews()
 			// parse all our downloaded news rss feeds.
 			for( int i=0; i< CFG->cfgNewsRSSFeeds.GetCount();i++)
 			{
+				if( IsShuttingDown() ) {
+					break;
+				}
 				newsPath.Format( "%s\\news%d.rss", CFG->cfgLocalBaseDir + CFG->cfgLocalXML_Dir, i );
 				OutDebugs( "Parsing RSS NEWS XML file %s", newsPath.GetBuffer(0) );
 				parser->parse( newsPath.GetBuffer(0) );

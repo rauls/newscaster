@@ -47,6 +47,7 @@ class CWidgieDlg : public CDialog
 // Construction
 public:
 	CWidgieDlg(CWnd* pParent = NULL);	// standard constructor
+	~CWidgieDlg();						// standard deconstructor
 
 	class CWidgieApp *ptheApp;
 	

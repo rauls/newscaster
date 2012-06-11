@@ -1,160 +1,1263 @@
-2005-10-18 07:14:41 - Application Newscaster v1.0.177  Restarted (192.168.1.21/Ethernet LAN), Startup sequence begun...
-2005-10-18 07:14:59 - Application Newscaster v1.0.177  Restarted (192.168.1.21/Ethernet LAN), Startup sequence begun...
-2005-10-18 07:17:45 - Application Newscaster v1.0.177  Restarted (192.168.1.21/Ethernet LAN), Startup sequence begun...
-2005-10-18 07:17:46 - ERROR: Could not open logo image Images\news_logo.bmp
+2012-06-06 18:22:38 Application NewsCasterD v1.0.38  Restarted (192.168.26.73/Ethernet LAN), Startup sequence begun...
+2012-06-06 18:23:45 Application NewsCasterD v1.0.38  Shutting down
+2012-06-06 21:43:58 Application NewsCasterD v1.0.38  Restarted (192.168.245.1/Ethernet LAN), Startup sequence begun...
+2012-06-06 21:46:03 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-06 21:46:06 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-06 21:48:13 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-06 21:48:35 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-06 21:50:10 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-06 21:50:35 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-06 21:52:20 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-06 21:52:42 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-06 21:54:17 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-06 21:54:40 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-06 21:56:27 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-06 21:56:49 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-06 21:58:24 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-06 21:58:46 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-06 22:00:34 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-06 22:00:56 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-06 22:02:31 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-06 22:02:53 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-06 22:04:41 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-06 22:05:04 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-06 22:06:38 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-06 22:07:02 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-06 22:08:48 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-06 22:09:13 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-06 22:10:45 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-06 22:11:09 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-06 22:12:55 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-06 22:13:19 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-06 22:14:52 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-06 22:15:14 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-06 22:17:02 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-06 22:17:26 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-06 22:18:59 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-06 22:19:24 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-06 22:21:09 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-06 22:21:34 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-06 22:23:06 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-06 22:23:28 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-06 22:25:16 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-06 22:25:38 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-06 22:27:13 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-06 22:27:36 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-06 22:29:23 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-06 22:29:46 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-06 22:29:56 Application NewsCasterD v1.0.38  Shutting down
+2012-06-07 00:50:43 Application NewsCasterD v1.0.38  Restarted (192.168.245.1/Ethernet LAN), Startup sequence begun...
+2012-06-07 00:52:42 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 00:52:42 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 00:54:52 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-07 00:55:16 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 00:56:50 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 00:57:13 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 00:59:00 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-07 00:59:22 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 01:00:57 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 01:01:19 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 01:01:38 Application NewsCasterD v1.0.38  Shutting down
+2012-06-07 11:22:38 Application NewsCasterD v1.0.38  Restarted (192.168.26.73/Ethernet LAN), Startup sequence begun...
+2012-06-07 11:25:04 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 11:25:26 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 11:26:24 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 11:27:15 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-07 11:27:38 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 11:28:08 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 11:29:12 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 11:29:35 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 11:30:05 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 11:31:22 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-07 11:31:46 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 11:32:15 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 11:33:19 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 11:33:46 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 11:34:15 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 11:35:29 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-07 11:35:53 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 11:36:22 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 11:37:26 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 11:37:50 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 11:38:20 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 11:39:36 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-07 11:40:00 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 11:40:29 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 11:41:33 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 11:41:57 internalTimerProc has been triggered (diffus=16667, us_t=16667)
 
-2005-10-18 07:17:50 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
-2005-10-18 07:17:53 - ERROR: Failed to load impression image C:\Projects\Widgie_Advertiser\NewsCaster.Screensaver\Media\\4b8c0776.jpg
+2012-06-07 11:42:31 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 11:43:43 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-07 11:44:07 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 11:44:36 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 11:45:40 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 11:46:03 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 11:46:32 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 11:47:50 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-07 11:48:15 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 11:48:45 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 11:49:47 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 11:50:11 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 11:51:57 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-07 11:52:21 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 11:52:50 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 11:53:55 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 11:54:18 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 11:54:48 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 11:56:05 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-07 11:56:32 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 11:57:04 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 11:58:02 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 11:58:25 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 11:58:55 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 12:00:12 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-07 12:00:36 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 12:01:05 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 12:02:09 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 12:02:33 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 12:03:03 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 12:04:19 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-07 12:04:43 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 12:05:13 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 12:06:16 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 12:06:40 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 12:07:09 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 12:08:26 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-07 12:08:42 ERROR: Statuscode=502 , Remote file www.adelsdorf.de/webcam2/webcam-20-1280.jpg does not exist, skipping download
+2012-06-07 12:08:53 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 12:09:24 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 12:10:24 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 12:10:49 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 12:11:18 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 12:12:34 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-07 12:12:58 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 12:13:28 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 12:14:31 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 12:14:55 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 12:15:24 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 12:16:41 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-07 12:17:05 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 12:17:34 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 12:18:38 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 12:19:05 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 12:19:33 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 12:20:48 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-07 12:21:14 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 12:21:42 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 12:22:45 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 12:23:11 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 12:23:40 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 12:24:54 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-07 12:25:23 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 12:25:55 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 12:26:51 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 12:27:18 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 12:27:48 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 12:29:02 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-07 12:29:32 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 12:30:04 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 12:30:58 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 12:31:24 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 12:31:53 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 12:33:08 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-07 12:33:34 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 12:34:05 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 12:35:05 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 12:35:37 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 12:36:07 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 12:37:15 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-07 12:37:53 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 12:38:25 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 12:39:12 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 12:39:38 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 12:40:07 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 12:41:22 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-07 12:41:47 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 12:42:15 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 12:43:19 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 12:43:43 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 12:44:12 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 12:45:29 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-07 12:45:56 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 12:46:24 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 12:47:26 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 12:47:50 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 12:48:20 internalTimerProc has been triggered (diffus=16667, us_t=16667)
+2012-06-07 12:49:36 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-07 12:50:00 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 12:50:29 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 12:51:33 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 12:51:57 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 12:52:26 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 12:53:47 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-07 12:54:11 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 12:54:40 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 12:55:45 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 12:56:10 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 12:56:39 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 12:57:55 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-07 12:58:18 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 12:58:47 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 12:59:52 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 13:00:15 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 13:00:44 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 13:02:02 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-07 13:02:30 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 13:02:59 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 13:03:59 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 13:04:23 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 13:04:52 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 13:06:09 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-07 13:06:32 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 13:07:03 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 13:08:06 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 13:08:29 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 13:08:58 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 13:10:17 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-07 13:10:41 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 13:11:10 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 13:12:14 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 13:12:37 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 13:13:06 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 13:14:24 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-07 13:14:47 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 13:15:20 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 13:16:20 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 13:16:44 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 13:17:13 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 13:18:31 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-07 13:18:55 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 13:19:24 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 13:20:27 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 13:20:53 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 13:21:22 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 13:21:44 Application NewsCasterD v1.0.38  Shutting down
+2012-06-07 17:08:35 Application NewsCasterD v1.0.38  Restarted (192.168.26.73/Ethernet LAN), Startup sequence begun...
+2012-06-07 17:10:36 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 17:12:12 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 17:12:46 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-07 17:13:15 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 17:14:43 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 17:15:09 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 17:15:41 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 17:16:53 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-07 17:17:16 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 17:17:48 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 17:18:50 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 17:19:13 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 17:19:43 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 17:21:00 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-07 17:21:23 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 17:21:57 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 17:24:04 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 17:24:28 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 17:24:57 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 17:26:14 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-07 17:26:38 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 17:27:07 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 17:28:11 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 17:28:35 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 17:29:08 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 17:30:21 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-07 17:30:45 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 17:31:14 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 17:32:18 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 17:32:42 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 17:33:11 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 17:34:28 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-07 17:34:58 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 17:35:30 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 17:36:25 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 17:36:51 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 17:37:20 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 17:38:35 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-07 17:38:59 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 17:39:28 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 17:40:32 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 17:40:56 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 17:41:27 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 17:42:42 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-07 17:43:06 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 17:43:35 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 17:44:39 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 17:45:04 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 17:45:33 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 17:46:49 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-07 17:47:13 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 17:47:41 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 17:48:46 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 17:49:12 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 17:49:41 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 17:50:57 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-07 17:51:24 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 17:51:53 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 17:52:54 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 17:53:17 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 17:53:45 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 17:55:04 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-07 17:55:28 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 17:55:58 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 17:57:02 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 17:57:25 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 17:57:57 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 17:59:12 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-07 17:59:35 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 18:00:04 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 18:01:09 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 18:01:32 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 18:02:01 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-07 18:03:19 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-07 18:05:20 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 18:07:30 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-07 18:08:52 ERROR: DownloadXML has no connection, remotefile = http://newsrss.bbc.co.uk/rss/newsonline_world_edition/front_page/rss.xml#
+2012-06-07 18:08:52 ERROR: News Failed (0) to download http://newsrss.bbc.co.uk/rss/newsonline_world_edition/front_page/rss.xml#
+2012-06-07 18:08:55 ERROR: DownloadXML has no connection, remotefile = http://www.abc.net.au/news/feed/46182/rss.xml
+2012-06-07 18:08:55 ERROR: News Failed (0) to download http://www.abc.net.au/news/feed/46182/rss.xml
+2012-06-07 18:08:55 ERROR: DownloadXML has no connection, remotefile = http://rss.news.yahoo.com/rss/topstories
+2012-06-07 18:08:55 ERROR: News Failed (0) to download http://rss.news.yahoo.com/rss/topstories
+2012-06-07 18:08:55 ERROR: DownloadXML has no connection, remotefile = http://rss.news.yahoo.com/rss/us
+2012-06-07 18:08:55 ERROR: News Failed (0) to download http://rss.news.yahoo.com/rss/us
+2012-06-07 18:08:55 ERROR: DownloadXML has no connection, remotefile = http://rss.news.yahoo.com/rss/world
+2012-06-07 18:08:55 ERROR: News Failed (0) to download http://rss.news.yahoo.com/rss/world
+2012-06-07 18:08:55 ERROR: DownloadXML has no connection, remotefile = http://rss.slashdot.org/Slashdot/slashdotLinux
+2012-06-07 18:08:55 ERROR: News Failed (0) to download http://rss.slashdot.org/Slashdot/slashdotLinux
+2012-06-07 18:09:29 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 18:11:40 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-07 18:13:37 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 18:50:17 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 18:50:41 Application NewsCasterD v1.0.38  Shutting down
+2012-06-07 21:03:17 Application NewsCasterD v1.0.38  Restarted (192.168.245.1/Ethernet LAN), Startup sequence begun...
+2012-06-07 21:05:14 ERROR: Statuscode=404 , Remote file www.salzburger-bergadvent.at/webcam/adventmarkt-grossarl.jpg does not exist, skipping download
+2012-06-07 21:05:20 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 21:05:52 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 21:07:30 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-07 21:07:58 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 21:09:27 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 21:09:50 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 21:11:37 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-07 21:11:59 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 21:13:34 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 21:13:56 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 21:15:44 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-07 21:16:06 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 21:17:41 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 21:18:03 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 21:19:51 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-07 21:20:14 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 21:21:48 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 21:22:10 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 21:23:58 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-07 21:24:21 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 21:25:55 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 21:26:17 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 21:28:05 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-07 21:28:28 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 21:30:02 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 21:30:24 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 21:32:12 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-07 21:32:34 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 21:34:09 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 21:34:31 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 21:36:21 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-07 21:36:44 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 21:38:18 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 21:38:40 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 21:40:28 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-07 21:40:50 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 21:42:25 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 21:42:47 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 21:44:35 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-07 21:44:57 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 21:46:32 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 21:46:55 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 21:48:42 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-07 21:49:05 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 21:50:39 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 21:51:02 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 21:52:49 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-07 21:53:12 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 21:54:47 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 21:55:09 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 21:56:57 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-07 21:57:19 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 21:58:54 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 21:59:16 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 22:01:04 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-07 22:01:28 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 22:03:01 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 22:03:24 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 22:03:39 ERROR: News Failed (-2) to download http://www.abc.net.au/news/feed/46182/rss.xml
+2012-06-07 22:05:16 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-07 22:05:39 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 22:07:13 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 22:07:35 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 22:09:23 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-07 22:09:46 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 22:11:20 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 22:11:43 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 22:13:30 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-07 22:13:54 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 22:15:27 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 22:15:50 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 22:17:38 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-07 22:18:00 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 22:19:35 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 22:20:01 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 22:21:45 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-07 22:22:08 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 22:23:42 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 22:24:05 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 22:25:53 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-07 22:26:15 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 22:27:50 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 22:28:12 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 22:30:00 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-07 22:30:24 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 22:31:57 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 22:32:20 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 22:34:08 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-07 22:34:30 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 22:36:06 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-07 22:36:29 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-07 22:38:16 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 09:44:00 Application NewsCasterD v1.0.38  Restarted (192.168.26.73/Ethernet LAN), Startup sequence begun...
+2012-06-08 09:45:58 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 09:46:33 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-08 09:47:31 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-08 09:48:08 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 09:48:36 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-08 09:49:08 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-08 09:50:05 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 09:50:29 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-08 09:50:58 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-08 09:52:15 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 09:52:40 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-08 09:53:11 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-08 09:54:12 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 09:54:38 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-08 09:55:08 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-08 09:56:22 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 09:56:45 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-08 09:57:14 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-08 09:58:19 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 09:58:43 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-08 09:59:12 ERROR: Statuscode=502 , Remote file www.st182381.728000, diffus=1996, us_t=31338)
+2012-06-08 10:00:29 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 10:00:55 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-08 10:01:25 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-08 10:02:26 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 10:02:50 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-08 10:03:21 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-08 10:04:36 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 10:05:03 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-08 10:05:33 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-08 10:06:33 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 10:06:55 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-08 10:07:24 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-08 10:08:43 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 10:09:06 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-08 10:09:35 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-08 10:10:39 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 10:11:03 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-08 10:11:32 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-08 10:12:50 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 10:13:13 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-08 10:13:43 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-08 10:14:46 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 10:15:10 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-08 10:15:41 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-08 10:16:56 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 10:17:20 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-08 10:17:50 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-08 10:18:53 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 10:19:17 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-08 10:19:46 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-08 10:21:03 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 10:21:26 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-08 10:21:55 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-08 10:23:00 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 10:23:23 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-08 10:23:53 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-08 10:25:10 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 10:25:44 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-08 10:26:13 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-08 10:27:07 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 10:27:32 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-08 10:28:01 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-08 10:29:17 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 10:29:40 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-08 10:30:10 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-08 10:31:14 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 10:31:39 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-08 10:32:08 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-08 10:33:24 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 10:33:48 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-08 10:34:18 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-08 10:35:21 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 10:35:52 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-08 10:36:22 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-08 10:37:31 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 10:37:57 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-08 10:38:26 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-08 10:39:27 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 10:39:51 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-08 10:40:20 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-08 10:41:38 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 10:42:01 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-08 10:42:30 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-08 10:43:34 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 10:43:58 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-08 10:44:28 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-08 10:44:46 - [bad xml] 'Unexpected Exception ok' -  
+2012-06-08 10:45:44 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 10:46:08 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-08 10:46:37 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-08 10:47:41 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 10:48:05 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-08 10:48:34 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-08 10:49:51 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 10:50:15 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-08 10:50:45 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-08 10:51:48 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 10:52:13 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-08 10:52:43 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-08 10:53:58 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 10:54:23 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-08 10:54:53 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-08 10:55:55 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 10:56:19 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-08 10:56:50 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-08 10:58:05 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 10:58:31 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-08 10:59:00 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-08 11:00:02 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 11:00:59 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-08 11:02:12 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 11:02:35 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-08 11:03:05 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-08 11:04:09 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 11:04:36 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-08 11:05:05 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-08 11:06:19 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 11:06:43 The operation completed successfully.
 
-2005-10-18 07:17:53 - [media missing] 'Image Error' - Could not open the file: http://webcam.humlak.cz/hires/1280x1024.php
-2005-10-18 07:17:55 - ERROR: Failed to load impression image C:\Projects\Widgie_Advertiser\NewsCaster.Screensaver\Media\\ba4caaf6.jpg
 
-2005-10-18 07:17:55 - [media missing] 'Image Error' - Could not open the file: http://www.akademischer-seglerverein.de/ASVIM.de.Hires.WebCam.Image.jpg
-2005-10-18 07:17:57 - ERROR: Failed to load impression image C:\Projects\Widgie_Advertiser\NewsCaster.Screensaver\Media\\9bed7ff4.jpg
-
-2005-10-18 07:17:57 - [media missing] 'Image Error' - Could not open the file: http://www.stach.de/dyn/webcam/camtrans/Documents/hafen.jpg
-2005-10-18 07:18:37 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
-2005-10-18 07:18:40 - ERROR: Failed to load impression image C:\Projects\Widgie_Advertiser\NewsCaster.Screensaver\Media\\4b8c0776.jpg
-
-2005-10-18 07:18:40 - [media missing] 'Image Error' - Could not open the file: http://webcam.humlak.cz/hires/1280x1024.php
-2005-10-18 07:18:42 - ERROR: Failed to load impression image C:\Projects\Widgie_Advertiser\NewsCaster.Screensaver\Media\\ba4caaf6.jpg
-
-2005-10-18 07:18:42 - [media missing] 'Image Error' - Could not open the file: http://www.akademischer-seglerverein.de/ASVIM.de.Hires.WebCam.Image.jpg
-2005-10-18 07:18:44 - ERROR: Failed to load impression image C:\Projects\Widgie_Advertiser\NewsCaster.Screensaver\Media\\9bed7ff4.jpg
-
-2005-10-18 07:18:44 - [media missing] 'Image Error' - Could not open the file: http://www.stach.de/dyn/webcam/camtrans/Documents/hafen.jpg
-2005-10-18 07:19:25 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
-2005-10-18 07:19:28 - ERROR: Failed to load impression image C:\Projects\Widgie_Advertiser\NewsCaster.Screensaver\Media\\4b8c0776.jpg
-
-2005-10-18 07:19:28 - [media missing] 'Image Error' - Could not open the file: http://webcam.humlak.cz/hires/1280x1024.php
-2005-10-18 07:19:30 - ERROR: Failed to load impression image C:\Projects\Widgie_Advertiser\NewsCaster.Screensaver\Media\\ba4caaf6.jpg
-
-2005-10-18 07:19:30 - [media missing] 'Image Error' - Could not open the file: http://www.akademischer-seglerverein.de/ASVIM.de.Hires.WebCam.Image.jpg
-2005-10-18 07:19:32 - ERROR: Failed to load impression image C:\Projects\Widgie_Advertiser\NewsCaster.Screensaver\Media\\9bed7ff4.jpg
-
-2005-10-18 07:19:32 - [media missing] 'Image Error' - Could not open the file: http://www.stach.de/dyn/webcam/camtrans/Documents/hafen.jpg
-2005-10-18 07:20:20 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
-2005-10-18 07:20:23 - ERROR: Failed to load impression image C:\Projects\Widgie_Advertiser\NewsCaster.Screensaver\Media\\4b8c0776.jpg
-
-2005-10-18 07:20:23 - [media missing] 'Image Error' - Could not open the file: http://webcam.humlak.cz/hires/1280x1024.php
-2005-10-18 07:20:25 - ERROR: Failed to load impression image C:\Projects\Widgie_Advertiser\NewsCaster.Screensaver\Media\\ba4caaf6.jpg
-
-2005-10-18 07:20:25 - [media missing] 'Image Error' - Could not open the file: http://www.akademischer-seglerverein.de/ASVIM.de.Hires.WebCam.Image.jpg
-2005-10-18 07:20:32 - [media missing] 'Image Error' - Could not open the file: http://www.stach.de/dyn/webcam/camtrans/Documents/hafen.jpg
-2005-10-18 07:21:15 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
-2005-10-18 07:21:18 - ERROR: Failed to load impression image C:\Projects\Widgie_Advertiser\NewsCaster.Screensaver\Media\\4b8c0776.jpg
-
-2005-10-18 07:21:18 - [media missing] 'Image Error' - Could not open the file: http://webcam.humlak.cz/hires/1280x1024.php
-2005-10-18 07:21:20 - ERROR: Failed to load impression image C:\Projects\Widgie_Advertiser\NewsCaster.Screensaver\Media\\ba4caaf6.jpg
-
-2005-10-18 07:21:20 - [media missing] 'Image Error' - Could not open the file: http://www.akademischer-seglerverein.de/ASVIM.de.Hires.WebCam.Image.jpg
-2005-10-18 07:21:22 - ERROR: Failed to load impression image C:\Projects\Widgie_Advertiser\NewsCaster.Screensaver\Media\\9bed7ff4.jpg
-
-2005-10-18 07:21:22 - [media missing] 'Image Error' - Could not open the file: http://www.stach.de/dyn/webcam/camtrans/Documents/hafen.jpg
-2005-10-18 07:22:09 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
-2005-10-18 07:22:12 - ERROR: Failed to load impression image C:\Projects\Widgie_Advertiser\NewsCaster.Screensaver\Media\\4b8c0776.jpg
-
-2005-10-18 07:22:12 - [media missing] 'Image Error' - Could not open the file: http://webcam.humlak.cz/hires/1280x1024.php
-2005-10-18 07:22:14 - ERROR: Failed to load impression image C:\Projects\Widgie_Advertiser\NewsCaster.Screensaver\Media\\ba4caaf6.jpg
-
-2005-10-18 07:22:14 - [media missing] 'Image Error' - Could not open the file: http://www.akademischer-seglerverein.de/ASVIM.de.Hires.WebCam.Image.jpg
-2005-10-18 07:22:16 - ERROR: Failed to load impression image C:\Projects\Widgie_Advertiser\NewsCaster.Screensaver\Media\\9bed7ff4.jpg
-
-2005-10-18 07:22:16 - [media missing] 'Image Error' - Could not open the file: http://www.stach.de/dyn/webcam/camtrans/Documents/hafen.jpg
-2005-10-18 07:22:33 - Application Newscaster v1.0.177  Shutting down
-2005-10-18 07:22:51 - Application Newscaster v1.0.177  Restarted (192.168.1.21/Ethernet LAN), Startup sequence begun...
-2005-10-18 07:22:52 - ERROR: Could not open logo image Images\news_logo.bmp
-
-2005-10-18 07:22:56 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
-2005-10-18 07:22:59 - ERROR: Failed to load impression image C:\Projects\Widgie_Advertiser\NewsCaster.Screensaver\Media\\4b8c0776.jpg
-
-2005-10-18 07:22:59 - [media missing] 'Image Error' - Could not open the file: http://webcam.humlak.cz/hires/1280x1024.php
-2005-10-18 07:23:01 - ERROR: Failed to load impression image C:\Projects\Widgie_Advertiser\NewsCaster.Screensaver\Media\\ba4caaf6.jpg
-
-2005-10-18 07:23:01 - [media missing] 'Image Error' - Could not open the file: http://www.akademischer-seglerverein.de/ASVIM.de.Hires.WebCam.Image.jpg
-2005-10-18 07:23:03 - ERROR: Failed to load impression image C:\Projects\Widgie_Advertiser\NewsCaster.Screensaver\Media\\9bed7ff4.jpg
-
-2005-10-18 07:23:03 - [media missing] 'Image Error' - Could not open the file: http://www.stach.de/dyn/webcam/camtrans/Documents/hafen.jpg
-2005-10-18 07:23:41 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
-2005-10-18 07:23:44 - ERROR: Failed to load impression image C:\Projects\Widgie_Advertiser\NewsCaster.Screensaver\Media\\4b8c0776.jpg
-
-2005-10-18 07:23:44 - [media missing] 'Image Error' - Could not open the file: http://webcam.humlak.cz/hires/1280x1024.php
-2005-10-18 07:23:46 - ERROR: Failed to load impression image C:\Projects\Widgie_Advertiser\NewsCaster.Screensaver\Media\\ba4caaf6.jpg
-
-2005-10-18 07:23:46 - [media missing] 'Image Error' - Could not open the file: http://www.akademischer-seglerverein.de/ASVIM.de.Hires.WebCam.Image.jpg
-2005-10-18 07:23:48 - ERROR: Failed to load impression image C:\Projects\Widgie_Advertiser\NewsCaster.Screensaver\Media\\9bed7ff4.jpg
-
-2005-10-18 07:23:48 - [media missing] 'Image Error' - Could not open the file: http://www.stach.de/dyn/webcam/camtrans/Documents/hafen.jpg
-2005-10-18 07:24:36 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
-2005-10-18 07:24:39 - ERROR: Failed to load impression image C:\Projects\Widgie_Advertiser\NewsCaster.Screensaver\Media\\4b8c0776.jpg
-
-2005-10-18 07:24:39 - [media missing] 'Image Error' - Could not open the file: http://webcam.humlak.cz/hires/1280x1024.php
-2005-10-18 07:24:41 - ERROR: Failed to load impression image C:\Projects\Widgie_Advertiser\NewsCaster.Screensaver\Media\\ba4caaf6.jpg
-
-2005-10-18 07:24:41 - [media missing] 'Image Error' - Could not open the file: http://www.akademischer-seglerverein.de/ASVIM.de.Hires.WebCam.Image.jpg
-2005-10-18 07:24:43 - ERROR: Failed to load impression image C:\Projects\Widgie_Advertiser\NewsCaster.Screensaver\Media\\9bed7ff4.jpg
-
-2005-10-18 07:24:43 - [media missing] 'Image Error' - Could not open the file: http://www.stach.de/dyn/webcam/camtrans/Documents/hafen.jpg
-2005-10-18 07:25:31 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
-2005-10-18 07:26:34 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
-2005-10-18 07:27:37 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
-2005-10-18 07:28:37 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
-2005-10-18 07:29:33 - ERROR: Failed to load impression image C:\Projects\Widgie_Advertiser\NewsCaster.Screensaver\Media\\
-
-2005-10-18 07:29:33 - [media missing] 'Image Error' - Could not open the file: 
-2005-10-18 07:29:34 - ERROR: Failed to load impression image C:\Projects\Widgie_Advertiser\NewsCaster.Screensaver\Media\\
-
-2005-10-18 07:29:34 - [media missing] 'Image Error' - Could not open the file: 
-2005-10-18 07:29:38 - ERROR: Failed to load impression image C:\Projects\Widgie_Advertiser\NewsCaster.Screensaver\Media\\
-
-2005-10-18 07:29:38 - [media missing] 'Image Error' - Could not open the file: 
-2005-10-18 07:29:41 - ERROR: Failed to load impression image C:\Projects\Widgie_Advertiser\NewsCaster.Screensaver\Media\\
-
-2005-10-18 07:29:41 - [media missing] 'Image Error' - Could not open the file: 
-2005-10-18 07:29:47 - Application Newscaster v1.0.177  Shutting down
-2005-10-18 07:45:00 - Application Newscaster v1.0.177  Restarted (192.168.1.21/Ethernet LAN), Startup sequence begun...
-2005-10-18 07:45:01 - ERROR: Could not open logo image Images\news_logo.bmp
-
-2005-10-18 07:45:07 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
-2005-10-18 07:46:28 - Application Newscaster v1.0.177  Shutting down
-2005-10-18 07:46:56 - Application Newscaster v1.0.177  Restarted (192.168.1.21/Ethernet LAN), Startup sequence begun...
-2005-10-18 07:46:57 - ERROR: Could not open logo image Images\news_logo.bmp
-
-2005-10-18 07:47:01 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
-2005-10-18 07:47:15 - Application Newscaster v1.0.177  Shutting down
-2005-10-18 07:47:38 - Application Newscaster v1.0.177  Restarted (192.168.1.21/Ethernet LAN), Startup sequence begun...
-2005-10-18 07:47:39 - ERROR: Could not open logo image Images\news_logo.bmp
-
-2005-10-18 07:47:44 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
-2005-10-18 07:48:57 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
-2005-10-18 07:50:10 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
-2005-10-18 07:51:23 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
-2005-10-18 07:52:36 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
-2005-10-18 07:53:49 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
-2005-10-18 07:55:02 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
-2005-10-18 07:56:15 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
-2005-10-18 07:57:28 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
-2005-10-18 07:58:30 - Application Newscaster v1.0.177  Shutting down
-2005-10-18 07:58:54 - Application Newscaster v1.0.177  Restarted (192.168.1.21/Ethernet LAN), Startup sequence begun...
-2005-10-18 07:58:55 - ERROR: Could not open logo image Images\news_logo.bmp
-
-2005-10-18 07:58:59 - Application Newscaster v1.0.177  Shutting down
-2005-10-18 07:59:10 - Application Newscaster v1.0.177  Restarted (192.168.1.21/Ethernet LAN), Startup sequence begun...
-2005-10-18 07:59:11 - ERROR: Could not open logo image Images\news_logo.bmp
-
-2005-10-18 07:59:19 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
-2005-10-18 08:01:07 - Application Newscaster v1.0.177  Shutting down
-2005-10-18 20:27:12 - Application Newscaster v1.0.177  Restarted (192.168.1.21/Ethernet LAN), Startup sequence begun...
-2005-10-18 20:27:13 - ERROR: Could not open logo image Images\news_logo.bmp
-
-2005-10-18 20:27:20 - ERROR: Failed to load impression image C:\Projects\Widgie_Advertiser\NewsCaster.Screensaver\Worldcams\Media\\
-      
-
-2005-10-18 20:27:20 - [media missing] 'Image Error' - Could not open the file: 
-      
-2005-10-18 20:28:45 - ERROR: Failed to load impression image C:\Projects\Widgie_Advertiser\NewsCaster.Screensaver\Worldcams\Media\\
-      
-
-2005-10-18 20:28:45 - [media missing] 'Image Error' - Could not open the file: 
-      
-2005-10-18 20:29:15 - Application Newscaster v1.0.177  Shutting down
+2012-06-08 11:07:12 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-08 11:08:16 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 11:08:40 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-08 11:09:09 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-08 11:10:26 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 11:10:52 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-08 11:11:24 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-08 11:12:23 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 11:12:47 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-08 11:13:16 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-08 11:14:33 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 11:14:59 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-08 11:15:28 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-08 11:16:30 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 11:16:54 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-08 11:17:22 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-08 11:18:39 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 11:19:03 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-08 11:19:32 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-08 11:20:36 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 11:21:01 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-08 11:21:30 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-08 11:22:46 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 11:23:22 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-08 11:23:51 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-08 11:24:43 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 11:25:09 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-08 11:25:39 ERROR: Statuscode=502 , Remote file www.starrylink.it/webcam/brescia/brescia.jpg does not exist, skipping download
+2012-06-08 11:26:53 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 11:28:50 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 11:31:00 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 11:32:57 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 11:35:07 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 11:37:04 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 11:39:14 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 11:41:10 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 11:43:20 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 11:45:17 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 11:45:20 ERROR: DownloadXML has no connection, remotefile = http://newsrss.bbc.co.uk/rss/newsonline_world_edition/front_page/rss.xml#
+2012-06-08 11:45:20 ERROR: News Failed (0) to download http://newsrss.bbc.co.uk/rss/newsonline_world_edition/front_page/rss.xml#
+2012-06-08 11:45:38 ERROR: DownloadXML has no connection, remotefile = http://www.abc.net.au/news/feed/46182/rss.xml
+2012-06-08 11:45:38 ERROR: News Failed (0) to download http://www.abc.net.au/news/feed/46182/rss.xml
+2012-06-08 11:46:05 ERROR: DownloadXML has no connection, remotefile = http://rss.news.yahoo.com/rss/topstories
+2012-06-08 11:46:05 ERROR: News Failed (0) to download http://rss.news.yahoo.com/rss/topstories
+2012-06-08 11:46:17 ERROR: DownloadXML has no connection, remotefile = http://rss.news.yahoo.com/rss/us
+2012-06-08 11:46:17 ERROR: News Failed (0) to download http://rss.news.yahoo.com/rss/us
+2012-06-08 11:46:32 ERROR: DownloadXML has no connection, remotefile = http://rss.news.yahoo.com/rss/world
+2012-06-08 11:46:32 ERROR: News Failed (0) to download http://rss.news.yahoo.com/rss/world
+2012-06-08 11:46:59 ERROR: DownloadXML has no connection, remotefile = http://rss.slashdot.org/Slashdot/slashdotLinux
+2012-06-08 11:46:59 ERROR: News Failed (0) to download http://rss.slashdot.org/Slashdot/slashdotLinux
+2012-06-08 11:47:27 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 11:49:24 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 11:51:34 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 11:53:31 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 11:55:41 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 11:57:38 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 11:59:48 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 12:01:45 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 12:03:55 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 12:05:52 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 12:08:02 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 12:09:58 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 12:12:08 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 12:14:05 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 12:16:15 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 12:18:12 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 12:20:22 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 12:22:19 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 12:24:29 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 12:26:26 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 12:28:36 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 12:30:32 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 12:32:42 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 12:34:39 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 12:36:49 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 12:38:46 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 12:40:56 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 12:42:53 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 12:45:03 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 12:47:00 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 12:49:10 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 12:49:12 ERROR: DownloadXML has no connection, remotefile = http://newsrss.bbc.co.uk/rss/newsonline_world_edition/front_page/rss.xml#
+2012-06-08 12:49:12 ERROR: News Failed (0) to download http://newsrss.bbc.co.uk/rss/newsonline_world_edition/front_page/rss.xml#
+2012-06-08 12:49:30 ERROR: DownloadXML has no connection, remotefile = http://www.abc.net.au/news/feed/46182/rss.xml
+2012-06-08 12:49:30 ERROR: News Failed (0) to download http://www.abc.net.au/news/feed/46182/rss.xml
+2012-06-08 12:49:57 ERROR: DownloadXML has no connection, remotefile = http://rss.news.yahoo.com/rss/topstories
+2012-06-08 12:49:57 ERROR: News Failed (0) to download http://rss.news.yahoo.com/rss/topstories
+2012-06-08 12:50:09 ERROR: DownloadXML has no connection, remotefile = http://rss.news.yahoo.com/rss/us
+2012-06-08 12:50:09 ERROR: News Failed (0) to download http://rss.news.yahoo.com/rss/us
+2012-06-08 12:50:24 ERROR: DownloadXML has no connection, remotefile = http://rss.news.yahoo.com/rss/world
+2012-06-08 12:50:24 ERROR: News Failed (0) to download http://rss.news.yahoo.com/rss/world
+2012-06-08 12:50:51 ERROR: DownloadXML has no connection, remotefile = http://rss.slashdot.org/Slashdot/slashdotLinux
+2012-06-08 12:50:51 ERROR: News Failed (0) to download http://rss.slashdot.org/Slashdot/slashdotLinux
+2012-06-08 12:51:06 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 12:53:16 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 12:55:13 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 12:57:25 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 12:59:22 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 13:01:33 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 13:03:29 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 13:05:39 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 13:07:36 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 13:09:46 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 13:11:43 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 13:13:53 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 13:15:50 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 13:18:00 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 13:19:57 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 13:22:07 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 13:24:03 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 13:26:14 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 13:28:10 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 13:30:21 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 13:32:17 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 13:34:27 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 13:36:24 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 13:38:34 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 13:40:31 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 13:42:41 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 13:44:38 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 13:46:48 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 13:48:45 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 13:50:55 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 13:50:55 ERROR: DownloadXML has no connection, remotefile = http://newsrss.bbc.co.uk/rss/newsonline_world_edition/front_page/rss.xml#
+2012-06-08 13:50:55 ERROR: News Failed (0) to download http://newsrss.bbc.co.uk/rss/newsonline_world_edition/front_page/rss.xml#
+2012-06-08 13:52:38 ERROR: DownloadXML has no connection, remotefile = http://www.abc.net.au/news/feed/46182/rss.xml
+2012-06-08 13:52:38 ERROR: News Failed (0) to download http://www.abc.net.au/news/feed/46182/rss.xml
+2012-06-08 13:52:38 ERROR: DownloadXML has no connection, remotefile = http://rss.news.yahoo.com/rss/topstories
+2012-06-08 13:52:38 ERROR: News Failed (0) to download http://rss.news.yahoo.com/rss/topstories
+2012-06-08 13:52:38 ERROR: DownloadXML has no connection, remotefile = http://rss.news.yahoo.com/rss/us
+2012-06-08 13:52:38 ERROR: News Failed (0) to download http://rss.news.yahoo.com/rss/us
+2012-06-08 13:52:41 ERROR: DownloadXML has no connection, remotefile = http://rss.news.yahoo.com/rss/world
+2012-06-08 13:52:41 ERROR: News Failed (0) to download http://rss.news.yahoo.com/rss/world
+2012-06-08 13:52:41 ERROR: DownloadXML has no connection, remotefile = http://rss.slashdot.org/Slashdot/slashdotLinux
+2012-06-08 13:52:41 ERROR: News Failed (0) to download http://rss.slashdot.org/Slashdot/slashdotLinux
+2012-06-08 13:52:52 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 13:55:02 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 13:56:59 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 13:59:09 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 14:01:05 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 14:03:15 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 14:05:12 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 14:07:22 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 14:09:19 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 14:11:29 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 14:13:26 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 14:15:36 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 14:17:33 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 14:19:43 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 14:21:40 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 14:23:50 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 14:25:46 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 14:27:56 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 14:29:53 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 14:32:03 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 14:34:00 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 14:36:10 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 14:38:06 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 14:40:17 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 14:42:13 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 14:44:23 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 14:46:20 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 14:48:30 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 14:50:27 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 14:52:37 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 14:53:19 ERROR: DownloadXML has no connection, remotefile = http://newsrss.bbc.co.uk/rss/newsonline_world_edition/front_page/rss.xml#
+2012-06-08 14:53:19 ERROR: News Failed (0) to download http://newsrss.bbc.co.uk/rss/newsonline_world_edition/front_page/rss.xml#
+2012-06-08 14:53:21 ERROR: DownloadXML has no connection, remotefile = http://www.abc.net.au/news/feed/46182/rss.xml
+2012-06-08 14:53:22 ERROR: News Failed (0) to download http://www.abc.net.au/news/feed/46182/rss.xml
+2012-06-08 14:53:22 ERROR: DownloadXML has no connection, remotefile = http://rss.news.yahoo.com/rss/topstories
+2012-06-08 14:53:22 ERROR: News Failed (0) to download http://rss.news.yahoo.com/rss/topstories
+2012-06-08 14:53:24 ERROR: DownloadXML has no connection, remotefile = http://rss.news.yahoo.com/rss/us
+2012-06-08 14:53:24 ERROR: News Failed (0) to download http://rss.news.yahoo.com/rss/us
+2012-06-08 14:53:24 ERROR: DownloadXML has no connection, remotefile = http://rss.news.yahoo.com/rss/world
+2012-06-08 14:53:24 ERROR: News Failed (0) to download http://rss.news.yahoo.com/rss/world
+2012-06-08 14:53:24 ERROR: DownloadXML has no connection, remotefile = http://rss.slashdot.org/Slashdot/slashdotLinux
+2012-06-08 14:53:24 ERROR: News Failed (0) to download http://rss.slashdot.org/Slashdot/slashdotLinux
+2012-06-08 14:54:34 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 14:56:44 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 14:58:42 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 15:00:52 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 15:02:49 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 15:04:59 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 15:06:56 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 15:09:06 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 15:11:02 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 15:13:12 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 15:15:09 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 15:17:19 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 15:19:16 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 15:21:26 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 15:23:23 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 15:25:33 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 15:27:30 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 15:29:40 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 15:31:36 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 15:33:46 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 15:35:43 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 15:37:53 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 15:39:50 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 15:42:00 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 15:43:57 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 15:46:07 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 15:48:03 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 15:50:13 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 15:52:10 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 15:53:24 ERROR: DownloadXML has no connection, remotefile = http://newsrss.bbc.co.uk/rss/newsonline_world_edition/front_page/rss.xml#
+2012-06-08 15:53:24 ERROR: News Failed (0) to download http://newsrss.bbc.co.uk/rss/newsonline_world_edition/front_page/rss.xml#
+2012-06-08 15:53:29 ERROR: DownloadXML has no connection, remotefile = http://www.abc.net.au/news/feed/46182/rss.xml
+2012-06-08 15:53:29 ERROR: News Failed (0) to download http://www.abc.net.au/news/feed/46182/rss.xml
+2012-06-08 15:53:29 ERROR: DownloadXML has no connection, remotefile = http://rss.news.yahoo.com/rss/topstories
+2012-06-08 15:53:29 ERROR: News Failed (0) to download http://rss.news.yahoo.com/rss/topstories
+2012-06-08 15:53:29 ERROR: DownloadXML has no connection, remotefile = http://rss.news.yahoo.com/rss/us
+2012-06-08 15:53:29 ERROR: News Failed (0) to download http://rss.news.yahoo.com/rss/us
+2012-06-08 15:53:32 ERROR: DownloadXML has no connection, remotefile = http://rss.news.yahoo.com/rss/world
+2012-06-08 15:53:32 ERROR: News Failed (0) to download http://rss.news.yahoo.com/rss/world
+2012-06-08 15:53:32 ERROR: DownloadXML has no connection, remotefile = http://rss.slashdot.org/Slashdot/slashdotLinux
+2012-06-08 15:53:32 ERROR: News Failed (0) to download http://rss.slashdot.org/Slashdot/slashdotLinux
+2012-06-08 15:54:20 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 15:56:17 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 15:58:28 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 16:00:26 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 16:02:36 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 16:04:33 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 16:06:43 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 16:08:40 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 16:10:50 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 16:12:46 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 16:14:56 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 16:16:53 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 16:19:03 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 16:21:00 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 16:23:10 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 16:25:06 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 16:27:16 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 16:29:13 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 16:31:23 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 16:33:20 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 16:35:30 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 16:37:27 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 16:39:37 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 16:41:34 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 16:43:44 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 16:45:41 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 16:47:51 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 16:49:47 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 16:51:57 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 16:53:36 ERROR: DownloadXML has no connection, remotefile = http://newsrss.bbc.co.uk/rss/newsonline_world_edition/front_page/rss.xml#
+2012-06-08 16:53:36 ERROR: News Failed (0) to download http://newsrss.bbc.co.uk/rss/newsonline_world_edition/front_page/rss.xml#
+2012-06-08 16:53:38 ERROR: DownloadXML has no connection, remotefile = http://www.abc.net.au/news/feed/46182/rss.xml
+2012-06-08 16:53:38 ERROR: News Failed (0) to download http://www.abc.net.au/news/feed/46182/rss.xml
+2012-06-08 16:53:38 ERROR: DownloadXML has no connection, remotefile = http://rss.news.yahoo.com/rss/topstories
+2012-06-08 16:53:38 ERROR: News Failed (0) to download http://rss.news.yahoo.com/rss/topstories
+2012-06-08 16:53:41 ERROR: DownloadXML has no connection, remotefile = http://rss.news.yahoo.com/rss/us
+2012-06-08 16:53:41 ERROR: News Failed (0) to download http://rss.news.yahoo.com/rss/us
+2012-06-08 16:53:41 ERROR: DownloadXML has no connection, remotefile = http://rss.news.yahoo.com/rss/world
+2012-06-08 16:53:41 ERROR: News Failed (0) to download http://rss.news.yahoo.com/rss/world
+2012-06-08 16:53:41 ERROR: DownloadXML has no connection, remotefile = http://rss.slashdot.org/Slashdot/slashdotLinux
+2012-06-08 16:53:41 ERROR: News Failed (0) to download http://rss.slashdot.org/Slashdot/slashdotLinux
+2012-06-08 16:53:54 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 16:56:04 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 16:58:01 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 17:00:11 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 17:02:08 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 17:04:18 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 17:06:15 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 17:08:25 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 17:10:22 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 17:12:31 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 17:14:28 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 17:16:38 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 17:18:35 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 17:20:45 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 17:22:42 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 17:24:52 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 17:26:49 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 17:28:59 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 17:30:56 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 17:33:06 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 17:35:02 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 17:37:12 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 17:39:09 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 17:41:19 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 17:43:16 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 17:45:26 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 17:47:23 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 17:49:33 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 17:51:30 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 17:53:40 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 17:53:44 ERROR: DownloadXML has no connection, remotefile = http://newsrss.bbc.co.uk/rss/newsonline_world_edition/front_page/rss.xml#
+2012-06-08 17:53:44 ERROR: News Failed (0) to download http://newsrss.bbc.co.uk/rss/newsonline_world_edition/front_page/rss.xml#
+2012-06-08 17:53:49 ERROR: DownloadXML has no connection, remotefile = http://www.abc.net.au/news/feed/46182/rss.xml
+2012-06-08 17:53:49 ERROR: News Failed (0) to download http://www.abc.net.au/news/feed/46182/rss.xml
+2012-06-08 17:53:49 ERROR: DownloadXML has no connection, remotefile = http://rss.news.yahoo.com/rss/topstories
+2012-06-08 17:53:49 ERROR: News Failed (0) to download http://rss.news.yahoo.com/rss/topstories
+2012-06-08 17:53:49 ERROR: DownloadXML has no connection, remotefile = http://rss.news.yahoo.com/rss/us
+2012-06-08 17:53:49 ERROR: News Failed (0) to download http://rss.news.yahoo.com/rss/us
+2012-06-08 17:53:52 ERROR: DownloadXML has no connection, remotefile = http://rss.news.yahoo.com/rss/world
+2012-06-08 17:53:52 ERROR: News Failed (0) to download http://rss.news.yahoo.com/rss/world
+2012-06-08 17:53:52 ERROR: DownloadXML has no connection, remotefile = http://rss.slashdot.org/Slashdot/slashdotLinux
+2012-06-08 17:53:52 ERROR: News Failed (0) to download http://rss.slashdot.org/Slashdot/slashdotLinux
+2012-06-08 17:55:37 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 17:57:48 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 17:59:45 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 18:01:55 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 18:03:52 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 18:06:02 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 18:08:00 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 18:10:10 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-08 18:12:06 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-08 18:13:52 Application NewsCasterD v1.0.38  Shutting down
+2012-06-09 01:41:41 Application NewsCasterD v1.0.38  Restarted (192.168.245.1/Ethernet LAN), Startup sequence begun...
+2012-06-09 01:41:42 - [bad xml] 'Unexpected Exception ok' -  
+2012-06-09 01:41:57 - [bad xml] 'Unexpected Exception ok' -  
+2012-06-09 01:43:41 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-09 01:43:51 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 01:45:51 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-09 01:46:14 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 01:47:48 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-09 01:48:10 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 01:49:58 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-09 01:50:21 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 01:51:55 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-09 01:52:19 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 01:54:05 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-09 01:54:28 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 01:56:02 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-09 01:56:25 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 01:58:12 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-09 01:58:35 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 02:00:09 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-09 02:00:31 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 02:02:19 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-09 02:02:43 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 02:04:16 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-09 02:04:39 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 02:06:26 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-09 02:06:48 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 02:08:22 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-09 02:08:45 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 02:10:32 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-09 02:10:55 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 02:12:29 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-09 02:12:52 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 02:14:39 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-09 02:15:02 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 02:16:36 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-09 02:16:59 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 02:18:46 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-09 02:19:09 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 02:20:43 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-09 02:21:07 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 02:22:53 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-09 02:23:15 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 02:24:50 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-09 02:25:14 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 02:27:00 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-09 02:27:23 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 02:28:57 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-09 02:29:22 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 02:31:07 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-09 02:31:31 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 02:33:05 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-09 02:33:28 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 02:35:15 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-09 02:35:39 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 02:37:12 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-09 02:37:37 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 02:39:22 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-09 02:39:45 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 02:41:19 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-09 02:41:42 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 02:42:02 ERROR: News Failed (-2) to download http://www.abc.net.au/news/feed/46182/rss.xml
+2012-06-09 02:42:05 - [bad xml] 'Unexpected Exception ok' -  
+2012-06-09 02:43:29 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-09 02:43:52 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 02:45:26 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-09 02:45:49 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 02:47:37 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-09 02:47:59 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 02:49:34 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-09 02:49:58 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 02:51:44 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-09 02:52:06 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 02:53:41 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-09 02:54:05 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 02:55:51 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-09 02:56:14 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 02:57:48 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-09 02:58:12 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 02:59:58 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-09 03:00:23 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 03:01:55 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-09 03:02:18 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 03:04:05 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-09 03:04:30 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 03:06:02 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-09 03:06:26 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 03:08:17 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-09 03:08:39 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 03:10:13 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-09 03:10:36 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 03:12:24 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-09 03:12:46 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 03:14:21 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-09 03:14:43 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 03:16:31 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-09 03:16:53 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 03:18:28 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-09 03:18:50 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 03:20:38 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-09 03:21:04 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 03:22:35 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-09 03:22:59 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 03:24:45 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-09 03:25:08 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 03:26:42 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-09 03:27:05 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 03:28:52 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-09 03:29:15 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 03:30:49 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-09 03:31:11 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 03:33:00 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-09 03:33:23 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 03:34:57 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-09 03:35:22 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 03:37:08 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-09 03:37:34 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 03:39:05 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-09 03:39:27 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 03:41:15 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-09 03:41:38 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 03:42:07 ERROR: News Failed (-2) to download http://www.abc.net.au/news/feed/46182/rss.xml
+2012-06-09 03:43:16 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-09 03:43:40 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 03:45:26 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-09 03:45:50 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 03:47:23 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-09 03:47:46 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 03:49:34 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-09 03:49:56 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 03:51:31 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-09 03:51:57 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 03:53:41 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-09 03:54:03 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 03:55:38 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-09 03:56:02 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 03:57:48 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-09 03:58:11 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 03:59:45 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-09 04:00:09 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 04:01:56 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-09 04:02:21 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 04:03:53 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-09 04:04:16 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 04:06:03 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-09 04:06:25 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 04:08:00 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-09 04:08:23 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 04:10:10 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-09 04:10:34 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 04:12:07 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-09 04:12:30 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 04:14:18 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-09 04:14:40 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 04:16:15 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-09 04:16:37 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 04:18:25 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-09 04:18:49 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 04:20:22 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-09 04:22:32 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-09 04:22:56 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 04:24:29 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-09 04:24:52 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 04:26:39 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-09 04:27:02 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 04:28:36 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-09 04:29:01 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 04:30:46 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-09 04:31:09 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 04:32:43 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-09 04:33:05 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 04:34:53 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-09 04:35:16 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 04:36:50 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-09 04:37:13 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 04:39:01 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-09 04:39:25 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 04:40:57 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-09 04:41:20 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 04:42:32 ERROR: News Failed (-2) to download http://www.abc.net.au/news/feed/46182/rss.xml
+2012-06-09 04:43:13 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-09 04:43:37 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 04:45:10 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-09 04:45:33 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 04:47:20 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-09 04:47:44 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 04:49:17 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-09 04:49:41 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 04:51:28 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-09 04:51:53 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 04:53:24 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-09 04:53:48 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 04:55:35 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-09 04:55:58 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 04:57:32 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-09 04:57:55 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 04:59:42 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-09 05:00:06 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 05:01:39 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-09 05:02:02 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 05:03:49 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-09 05:04:15 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 05:05:46 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-09 05:06:10 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 05:07:56 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-09 05:08:19 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 05:09:54 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-09 05:10:16 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 05:12:04 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-09 05:12:27 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 05:14:01 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-09 05:14:24 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 05:16:11 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-09 05:16:37 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 05:18:08 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-09 05:18:31 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 05:20:19 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-09 05:20:43 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 05:22:15 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-09 05:22:38 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 05:24:26 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-09 05:24:49 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 05:26:23 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-09 05:26:48 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 05:28:33 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-09 05:28:57 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 05:30:30 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-09 05:30:53 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 05:32:40 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-09 05:33:02 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 05:34:37 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-09 05:34:59 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 05:36:47 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-09 05:37:12 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 05:38:44 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-09 05:39:12 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 05:40:54 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-09 05:41:19 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 05:42:40 ERROR: News Failed (-2) to download http://www.abc.net.au/news/feed/46182/rss.xml
+2012-06-09 05:42:57 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-09 05:43:21 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 05:45:07 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-09 05:45:31 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 05:47:04 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-09 05:47:28 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 05:49:14 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-09 05:49:37 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 05:51:11 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-09 05:51:36 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 05:53:21 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-09 05:53:45 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 05:55:18 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-09 05:55:41 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 05:57:29 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-09 05:57:51 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 05:59:26 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-09 05:59:49 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-09 06:00:46 Application NewsCasterD v1.0.38  Shutting down
+2012-06-10 17:28:55 Application NewsCasterD v1.0.38  Restarted (192.168.245.1/Ethernet LAN), Startup sequence begun...
+2012-06-10 17:31:32 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-10 17:31:34 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-10 17:33:51 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-10 17:34:11 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-10 17:35:47 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-10 17:36:07 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-10 17:37:57 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-10 17:38:18 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-10 17:39:54 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-10 17:40:14 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-10 17:42:04 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-10 17:42:24 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-10 17:44:00 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-10 17:44:20 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-10 17:55:08 Application NewsCasterD v1.0.38  Restarted (192.168.245.1/Ethernet LAN), Startup sequence begun...
+2012-06-10 17:59:38 Application NewsCasterD v1.0.38  Restarted (192.168.245.1/Ethernet LAN), Startup sequence begun...
+2012-06-10 19:02:20 ERROR: News Failed (-2) to download http://rss.slashdot.org/Slashdot/slashdotLinux
+2012-06-10 19:04:24 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-10 19:04:25 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-10 19:06:05 Application NewsCasterD v1.0.38  Restarted (192.168.245.1/Ethernet LAN), Startup sequence begun...
+2012-06-10 19:06:27 Application NewsCasterD v1.0.38  Shutting down
+2012-06-11 00:49:41 Application NewsCasterD v1.0.38  Restarted (192.168.245.1/Ethernet LAN), Startup sequence begun...
+2012-06-11 00:49:57 ERROR: News Failed (-2) to download http://rss.slashdot.org/Slashdot/slashdotLinux
+2012-06-11 00:51:24 Application NewsCasterD v1.0.38  Shutting down
+2012-06-11 17:23:04 Application NewsCasterD v1.0.38  Restarted (192.168.245.1/Ethernet LAN), Startup sequence begun...
+2012-06-11 17:23:09 Application NewsCasterD v1.0.38  Shutting down
+2012-06-11 21:05:44 Application NewsCasterD v1.0.38  Restarted (192.168.245.1/Ethernet LAN), Startup sequence begun...
+2012-06-11 21:05:54 MainDlg: Application NewsCasterD v1.0.38  Shutting down
+2012-06-11 21:06:22 Application NewsCasterD v1.0.38  Restarted (192.168.245.1/Ethernet LAN), Startup sequence begun...
+2012-06-11 21:06:22 - [bad xml] 'Unexpected Exception ok' -  
+2012-06-11 21:07:23 ERROR: Statuscode=404 , Remote file www.kristall.eu/images/camVga.jpg does not exist, skipping download
+2012-06-11 21:08:05 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-11 21:08:19 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-11 21:10:29 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-11 21:10:41 ERROR: Statuscode=404 , Remote file www.kristall.eu/images/camVga.jpg does not exist, skipping download
+2012-06-11 21:10:50 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-11 21:12:26 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-11 21:12:38 ERROR: Statuscode=404 , Remote file www.kristall.eu/images/camVga.jpg does not exist, skipping download
+2012-06-11 21:12:47 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-11 21:14:05 ERROR: Statuscode=404 , Remote file www.kristall.eu/images/camVga.jpg does not exist, skipping download
+2012-06-11 21:14:14 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-11 21:14:36 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-11 21:14:48 ERROR: Statuscode=404 , Remote file www.kristall.eu/images/camVga.jpg does not exist, skipping download
+2012-06-11 21:14:58 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-11 21:16:33 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-11 21:16:45 ERROR: Statuscode=404 , Remote file www.kristall.eu/images/camVga.jpg does not exist, skipping download
+2012-06-11 21:16:54 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-11 21:18:43 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-11 21:18:55 ERROR: Statuscode=404 , Remote file www.kristall.eu/images/camVga.jpg does not exist, skipping download
+2012-06-11 21:19:04 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-11 21:20:40 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-11 21:20:51 ERROR: Statuscode=404 , Remote file www.kristall.eu/images/camVga.jpg does not exist, skipping download
+2012-06-11 21:21:00 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-11 21:22:49 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-11 21:23:05 ERROR: Statuscode=404 , Remote file www.kristall.eu/images/camVga.jpg does not exist, skipping download
+2012-06-11 21:23:15 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-11 21:24:46 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-11 21:24:58 ERROR: Statuscode=404 , Remote file www.kristall.eu/images/camVga.jpg does not exist, skipping download
+2012-06-11 21:25:08 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-11 21:26:56 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-11 21:27:08 ERROR: Statuscode=404 , Remote file www.kristall.eu/images/camVga.jpg does not exist, skipping download
+2012-06-11 21:27:17 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-11 21:28:53 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-11 21:29:16 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-11 21:31:03 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-11 21:31:24 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-11 21:33:00 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-11 21:33:20 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-11 21:35:09 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-11 21:35:30 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-11 21:37:06 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-11 21:37:27 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-11 21:39:16 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-11 21:39:38 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-11 21:41:13 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-11 21:41:34 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-11 21:43:23 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-11 21:43:44 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-11 21:45:20 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-11 21:45:40 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-11 21:47:30 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-11 21:47:51 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-11 21:49:26 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-11 21:49:47 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-11 21:51:36 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-11 21:51:58 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-11 21:53:33 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-11 21:53:54 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-11 21:55:43 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-11 21:56:04 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-11 21:57:40 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-11 21:58:00 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-11 21:59:50 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-11 22:00:10 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-11 22:01:47 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-11 22:02:07 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-11 22:03:56 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-11 22:04:17 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-11 22:05:53 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-11 22:06:13 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-11 22:08:07 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-11 22:08:27 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-11 22:10:04 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-11 22:10:24 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-11 22:12:14 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-11 22:12:34 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-11 22:14:10 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-11 22:14:30 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-11 22:16:20 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-11 22:16:40 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-11 22:18:17 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-11 22:18:37 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-11 22:20:27 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-11 22:20:47 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-11 22:22:24 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-11 22:22:45 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-11 22:24:34 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-11 22:24:54 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-11 22:26:30 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-11 22:26:52 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-11 22:28:41 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-11 22:29:03 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-11 22:30:38 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-11 22:30:59 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-11 22:32:48 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-11 22:33:08 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-11 22:34:45 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-11 22:35:06 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-11 22:36:55 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-11 22:37:15 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-11 22:38:52 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-11 22:39:12 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-11 22:41:02 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-11 22:41:22 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-11 22:42:58 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-11 22:43:19 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-11 22:45:08 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-11 22:45:29 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-11 22:47:05 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-11 22:47:25 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-11 22:49:15 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-11 22:49:36 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-11 22:51:12 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-11 22:51:32 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-11 22:53:23 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-11 22:53:45 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-11 22:55:20 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-11 22:55:41 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-11 22:57:30 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg

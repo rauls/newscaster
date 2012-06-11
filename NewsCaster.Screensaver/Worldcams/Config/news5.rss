@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://purl.org/rss/1.0/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:syn="http://purl.org/rss/1.0/modules/syndication/" xmlns:admin="http://webns.net/mvcb/" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0">
+
+<channel rdf:about="http://linux.slashdot.org/">
+<title>Slashdot: Linux</title>
+<link>http://linux.slashdot.org/</link>
+<description>News for nerds, stuff that matters</description>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright 1997-2012, Geeknet, Inc.  All Rights Reserved.</dc:rights>
+<dc:date>2012-06-11T11:17:45+00:00</dc:date>
+<dc:publisher>Geeknet, Inc.</dc:publisher>
+<dc:creator>help@slashdot.org</dc:creator>
+<dc:subject>Technology</dc:subject>
+<syn:updateBase>1970-01-01T00:00+00:00</syn:updateBase>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updatePeriod>hourly</syn:updatePeriod>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://linux.slashdot.org/story/12/06/10/138214/linaro-tweaks-speed-up-android-by-up-to-100-percent?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="http://hardware.slashdot.org/story/12/06/08/0113229/linux-for-navy-drone-ground-stations?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="http://linux.slashdot.org/story/12/06/07/226241/openlogic-backs-linux-on-windows-azure-with-sla?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="http://linux.slashdot.org/story/12/06/07/1930257/linuxquestions-interviews-slackware-founder-patrick-volkerding?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="http://linux.slashdot.org/story/12/06/07/1713259/intel-builds-on-top-of-android-but-hedges-on-open-sourcing-improvements?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="http://hardware.slashdot.org/story/12/06/07/1330259/ask-slashdot-enterprise-grade-linux-networking-hardware?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="http://linux.slashdot.org/story/12/06/06/2150202/microsoft-to-run-linux-on-azure?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="http://games.slashdot.org/story/12/06/06/2050201/carmageddon-reincarnation-linux-version-confirmed?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="http://linux.slashdot.org/story/12/06/06/1232243/red-hat-clarifies-doubts-over-uefi-secure-boot-solution?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="http://games.slashdot.org/story/12/06/05/1236221/steam-for-linux-will-launch-in-2012?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="http://linux.slashdot.org/story/12/06/04/0016240/first-steps-with-the-raspberry-pi?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="http://linux.slashdot.org/story/12/06/01/2343219/making-zfs-and-dtrace-work-on-ubuntu-linux?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="http://games.slashdot.org/story/12/06/01/1428236/humble-indie-bundle-v-released?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="http://linux.slashdot.org/story/12/05/31/190217/red-hat-will-pay-microsoft-to-get-past-uefi-restrictions?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="http://news.slashdot.org/story/12/05/30/1245241/sfc-expands-gpl-compliance-efforts-to-samba-linux-and-other-projects?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+ </rdf:Seq>
+</items>
+<image rdf:resource="http://a.fsdn.com/sd/topics/topicslashdot.gif" />
+<textinput rdf:resource="http://linux.slashdot.org/search.pl" />
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rdf+xml" href="http://rss.slashdot.org/Slashdot/slashdotLinux" /><feedburner:info uri="slashdot/slashdotlinux" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /></channel>
+<image rdf:about="http://a.fsdn.com/sd/topics/topicslashdot.gif">
+<title>Slashdot: Linux</title>
+<url>http://a.fsdn.com/sd/topics/topicslashdot.gif</url>
+<link>http://linux.slashdot.org/</link>
+</image>
+<item rdf:about="http://linux.slashdot.org/story/12/06/10/138214/linaro-tweaks-speed-up-android-by-up-to-100-percent?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Linaro Tweaks Speed Up Android, By Up To 100 Percent</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdotLinux/~3/A7mWOe-O8P0/linaro-tweaks-speed-up-android-by-up-to-100-percent</link>
+<description>Argon writes with an excerpt from Liliputing of interest to Android users: "'The folks behind the Linaro open source software project have put a little time into tweaking Google Android to use the gcc 4.7 toolchain. The result is a version of Android that can perform many tasks between 30 and 100 percent faster than the version of Android Google 4.0 Google currently offers through the AOSP (Android Open Source Project).' Adds Argon: "Note that there are CPU optimizations only since they have only access to binary blobs for GPU code."&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Linaro+Tweaks+Speed+Up+Android%2C+By+Up+To+100+Percent%3A+http%3A%2F%2Fbit.ly%2FKl6PrD"&gt;&lt;img src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Flinux.slashdot.org%2Fstory%2F12%2F06%2F10%2F138214%2Flinaro-tweaks-speed-up-android-by-up-to-100-percent%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+&lt;a class="nobg" href="http://plus.google.com/share?url=http://linux.slashdot.org/story/12/06/10/138214/linaro-tweaks-speed-up-android-by-up-to-100-percent?utm_source=slashdot&amp;amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img src="http://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt;                                                                                                                                                                              
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://linux.slashdot.org/story/12/06/10/138214/linaro-tweaks-speed-up-android-by-up-to-100-percent?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~at/nuIV0tlljGJv8Hnb1c842Yqh6ys/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/nuIV0tlljGJv8Hnb1c842Yqh6ys/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~at/nuIV0tlljGJv8Hnb1c842Yqh6ys/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/nuIV0tlljGJv8Hnb1c842Yqh6ys/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdotLinux/~4/A7mWOe-O8P0" height="1" width="1"/&gt;</description>
+<dc:creator>timothy</dc:creator>
+<dc:date>2012-06-10T15:17:00+00:00</dc:date>
+<dc:subject>android</dc:subject>
+<slash:department>mowing-the-other-guy's-lawn</slash:department>
+<slash:section>linux</slash:section>
+<slash:comments>86</slash:comments>
+<slash:hit_parade>86,83,64,47,19,14,7</slash:hit_parade>
+<feedburner:origLink>http://linux.slashdot.org/story/12/06/10/138214/linaro-tweaks-speed-up-android-by-up-to-100-percent?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</feedburner:origLink></item>
+<item rdf:about="http://hardware.slashdot.org/story/12/06/08/0113229/linux-for-navy-drone-ground-stations?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Linux For Navy Drone Ground Stations</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdotLinux/~3/k1w6l_yTWUo/linux-for-navy-drone-ground-stations</link>
+<description>garymortimer writes "Raytheon will help the U.S. Navy transition to using Linux software at ground control stations for unmanned air vehicles, the Defense Department announced Wednesday. The company's intelligence and information systems unit won a $27,883,883 contract to implement the tactical control system software, used for directing vertical take-off UAVs."&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Linux+For+Navy+Drone+Ground+Stations%3A+http%3A%2F%2Fbit.ly%2FMfPvyW"&gt;&lt;img src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fhardware.slashdot.org%2Fstory%2F12%2F06%2F08%2F0113229%2Flinux-for-navy-drone-ground-stations%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+&lt;a class="nobg" href="http://plus.google.com/share?url=http://hardware.slashdot.org/story/12/06/08/0113229/linux-for-navy-drone-ground-stations?utm_source=slashdot&amp;amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img src="http://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt;                                                                                                                                                                              
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://hardware.slashdot.org/story/12/06/08/0113229/linux-for-navy-drone-ground-stations?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~at/bMDbU-GbfOKY4Q8CYchr3Ro8yKA/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/bMDbU-GbfOKY4Q8CYchr3Ro8yKA/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~at/bMDbU-GbfOKY4Q8CYchr3Ro8yKA/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/bMDbU-GbfOKY4Q8CYchr3Ro8yKA/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdotLinux/~4/k1w6l_yTWUo" height="1" width="1"/&gt;</description>
+<dc:creator>samzenpus</dc:creator>
+<dc:date>2012-06-08T05:56:00+00:00</dc:date>
+<dc:subject>robot</dc:subject>
+<slash:department>open-drone</slash:department>
+<slash:section>hardware</slash:section>
+<slash:comments>77</slash:comments>
+<slash:hit_parade>77,75,47,41,12,6,5</slash:hit_parade>
+<feedburner:origLink>http://hardware.slashdot.org/story/12/06/08/0113229/linux-for-navy-drone-ground-stations?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</feedburner:origLink></item>
+<item rdf:about="http://linux.slashdot.org/story/12/06/07/226241/openlogic-backs-linux-on-windows-azure-with-sla?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>OpenLogic Backs Linux On Windows Azure With SLA</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdotLinux/~3/IyXZqVcsexQ/openlogic-backs-linux-on-windows-azure-with-sla</link>
+<description>MikeatWired writes "OpenLogic announced on Thursday that it will provide CentOS Linux &amp;mdash; and service-level agreement (SLA) support &amp;mdash; through Microsoft's new Windows Azure gallery. Yesterday, Microsoft announced support for Linux instances on its cloud service, among other cloud news, in what Wired Enterprise's Cade Metz dubbed an Amazonian facelift. OpenLogic's Steven Grandchamp writes in a blog post that for 'enterprise developers and IT folks who are multi-source and multi-platform, today's announcement is good news. The Windows and Linux worlds take one step towards each other.' However, Grandchamp notes that despite Microsoft 'maturing its views on open source' with 'significant work' with Node.js, Hadoop, and Samba, the open source community 'will meet [Linux on Azure] with overall wariness and skepticism.' 'Some will view this with hope and a positive step; others will continue to be cynical,' he writes. 'For me, it's part of a larger overall process that continues to signal open source coming of age. What major vendor doesn't have an open source story now? It's such an ingrained part of development, from legacy to mobile to cloud, that we can't live without and we are figuring out how to love living with it.'"&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=OpenLogic+Backs+Linux+On+Windows+Azure+With+SLA%3A+http%3A%2F%2Fbit.ly%2FLwVW3b"&gt;&lt;img src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Flinux.slashdot.org%2Fstory%2F12%2F06%2F07%2F226241%2Fopenlogic-backs-linux-on-windows-azure-with-sla%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+&lt;a class="nobg" href="http://plus.google.com/share?url=http://linux.slashdot.org/story/12/06/07/226241/openlogic-backs-linux-on-windows-azure-with-sla?utm_source=slashdot&amp;amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img src="http://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt;                                                                                                                                                                              
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://linux.slashdot.org/story/12/06/07/226241/openlogic-backs-linux-on-windows-azure-with-sla?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~at/328bckz1AOt-6wRqIUmJYai7rdg/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/328bckz1AOt-6wRqIUmJYai7rdg/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~at/328bckz1AOt-6wRqIUmJYai7rdg/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/328bckz1AOt-6wRqIUmJYai7rdg/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdotLinux/~4/IyXZqVcsexQ" height="1" width="1"/&gt;</description>
+<dc:creator>samzenpus</dc:creator>
+<dc:date>2012-06-07T22:34:00+00:00</dc:date>
+<dc:subject>cloud</dc:subject>
+<slash:department>odd-couple</slash:department>
+<slash:section>linux</slash:section>
+<slash:comments>46</slash:comments>
+<slash:hit_parade>46,40,28,19,7,4,3</slash:hit_parade>
+<feedburner:origLink>http://linux.slashdot.org/story/12/06/07/226241/openlogic-backs-linux-on-windows-azure-with-sla?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</feedburner:origLink></item>
+<item rdf:about="http://linux.slashdot.org/story/12/06/07/1930257/linuxquestions-interviews-slackware-founder-patrick-volkerding?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>LinuxQuestions Interviews Slackware Founder Patrick Volkerding</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdotLinux/~3/KGzdWKyta98/linuxquestions-interviews-slackware-founder-patrick-volkerding</link>
+<description>An anonymous reader writes "In this in-depth interview with LinuxQuestions.org, Patrick Volkerding discusses how he got involved with Linux and Open Source, the succession plan for Slackware, the Slackware development model, his opinion on the current trends in desktop environments, potentially disruptive changes to Linux such as systemd, his favorite beer and much more."&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=LinuxQuestions+Interviews+Slackware+Founder+Patrick+Volkerding%3A+http%3A%2F%2Fbit.ly%2FMjLj4K"&gt;&lt;img src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Flinux.slashdot.org%2Fstory%2F12%2F06%2F07%2F1930257%2Flinuxquestions-interviews-slackware-founder-patrick-volkerding%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+&lt;a class="nobg" href="http://plus.google.com/share?url=http://linux.slashdot.org/story/12/06/07/1930257/linuxquestions-interviews-slackware-founder-patrick-volkerding?utm_source=slashdot&amp;amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img src="http://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt;                                                                                                                                                                              
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://linux.slashdot.org/story/12/06/07/1930257/linuxquestions-interviews-slackware-founder-patrick-volkerding?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~at/6mRubL01iTDt0MEHg-inGt6i_5I/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/6mRubL01iTDt0MEHg-inGt6i_5I/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~at/6mRubL01iTDt0MEHg-inGt6i_5I/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/6mRubL01iTDt0MEHg-inGt6i_5I/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdotLinux/~4/KGzdWKyta98" height="1" width="1"/&gt;</description>
+<dc:creator>timothy</dc:creator>
+<dc:date>2012-06-07T19:56:00+00:00</dc:date>
+<dc:subject>linux</dc:subject>
+<slash:department>slack-attack-orchestrator</slash:department>
+<slash:section>linux</slash:section>
+<slash:comments>56</slash:comments>
+<slash:hit_parade>56,49,31,28,8,5,2</slash:hit_parade>
+<feedburner:origLink>http://linux.slashdot.org/story/12/06/07/1930257/linuxquestions-interviews-slackware-founder-patrick-volkerding?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</feedburner:origLink></item>
+<item rdf:about="http://linux.slashdot.org/story/12/06/07/1713259/intel-builds-on-top-of-android-but-hedges-on-open-sourcing-improvements?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Intel Builds On Top of Android, But Hedges On Open-Sourcing Improvements</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdotLinux/~3/C30d0cq-Fhc/intel-builds-on-top-of-android-but-hedges-on-open-sourcing-improvements</link>
+<description>Barence writes with this news as carried by PC Pro: "Intel claims it is making significant improvements to the multicore performance of Android &amp;mdash; but isn't sure if it's willing to share them with the open-source community. Speaking to journalists in London, Intel's mobile chief Mike Bell said that Intel's engineers were making significant improvements to Android's scheduler to improve its multicore performance. 'Android doesn't make as effective use of multicore as it could,' he said. However, when pressed by PC Pro on whether those improvements would be shared with the open-source community and Intel's competitors, Bell remained non-committal. 'Where we are required to give back to open source, we do,' said Bell. 'In cases where it's not required to be open source, I'm going to think about it. I don't like doing R&amp;amp;D for competitors if they're not going to contribute themselves,' said Bell, before adding that 'in general, our philosophy is to give things back.'"&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Intel+Builds+On+Top+of+Android%2C+But+Hedges+On+Open-Sourcing+Improvements%3A+http%3A%2F%2Fbit.ly%2FLovYQY"&gt;&lt;img src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Flinux.slashdot.org%2Fstory%2F12%2F06%2F07%2F1713259%2Fintel-builds-on-top-of-android-but-hedges-on-open-sourcing-improvements%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+&lt;a class="nobg" href="http://plus.google.com/share?url=http://linux.slashdot.org/story/12/06/07/1713259/intel-builds-on-top-of-android-but-hedges-on-open-sourcing-improvements?utm_source=slashdot&amp;amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img src="http://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt;                                                                                                                                                                              
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://linux.slashdot.org/story/12/06/07/1713259/intel-builds-on-top-of-android-but-hedges-on-open-sourcing-improvements?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~at/KjATfAOOWCrvBvIGRAKbcxqOBJE/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/KjATfAOOWCrvBvIGRAKbcxqOBJE/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~at/KjATfAOOWCrvBvIGRAKbcxqOBJE/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/KjATfAOOWCrvBvIGRAKbcxqOBJE/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdotLinux/~4/C30d0cq-Fhc" height="1" width="1"/&gt;</description>
+<dc:creator>timothy</dc:creator>
+<dc:date>2012-06-07T17:35:00+00:00</dc:date>
+<dc:subject>android</dc:subject>
+<slash:department>mixed-motivations</slash:department>
+<slash:section>linux</slash:section>
+<slash:comments>155</slash:comments>
+<slash:hit_parade>155,153,117,97,30,15,8</slash:hit_parade>
+<feedburner:origLink>http://linux.slashdot.org/story/12/06/07/1713259/intel-builds-on-top-of-android-but-hedges-on-open-sourcing-improvements?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</feedburner:origLink></item>
+<item rdf:about="http://hardware.slashdot.org/story/12/06/07/1330259/ask-slashdot-enterprise-grade-linux-networking-hardware?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Ask Slashdot: Enterprise-Grade Linux Networking Hardware?</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdotLinux/~3/hWrE48P9P9M/ask-slashdot-enterprise-grade-linux-networking-hardware</link>
+<description>An anonymous reader writes "In spite of Linux's great networking capabilities, there seems to be a shortage of suitable hardware for building an enterprise-grade networking platform. I've had success on smaller projects with the Soekris offerings but they are suboptimal for large-scale deployment due to their single-board non-redundant design (eg., single power supply, lack of backup 'controller'). What is the closest thing to a modular Linux-capable platform with some level of hardware redundancy and substantial bus/backplane throughput?"&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Ask+Slashdot%3A+Enterprise-Grade+Linux+Networking+Hardware%3F%3A+http%3A%2F%2Fbit.ly%2FKkU4Zk"&gt;&lt;img src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fhardware.slashdot.org%2Fstory%2F12%2F06%2F07%2F1330259%2Fask-slashdot-enterprise-grade-linux-networking-hardware%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+&lt;a class="nobg" href="http://plus.google.com/share?url=http://hardware.slashdot.org/story/12/06/07/1330259/ask-slashdot-enterprise-grade-linux-networking-hardware?utm_source=slashdot&amp;amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img src="http://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt;                                                                                                                                                                              
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://hardware.slashdot.org/story/12/06/07/1330259/ask-slashdot-enterprise-grade-linux-networking-hardware?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~at/iUy-ZYFh7f7YZG22lXiu0PCf5QE/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/iUy-ZYFh7f7YZG22lXiu0PCf5QE/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~at/iUy-ZYFh7f7YZG22lXiu0PCf5QE/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/iUy-ZYFh7f7YZG22lXiu0PCf5QE/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdotLinux/~4/hWrE48P9P9M" height="1" width="1"/&gt;</description>
+<dc:creator>timothy</dc:creator>
+<dc:date>2012-06-07T13:47:00+00:00</dc:date>
+<dc:subject>networking</dc:subject>
+<slash:department>12-linksys-boxes-and-a-disposable-intern</slash:department>
+<slash:section>hardware</slash:section>
+<slash:comments>138</slash:comments>
+<slash:hit_parade>138,137,96,73,20,11,6</slash:hit_parade>
+<feedburner:origLink>http://hardware.slashdot.org/story/12/06/07/1330259/ask-slashdot-enterprise-grade-linux-networking-hardware?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</feedburner:origLink></item>
+<item rdf:about="http://linux.slashdot.org/story/12/06/06/2150202/microsoft-to-run-linux-on-azure?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Microsoft To Run Linux On Azure</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdotLinux/~3/0rEvO3uvKnY/microsoft-to-run-linux-on-azure</link>
+<description>snydeq writes "After years of battling Linux as a competitive threat, Microsoft is now offering Linux-based operating systems on its Windows Azure cloud service. The Linux services will go live on Azure at 4 a.m. EDT on Thursday. At that time, the Azure portal will offer a number of Linux distributions, including Suse Linux Enterprise Server 11 SP2, OpenSuse 12.01, CentOS 6.2 and Canonical Ubuntu 12.04. Azure users will be able to choose and deploy a Linux distribution from the Microsoft Windows Azure Image Gallery and be charged on an hourly pay-as-you-go basis."&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Microsoft+To+Run+Linux+On+Azure%3A+http%3A%2F%2Fbit.ly%2FKHgKa2"&gt;&lt;img src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Flinux.slashdot.org%2Fstory%2F12%2F06%2F06%2F2150202%2Fmicrosoft-to-run-linux-on-azure%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+&lt;a class="nobg" href="http://plus.google.com/share?url=http://linux.slashdot.org/story/12/06/06/2150202/microsoft-to-run-linux-on-azure?utm_source=slashdot&amp;amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img src="http://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt;                                                                                                                                                                              
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://linux.slashdot.org/story/12/06/06/2150202/microsoft-to-run-linux-on-azure?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~at/QC4JEKy98DZHXKiQoV24p6Iu2JM/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/QC4JEKy98DZHXKiQoV24p6Iu2JM/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~at/QC4JEKy98DZHXKiQoV24p6Iu2JM/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/QC4JEKy98DZHXKiQoV24p6Iu2JM/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdotLinux/~4/0rEvO3uvKnY" height="1" width="1"/&gt;</description>
+<dc:creator>samzenpus</dc:creator>
+<dc:date>2012-06-06T22:48:00+00:00</dc:date>
+<dc:subject>microsoft</dc:subject>
+<slash:department>odd-couple</slash:department>
+<slash:section>linux</slash:section>
+<slash:comments>187</slash:comments>
+<slash:hit_parade>187,179,128,86,33,19,14</slash:hit_parade>
+<feedburner:origLink>http://linux.slashdot.org/story/12/06/06/2150202/microsoft-to-run-linux-on-azure?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</feedburner:origLink></item>
+<item rdf:about="http://games.slashdot.org/story/12/06/06/2050201/carmageddon-reincarnation-linux-version-confirmed?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>&lt;em&gt;Carmageddon: Reincarnation&lt;/em&gt; Linux Version Confirmed</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdotLinux/~3/3RqWxlN3YMQ/carmageddon-reincarnation-linux-version-confirmed</link>
+<description>An anonymous reader writes "Stainless Games has been fundraising for Carmageddon: Reincarnation, a modern day remake of the classic Carmageddon racing games, on Kickstarter for weeks. Stainless said that if they hit $600,000 in pledges before time runs out, they would commit themselves to creating a Linux port of the game, as well as a MacOS port. Today they made it official: the fundraising has come so close to netting $600K overall, with a few more hours left to go, that they are officially committing themselves to creating a Linux port of the new game. PC gamers will get to play Carmageddon 4 first, with a February 2013 release date. The MacOS &amp;amp; Linux versions will follow the PC version later in 2013."&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Carmageddon%3A+Reincarnation+Linux+Version+Confirmed%3A+http%3A%2F%2Fbit.ly%2FLbNOo2"&gt;&lt;img src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fgames.slashdot.org%2Fstory%2F12%2F06%2F06%2F2050201%2Fcarmageddon-reincarnation-linux-version-confirmed%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+&lt;a class="nobg" href="http://plus.google.com/share?url=http://games.slashdot.org/story/12/06/06/2050201/carmageddon-reincarnation-linux-version-confirmed?utm_source=slashdot&amp;amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img src="http://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt;                                                                                                                                                                              
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://games.slashdot.org/story/12/06/06/2050201/carmageddon-reincarnation-linux-version-confirmed?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~at/Kg2rwXigHFNKvrvY3bH3Vr3jSE0/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/Kg2rwXigHFNKvrvY3bH3Vr3jSE0/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~at/Kg2rwXigHFNKvrvY3bH3Vr3jSE0/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/Kg2rwXigHFNKvrvY3bH3Vr3jSE0/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdotLinux/~4/3RqWxlN3YMQ" height="1" width="1"/&gt;</description>
+<dc:creator>Soulskill</dc:creator>
+<dc:date>2012-06-06T21:45:00+00:00</dc:date>
+<dc:subject>classicgames</dc:subject>
+<slash:department>putting-on-the-tux</slash:department>
+<slash:section>games</slash:section>
+<slash:comments>71</slash:comments>
+<slash:hit_parade>71,70,53,44,9,6,3</slash:hit_parade>
+<feedburner:origLink>http://games.slashdot.org/story/12/06/06/2050201/carmageddon-reincarnation-linux-version-confirmed?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</feedburner:origLink></item>
+<item rdf:about="http://linux.slashdot.org/story/12/06/06/1232243/red-hat-clarifies-doubts-over-uefi-secure-boot-solution?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Red Hat Clarifies Doubts Over UEFI Secure Boot Solution</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdotLinux/~3/HpbvOvAFy-w/red-hat-clarifies-doubts-over-uefi-secure-boot-solution</link>
+<description>sfcrazy writes "Red Hat's Tim Burke has clarified Fedora/Red Hat's solution to Microsoft's secure boot implementation. He said, 'Some conspiracy theorists bristle at the thought of Red Hat and other Linux distributions using a Microsoft initiated key registration scheme. Suffice it to say that Red Hat would not have endorsed this model if we were not comfortable that it is a good-faith initiative.'"
+
+Color me unimpressed, and certainly concerned: "A healthy dynamic of the Linux open source development model is the ability to roll-your-own. For example, users take Fedora and rebuild custom variants to meet personal interest or experiment in new innovations. Such creative individuals can also participate by simply enrolling in the $99 one time fee to license UEFI. For users performing local customization, they will have the ability to self-register their own trusted keys on their own systems at no cost." From what I can tell, the worst fears of the trusted computing initiative are coming true despite any justifications from Red Hat here. Note that the ability to install your owns keys is certainly not a guaranteed right.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Red+Hat+Clarifies+Doubts+Over+UEFI+Secure+Boot+Solution%3A+http%3A%2F%2Fbit.ly%2FL2HPBu"&gt;&lt;img src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Flinux.slashdot.org%2Fstory%2F12%2F06%2F06%2F1232243%2Fred-hat-clarifies-doubts-over-uefi-secure-boot-solution%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+&lt;a class="nobg" href="http://plus.google.com/share?url=http://linux.slashdot.org/story/12/06/06/1232243/red-hat-clarifies-doubts-over-uefi-secure-boot-solution?utm_source=slashdot&amp;amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img src="http://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt;                                                                                                                                                                              
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://linux.slashdot.org/story/12/06/06/1232243/red-hat-clarifies-doubts-over-uefi-secure-boot-solution?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~at/VbJXhYVuQX15F63y0eOsmLKrocs/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/VbJXhYVuQX15F63y0eOsmLKrocs/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~at/VbJXhYVuQX15F63y0eOsmLKrocs/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/VbJXhYVuQX15F63y0eOsmLKrocs/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdotLinux/~4/HpbvOvAFy-w" height="1" width="1"/&gt;</description>
+<dc:creator>Unknown Lamer</dc:creator>
+<dc:date>2012-06-06T12:55:00+00:00</dc:date>
+<dc:subject>redhat</dc:subject>
+<slash:department>there-goes-freedom-one</slash:department>
+<slash:section>linux</slash:section>
+<slash:comments>433</slash:comments>
+<slash:hit_parade>433,432,330,274,64,29,21</slash:hit_parade>
+<feedburner:origLink>http://linux.slashdot.org/story/12/06/06/1232243/red-hat-clarifies-doubts-over-uefi-secure-boot-solution?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</feedburner:origLink></item>
+<item rdf:about="http://games.slashdot.org/story/12/06/05/1236221/steam-for-linux-will-launch-in-2012?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Steam For Linux Will Launch In 2012</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdotLinux/~3/NeNCWbfL0eE/steam-for-linux-will-launch-in-2012</link>
+<description>An anonymous reader writes "Gabe Newell has responded to an email asking if Steam for Linux will be released this year with the simple answer 'Yes.' That means at some point in the next 7 months anyone running Linux will be able to download Steam and start playing a number of games, including at least one Valve title (most likely Left 4 Dead 2). After that the emphasis will be on game developers to start porting their Steam games over to Linux. 2012 could be a great year for gaming on Linux. The news follows the revelation in April that Valve was indeed working on a Linux port of its digital games service. At the time though, and as with all Valve software, we had no idea when it would get released."&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Steam+For+Linux+Will+Launch+In+2012%3A+http%3A%2F%2Fbit.ly%2FM3AOPi"&gt;&lt;img src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fgames.slashdot.org%2Fstory%2F12%2F06%2F05%2F1236221%2Fsteam-for-linux-will-launch-in-2012%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+&lt;a class="nobg" href="http://plus.google.com/share?url=http://games.slashdot.org/story/12/06/05/1236221/steam-for-linux-will-launch-in-2012?utm_source=slashdot&amp;amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img src="http://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt;                                                                                                                                                                              
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://games.slashdot.org/story/12/06/05/1236221/steam-for-linux-will-launch-in-2012?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~at/dEV52Hsn2e8X04JDa2KDjP_ZgiE/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/dEV52Hsn2e8X04JDa2KDjP_ZgiE/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~at/dEV52Hsn2e8X04JDa2KDjP_ZgiE/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/dEV52Hsn2e8X04JDa2KDjP_ZgiE/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdotLinux/~4/NeNCWbfL0eE" height="1" width="1"/&gt;</description>
+<dc:creator>timothy</dc:creator>
+<dc:date>2012-06-05T12:46:00+00:00</dc:date>
+<dc:subject>linuxbusiness</dc:subject>
+<slash:department>we're-getting-this-urgent-wire</slash:department>
+<slash:section>games</slash:section>
+<slash:comments>298</slash:comments>
+<slash:hit_parade>298,290,235,201,60,37,24</slash:hit_parade>
+<feedburner:origLink>http://games.slashdot.org/story/12/06/05/1236221/steam-for-linux-will-launch-in-2012?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</feedburner:origLink></item>
+<item rdf:about="http://linux.slashdot.org/story/12/06/04/0016240/first-steps-with-the-raspberry-pi?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>First Steps With the Raspberry Pi</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdotLinux/~3/OSoax3arIt0/first-steps-with-the-raspberry-pi</link>
+<description>An anonymous reader writes "The Raspberry Pi received an extraordinary amount of pre-launch coverage. It truly went viral with major news corporations such as the BBC giving extensive coverage. Not without reason, it is groundbreaking to have a small, capable computer retailing at less than the price of a new console game. There have been a number of ventures that have tried to produce a cheap computer such as a laptop and a tablet but which never materialised at these price points. Nothing comes close to the Raspberry Pi in terms of affordability, which is even more important in the current economic climate. Producing a PC capable of running Linux, Quake III-quality games, and 1080p video is worthy of praise." Beyond praise, though, this article details the hooking-up and mucking-about phases, and offers some ideas of what it's useful for.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=First+Steps+With+the+Raspberry+Pi%3A+http%3A%2F%2Fbit.ly%2FNxcvvF"&gt;&lt;img src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Flinux.slashdot.org%2Fstory%2F12%2F06%2F04%2F0016240%2Ffirst-steps-with-the-raspberry-pi%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+&lt;a class="nobg" href="http://plus.google.com/share?url=http://linux.slashdot.org/story/12/06/04/0016240/first-steps-with-the-raspberry-pi?utm_source=slashdot&amp;amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img src="http://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt;                                                                                                                                                                              
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://linux.slashdot.org/story/12/06/04/0016240/first-steps-with-the-raspberry-pi?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~at/sXUX_I7aanS6L3XGIYOnxZbmUi0/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/sXUX_I7aanS6L3XGIYOnxZbmUi0/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~at/sXUX_I7aanS6L3XGIYOnxZbmUi0/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/sXUX_I7aanS6L3XGIYOnxZbmUi0/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdotLinux/~4/OSoax3arIt0" height="1" width="1"/&gt;</description>
+<dc:creator>timothy</dc:creator>
+<dc:date>2012-06-04T00:17:00+00:00</dc:date>
+<dc:subject>education</dc:subject>
+<slash:department>free-in-cracker-jacks</slash:department>
+<slash:section>linux</slash:section>
+<slash:comments>241</slash:comments>
+<slash:hit_parade>241,228,195,165,58,32,19</slash:hit_parade>
+<feedburner:origLink>http://linux.slashdot.org/story/12/06/04/0016240/first-steps-with-the-raspberry-pi?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</feedburner:origLink></item>
+<item rdf:about="http://linux.slashdot.org/story/12/06/01/2343219/making-zfs-and-dtrace-work-on-ubuntu-linux?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Making ZFS and DTrace Work On Ubuntu Linux</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdotLinux/~3/LWnvE_9TTao/making-zfs-and-dtrace-work-on-ubuntu-linux</link>
+<description>New submitter Liberum Vir writes "Many of the people that I talk with who use Solaris-like systems mention ZFS and DTrace as the reasons they simply cannot move to Linux. So, I set out to discover how to make these two technologies work on the latest LTS release of Ubuntu. It turned out to be much easier than I expected. The ports of these technologies have come a long way. If you or someone you know is addicted to a Solaris-like system because of ZFS and DTrace, please, inquire within."&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Making+ZFS+and+DTrace+Work+On+Ubuntu+Linux%3A+http%3A%2F%2Fbit.ly%2FNqbt4w"&gt;&lt;img src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Flinux.slashdot.org%2Fstory%2F12%2F06%2F01%2F2343219%2Fmaking-zfs-and-dtrace-work-on-ubuntu-linux%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+&lt;a class="nobg" href="http://plus.google.com/share?url=http://linux.slashdot.org/story/12/06/01/2343219/making-zfs-and-dtrace-work-on-ubuntu-linux?utm_source=slashdot&amp;amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img src="http://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt;                                                                                                                                                                              
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://linux.slashdot.org/story/12/06/01/2343219/making-zfs-and-dtrace-work-on-ubuntu-linux?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~at/_9eHrkPo_l_QXtwxdpT9oEPf2oE/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/_9eHrkPo_l_QXtwxdpT9oEPf2oE/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~at/_9eHrkPo_l_QXtwxdpT9oEPf2oE/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/_9eHrkPo_l_QXtwxdpT9oEPf2oE/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdotLinux/~4/LWnvE_9TTao" height="1" width="1"/&gt;</description>
+<dc:creator>timothy</dc:creator>
+<dc:date>2012-06-01T23:44:00+00:00</dc:date>
+<dc:subject>software</dc:subject>
+<slash:department>crossing-the-platforms</slash:department>
+<slash:section>linux</slash:section>
+<slash:comments>137</slash:comments>
+<slash:hit_parade>137,132,105,84,32,18,11</slash:hit_parade>
+<feedburner:origLink>http://linux.slashdot.org/story/12/06/01/2343219/making-zfs-and-dtrace-work-on-ubuntu-linux?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</feedburner:origLink></item>
+<item rdf:about="http://games.slashdot.org/story/12/06/01/1428236/humble-indie-bundle-v-released?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Humble Indie Bundle V Released</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdotLinux/~3/c1KhqkNxM_o/humble-indie-bundle-v-released</link>
+<description>New submitter Splintercat writes "The Humble Indie Bundle V has just been released, featuring Psychonauts, LIMBO, Amnesia: The Dark Descent, Superbrothers: Sword &amp;amp; Sworcery EP, and Bastion for Windows, OSX and Linux. Ubuntu software center support has also been added as a method of downloading."&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Humble+Indie+Bundle+V+Released%3A+http%3A%2F%2Fbit.ly%2FK2kb59"&gt;&lt;img src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fgames.slashdot.org%2Fstory%2F12%2F06%2F01%2F1428236%2Fhumble-indie-bundle-v-released%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+&lt;a class="nobg" href="http://plus.google.com/share?url=http://games.slashdot.org/story/12/06/01/1428236/humble-indie-bundle-v-released?utm_source=slashdot&amp;amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img src="http://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt;                                                                                                                                                                              
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://games.slashdot.org/story/12/06/01/1428236/humble-indie-bundle-v-released?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~at/swxeuB2hcU28_LqxtwNyR8fPiCs/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/swxeuB2hcU28_LqxtwNyR8fPiCs/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~at/swxeuB2hcU28_LqxtwNyR8fPiCs/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/swxeuB2hcU28_LqxtwNyR8fPiCs/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdotLinux/~4/c1KhqkNxM_o" height="1" width="1"/&gt;</description>
+<dc:creator>Soulskill</dc:creator>
+<dc:date>2012-06-01T14:52:00+00:00</dc:date>
+<dc:subject>macosx</dc:subject>
+<slash:department>linux-is-winning-again</slash:department>
+<slash:section>games</slash:section>
+<slash:comments>144</slash:comments>
+<slash:hit_parade>144,135,94,76,22,12,10</slash:hit_parade>
+<feedburner:origLink>http://games.slashdot.org/story/12/06/01/1428236/humble-indie-bundle-v-released?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</feedburner:origLink></item>
+<item rdf:about="http://linux.slashdot.org/story/12/05/31/190217/red-hat-will-pay-microsoft-to-get-past-uefi-restrictions?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Red Hat Will Pay Microsoft To Get Past UEFI Restrictions</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdotLinux/~3/q3e_9jdp90w/red-hat-will-pay-microsoft-to-get-past-uefi-restrictions</link>
+<description>ToriaUru writes "Fedora is going to pay Microsoft to let them distribute a PC operating system. Microsoft is about to move from effectively owning the PC hardware platform to literally owning it. Once Windows 8 is released, hardware manufacturers will be forced to ship machines that refuse to run any software that is not explicitly approved by Microsoft &amp;mdash; and that includes competing operating systems like Linux. Technically Fedora didn't have to go down this path. But, as this article explains, they are between a rock and a hard place: if they didn't pay Microsoft to let them onto the PC platform, they would have to explain to their potential users how to mess with firmware settings just to install the OS. How long before circumventing the secure boot mechanism is considered a DMCA violation and a felony?" Note that the author says this is likely, but that the entire plan is not yet "set in stone."&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Red+Hat+Will+Pay+Microsoft+To+Get+Past+UEFI+Restrictions%3A+http%3A%2F%2Fbit.ly%2FJPLnuD"&gt;&lt;img src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Flinux.slashdot.org%2Fstory%2F12%2F05%2F31%2F190217%2Fred-hat-will-pay-microsoft-to-get-past-uefi-restrictions%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+&lt;a class="nobg" href="http://plus.google.com/share?url=http://linux.slashdot.org/story/12/05/31/190217/red-hat-will-pay-microsoft-to-get-past-uefi-restrictions?utm_source=slashdot&amp;amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img src="http://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt;                                                                                                                                                                              
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://linux.slashdot.org/story/12/05/31/190217/red-hat-will-pay-microsoft-to-get-past-uefi-restrictions?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~at/GjX-pjN7Mg6YNbGsr7abgXO1uAM/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/GjX-pjN7Mg6YNbGsr7abgXO1uAM/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~at/GjX-pjN7Mg6YNbGsr7abgXO1uAM/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/GjX-pjN7Mg6YNbGsr7abgXO1uAM/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdotLinux/~4/q3e_9jdp90w" height="1" width="1"/&gt;</description>
+<dc:creator>timothy</dc:creator>
+<dc:date>2012-05-31T19:04:00+00:00</dc:date>
+<dc:subject>microsoft</dc:subject>
+<slash:department>one-low-low-price-but-still</slash:department>
+<slash:section>linux</slash:section>
+<slash:comments>801</slash:comments>
+<slash:hit_parade>801,787,589,474,122,70,47</slash:hit_parade>
+<feedburner:origLink>http://linux.slashdot.org/story/12/05/31/190217/red-hat-will-pay-microsoft-to-get-past-uefi-restrictions?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</feedburner:origLink></item>
+<item rdf:about="http://news.slashdot.org/story/12/05/30/1245241/sfc-expands-gpl-compliance-efforts-to-samba-linux-and-other-projects?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>SFC Expands GPL Compliance Efforts To Samba, Linux, and Other Projects</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdotLinux/~3/89JDWzjRH0E/sfc-expands-gpl-compliance-efforts-to-samba-linux-and-other-projects</link>
+<description>An anonymous reader tipped us to news that the Software Freedom Conservancy is expanding its GPL compliance efforts. Quoting Bradley Kuhn: "This new program is an outgrowth of the debate that happened over the last few months regarding Conservancy's GPL compliance efforts. Specifically, I noticed that, buried in the FUD over the last four months regarding GPL compliance, there was one key criticism that was valid and couldn't be ignored: Linux copyright holders should be involved in compliance actions on embedded systems. Linux is a central component of such work, and the BusyBox developers agreed wholeheartedly that having some Linux developers involved with compliance would be very helpful. Conservancy has addressed this issue by building a broad coalition of copyright holders in many different projects who seek to work on compliance with Conservancy, including not just Linux and BusyBox, but other projects as well."
+
+The anonymous reader adds: "This news was also discussed in the latest episode of the Free as in Freedom Oggcast." Update: 05/30 14:20 GMT by U L: It may not be entirely clear, but several Linux developers have assigned copyright so that the Conservancy can pursue violations for them.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=SFC+Expands+GPL+Compliance+Efforts+To+Samba%2C+Linux%2C+and+Other+Projects%3A+http%3A%2F%2Fbit.ly%2FKcdfsD"&gt;&lt;img src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fnews.slashdot.org%2Fstory%2F12%2F05%2F30%2F1245241%2Fsfc-expands-gpl-compliance-efforts-to-samba-linux-and-other-projects%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+&lt;a class="nobg" href="http://plus.google.com/share?url=http://news.slashdot.org/story/12/05/30/1245241/sfc-expands-gpl-compliance-efforts-to-samba-linux-and-other-projects?utm_source=slashdot&amp;amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img src="http://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt;                                                                                                                                                                              
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://news.slashdot.org/story/12/05/30/1245241/sfc-expands-gpl-compliance-efforts-to-samba-linux-and-other-projects?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~at/HzCM8dR5Q6r00KCOVMgWD4nevO8/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/HzCM8dR5Q6r00KCOVMgWD4nevO8/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~at/HzCM8dR5Q6r00KCOVMgWD4nevO8/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/HzCM8dR5Q6r00KCOVMgWD4nevO8/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdotLinux/~4/89JDWzjRH0E" height="1" width="1"/&gt;</description>
+<dc:creator>Unknown Lamer</dc:creator>
+<dc:date>2012-05-30T13:31:00+00:00</dc:date>
+<dc:subject>gnu</dc:subject>
+<slash:department>defending-free-software</slash:department>
+<slash:section>news</slash:section>
+<slash:comments>104</slash:comments>
+<slash:hit_parade>104,100,77,64,18,8,3</slash:hit_parade>
+<feedburner:origLink>http://news.slashdot.org/story/12/05/30/1245241/sfc-expands-gpl-compliance-efforts-to-samba-linux-and-other-projects?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</feedburner:origLink></item>
+<textinput rdf:about="http://linux.slashdot.org/search.pl">
+<title>Search Slashdot</title>
+<description>Search Slashdot stories</description>
+<name>query</name>
+<link>http://linux.slashdot.org/search.pl</link>
+</textinput>
+</rdf:RDF>
