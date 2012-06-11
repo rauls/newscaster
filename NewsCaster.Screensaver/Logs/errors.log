@@ -1261,3 +1261,6 @@
 2012-06-11 22:55:20 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
 2012-06-11 22:55:41 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
 2012-06-11 22:57:30 - [media missing] 'Multimedia Error' - Could not open the file: 101_multimedia_English_001.mpg
+2012-06-11 22:57:50 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
+2012-06-11 22:59:30 - [media missing] 'Multimedia Error' - Could not open the file: http://streamsrv05.feratel.co.at/streams/1/05015_4fcdd31c-87a6.mp4
+2012-06-11 22:59:50 ERROR: Statuscode=404 , Remote file www.phantasialand.de/media_gallery/webcams/black_mamba/datei.jpg does not exist, skipping download
