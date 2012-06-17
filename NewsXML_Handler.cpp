@@ -124,7 +124,7 @@ void NewsXML_Handler::characters(const   XMLCh* const    chars,
 								   const unsigned int    length)
 {
 	char* inText = XMLString::transcode(chars);
-	CString inString = inText;
+	CString inString = inText, msg;
 	
 	switch (XML_CharState)
 	{
@@ -141,8 +141,13 @@ void NewsXML_Handler::characters(const   XMLCh* const    chars,
 			currentNewsFlash.data.text.Replace( "&#36;", "$" );
 			currentNewsFlash.data.text.Replace( "&#151;", "—" );
 			currentNewsFlash.data.text.Replace( "&#8212;", "—" );
+			currentNewsFlash.data.text.Replace( "   ", " " );
+			currentNewsFlash.data.text.Replace( "â€™", "'" );
+			currentNewsFlash.data.text.Replace( "<p>", " " );
+			currentNewsFlash.data.text.Replace( "</p", " " );
+			currentNewsFlash.data.text.Replace( "</p", " " );
 
-			OutDebugs("Loaded News '%s'", currentNewsFlash.data.text.GetBuffer(0) );
+			
 
 			if( newsSource == NEWS_YAHOO )
 			{
@@ -161,6 +166,11 @@ void NewsXML_Handler::characters(const   XMLCh* const    chars,
 				} else
 					currentNewsFlash.data.text.Empty();
 			}
+
+			msg = "Loaded News : " + currentNewsFlash.data.text;
+			msg.Replace( "\%", "\%\%" );
+			OutDebugs( msg.GetBuffer(0) );
+
 			//OutDebugs("Loaded News '%s'", currentNewsFlash.data.text.GetBuffer(0) );
 			break;
 
@@ -430,16 +440,5 @@ void NewsXML_Handler::Debug(CString debugMessage)
 	    this->m_OutputEdit->SetWindowText(tempString + debugMessage + "\r\n");
     }
 #endif
-
-
-    CStdioFile* errorFile = new CStdioFile("C:\\debug.txt", CFile::modeCreate 
-                                                          | CFile::modeNoTruncate
-                                                          | CFile::modeWrite );
-    LPCTSTR errorMessage = (LPCTSTR)debugMessage;
-    errorFile->Seek(0, CFile::end);
-    errorFile->WriteString(errorMessage);
-    errorFile->WriteString("\n");
-    errorFile->Close();
-
-	delete errorFile;
+	OutDebugs( (LPCTSTR)debugMessage );
 }

@@ -513,7 +513,9 @@ BOOL NewsDialog::LoadNextCaption()
 			if (validNewsFound)
 			{
 				newsflash1->NewsString = m_nextnewsflash.data.text;
-				OutDebugs( "NEWSDIALOG - " + newsflash1->NewsString );
+				CString msg = "NEWSDIALOG - " + newsflash1->NewsString;
+				msg.Replace("\%","\%\%");
+				OutDebugs( msg );
 			}
 			else
 			{
@@ -738,7 +740,7 @@ void CALLBACK internalTimerProc(UINT id, UINT msg,DWORD dwUser, DWORD dw1, DWORD
 			{
 				if( news )  
 					news->DoTimer();
-				OutDebugs( "internalTimerProc has been triggered (now=%f, diffus=%.0f, us_t=%.0f)", now/1000.0, diffus, us_t );
+				//OutDebugs( "internalTimerProc has been triggered (now=%f, diffus=%.0f, us_t=%.0f)", now/1000.0, diffus, us_t );
 			}
 		}
 	}

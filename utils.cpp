@@ -682,7 +682,6 @@ long OutDebug( const char *txt )
 extern void PrintDebugText( char *txt, int color=-1 );
 extern BOOL g_logdebug;
 
-static char lineout[5000];
 static CString debugMsg;
 
 CString GetLastDebugMsg( void )
@@ -694,7 +693,7 @@ long OutDebugs( const char *txt, ... )
 {
 	if ( txt )
 	{
-
+		char lineout[12000];
 		if ( txt )
 		{
 			va_list		args;

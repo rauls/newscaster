@@ -93,6 +93,7 @@ public:
 	CString StrLanguage;
 	int		IntLanguage;
 
+	CString	clientAgent;
 	// -----------------------------------
 
 	LoopDefaults impressionDefaults;
@@ -172,7 +173,8 @@ private:
 						CString fileToGet,				// file to retrieve
 					    CString fileToWrite,			// file to write to
 						CString parameters = NULL,		// cgi params
-						CString *lastDownloadDate = NULL );	// last download date to check against
+						CString *lastDownloadDate = NULL,
+						CString fileReferer = NULL );	// last download date to check against
 
     long DownloadManifestBin( CString fileToGet,     // See C++ implementation
 						CString fileToWrite,

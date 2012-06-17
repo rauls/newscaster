@@ -141,7 +141,7 @@ public:
     void 	StartNewsAndMeter();
     void 	StartImageTimer();
     
-	virtual BOOL moviePlaying() { return (videoDlg.moviePlaying); };
+	BOOL	moviePlaying();
 	void	ShowNewsDialog(void);
 	int		DoShowNextMovie(ImpressionData impression);
 
@@ -192,6 +192,7 @@ private:
 	CDC*	dialogDC;				// a handle to the device context that is assigned
 									// the address if this diaslog and used passed to display functions
 
+	CBrush	bgBrush;
 	HFONT	textFont;
 
 
@@ -246,7 +247,7 @@ public:
 	BOOL IsNetworkAvailable( int type );
 
 	int  InitFlashMovie(void);		
-	int	 InitHttpWindow(void);
+	int	 InitHttpWindow(int playLength);
 	int  SetupMovie(void);
 	void PauseMoviePlayback(void);
 	void UnPauseMoviePlayback(void);

@@ -136,6 +136,7 @@ CWidgieXML::CWidgieXML( CString language, CEdit* debugEdit )
 	m_downloadLoginCount =
 	m_downloadMediaCount = 0;
 	
+	clientAgent = "Mozilla/5.0 (compatible; NewsClient v1 ScreenSaver; www.github.com/rauls/newscaster)";
 	// default to the single list
 	SetImpressionList( 0 );
 }
@@ -270,10 +271,15 @@ static time_t	last_good_download_t = 0;
 
 			CString destFile;
 			destFile.Format( "%s\\news%d.rss", CFG->cfgLocalBaseDir + CFG->cfgLocalXML_Dir, i );
+			CString newsurl = CFG->cfgNewsRSSFeeds.GetAt( CFG->cfgNewsRSSFeeds.FindIndex(i) );
+			int tries = 10;
+			while( tries-- > 0 && downloadsize < 1 ) 
+			{
+				downloadsize = DownloadText( NULL, newsurl, destFile );
+			}
 
-			downloadsize = DownloadText( NULL, CFG->cfgNewsRSSFeeds.GetAt( CFG->cfgNewsRSSFeeds.FindIndex(i) ), destFile );
 			if( downloadsize < 1 )
-				OutDebugs( "ERROR: News Failed (%d) to download %s", downloadsize, CFG->cfgNewsRSSFeeds.GetAt( CFG->cfgNewsRSSFeeds.FindIndex(i) ) );
+				OutDebugs( "ERROR: News Failed (%d) to download %s", downloadsize, newsurl );
 			else
 				totaldownload += downloadsize;
 		}
@@ -1486,8 +1492,9 @@ long CWidgieXML::DownloadMissingContent( long *pfilesTotal, long *pfilesDone )
 				localFilename.Format( "%s%08lx.jpg", CFG->cfgLocalBaseDir + CFG->cfgLocalContentDir, CHashIt(nextImpression.m_image_file) );
 				// download the remote http data file...
 				{
-					OutDebugs( "Downloading file - %s", nextImpression.m_image_file );
-					if( downloadsize+=DownloadBin(CFG->cfgIPandPort, nextImpression.m_image_file, localFilename.GetBuffer(0), "" ) == 0 )
+					OutDebugs( "Downloading image file - %s", nextImpression.m_image_file );
+					CString referal = nextImpression.m_referal;
+					if( downloadsize += DownloadBin(CFG->cfgIPandPort, nextImpression.m_image_file, localFilename.GetBuffer(0), "", NULL, referal ) == 0 )
 					{
 						PrintDebugText( "\n\nFAILED - file does not exist on server" );
 						Sleep( 500 );
@@ -2116,7 +2123,7 @@ long CWidgieXML::DownloadManifestBin(CString remoteFile, CString fileToWrite, CS
 //
 //
 //
-long CWidgieXML::DownloadBin( CString server, CString remoteFile, CString fileToWrite, CString parameters, CString *lastDownloadDate )
+long CWidgieXML::DownloadBin( CString server, CString remoteFile, CString fileToWrite, CString parameters, CString *lastDownloadDate, CString fileReferer )
 {
 	// ----------- setup
 	CWidgieApp *cfg = CFG;
@@ -2177,7 +2184,7 @@ long CWidgieXML::DownloadBin( CString server, CString remoteFile, CString fileTo
 
 		// TODO: Add your control notification handler code here
 		if( myInternetSession == NULL )
-			myInternetSession = new CInternetSession(	NULL,
+			myInternetSession = new CInternetSession(	clientAgent,
                             							1,
                             							INTERNET_OPEN_TYPE_PRECONFIG,
                             							NULL,
@@ -2187,7 +2194,7 @@ long CWidgieXML::DownloadBin( CString server, CString remoteFile, CString fileTo
 		long port;
 		server = URLGetPort( server, &port );
 
-		CHttpConnection* myHTTPConnection = myInternetSession->GetHttpConnection(server, (INTERNET_PORT)port, NULL, NULL);
+		CHttpConnection* myHTTPConnection = myInternetSession->GetHttpConnection(server, INTERNET_FLAG_RELOAD|INTERNET_FLAG_DONT_CACHE,  (INTERNET_PORT)port, NULL, NULL);
 
 		if( parameters && !parameters.IsEmpty() )
 		{
@@ -2196,7 +2203,7 @@ long CWidgieXML::DownloadBin( CString server, CString remoteFile, CString fileTo
 
 		OutDebugs( "DOWNLOADING BINARY : '%s%s'", server.GetBuffer(0), fileToGet.GetBuffer(0) );
 
-		CHttpFile *httpFile = myHTTPConnection->OpenRequest("",fileToGet,NULL,0,NULL,NULL,0);
+		CHttpFile *httpFile = myHTTPConnection->OpenRequest("",fileToGet,fileReferer,0,NULL,NULL,INTERNET_FLAG_RELOAD|INTERNET_FLAG_DONT_CACHE);
 
 		//INTERNET_OPTION_RECEIVE_TIMEOUT 
 		//Sets or retrieves an unsigned long integer value that contains the time-out value, in milliseconds, to receive a 
@@ -2226,7 +2233,7 @@ long CWidgieXML::DownloadBin( CString server, CString remoteFile, CString fileTo
 
 			// Lets fine out if the file is already on the local disc...
 			long statusCode = 200;
-			long dataToGet, len;
+			DWORD dataToGet, len;
 
 			len = 32;
 			if( httpFile->QueryInfo( HTTP_QUERY_CONTENT_LENGTH , buffMemory, (LPDWORD)&len, NULL ) )

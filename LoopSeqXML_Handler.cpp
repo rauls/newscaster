@@ -166,6 +166,16 @@ void LoopSeqXML_Handler::characters(const   XMLCh* const    chars,
 				}
 			}
 			break;
+
+		case IMPRESSION_DURATION :
+			if( inText)
+			{
+				if( isdigit( *inText ) )
+				{
+					currentImpression.m_playlength = atoi(inText);		// or use the value directly
+				}
+			}
+			break;
 	
 		case IMPRESSION_VOLUME :
 			currentImpression.m_volume = atoi(inText);
@@ -177,9 +187,20 @@ void LoopSeqXML_Handler::characters(const   XMLCh* const    chars,
 			currentImpression.m_image_file = inText;
 			break;
 
+		case IMPRESSION_REFERAL :
+			currentImpression.m_referal = inText;
+			break;
+
 		case IMPRESSION_IMAGEURL :			// MDID support for direct URL
+			if( char *lf = strchr(inText,10) ) {
+				*lf = 0;
+			}
 			currentImpression.m_image_url = inText;
 			currentImpression.m_image_url.Replace( "&amp;", "&" );			// fix html codes
+			break;
+
+		case IMPRESSION_URLPARAMS :
+			currentImpression.m_url_params = inText;
 			break;
 
 		case IMPRESSION_IMAGE_ID :
@@ -191,8 +212,12 @@ void LoopSeqXML_Handler::characters(const   XMLCh* const    chars,
 			break;
 
 		case IMPRESSION_MULTIMEDIA :
-			if( inText && *inText != 10 )
+			if( char *lf = strchr(inText,10) ) {
+				*lf = 0;
+			}
+			if( currentImpression.m_multimedia_file.GetLength() == 0 ) {
 				currentImpression.m_multimedia_file = inText;
+			}
 			break;
 
 		case IMPRESSION_FIELD:
@@ -756,6 +781,11 @@ void LoopSeqXML_Handler::startElement(const   XMLCh* const    uri,
 				XML_CharState = IMPRESSION_PLAYLENGTH;
 				gotPlaylength = TRUE;
 			} else
+			if (elementString.Compare("duration") == 0)
+			{
+				XML_CharState = IMPRESSION_DURATION;
+				gotPlaylength = TRUE;
+			} else
 			if (elementString.Compare("volume") == 0)
 			{
 				XML_CharState = IMPRESSION_VOLUME;
@@ -766,10 +796,37 @@ void LoopSeqXML_Handler::startElement(const   XMLCh* const    uri,
 				XML_CharState = IMPRESSION_IMAGE;
 				gotImage = TRUE;
 			} else
+			if (elementString.Compare("image_dir") == 0 )
+			{
+				XML_CharState = IMPRESSION_IMAGEDIR;
+				gotImage = TRUE;
+			} else
+			if (elementString.Compare("referal") == 0 )
+			{
+				XML_CharState = IMPRESSION_REFERAL;
+			} else
 			if (elementString.Compare("multimedia_file") == 0 || elementString.Compare("media_file") == 0 )
 			{
 				XML_CharState = IMPRESSION_MULTIMEDIA;
 				gotMultimedia = TRUE;
+			} else
+			if (elementString.Compare("multimedia_dir") == 0 || elementString.Compare("media_dir") == 0 )
+			{
+				XML_CharState = IMPRESSION_MULTIMEDIADIR;
+				gotMultimedia = TRUE;
+			} else
+			if (elementString.Compare("multimedia_url") == 0 || elementString.Compare("media_url") == 0 )
+			{
+				XML_CharState = IMPRESSION_MULTIMEDIAURL;
+				gotMultimedia = TRUE;
+			} else
+			if (elementString.Compare("url_params") == 0 )
+			{
+				XML_CharState = IMPRESSION_URLPARAMS;
+			} else
+			if (elementString.Compare("include") == 0 )
+			{
+				XML_CharState = IMPRESSION_INCLUDE;
 			} else
 			// ============= MDID SPECIFIC ELEMENTS TO DETECT ==========
 			if (elementString.CompareNoCase("slideid") == 0)

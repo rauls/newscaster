@@ -35,6 +35,8 @@ typedef struct ImpressionData   // structure to store strings and intergers
 	CString m_image_file_type;	// jpeg 
 	CString m_multimedia_file;	// optional video file.
 	CString m_multimedia_file_type;	// we can figure this out
+	CString m_url_params;
+	CString	m_referal;
 
 	CString m_scheduleStart;
 	CString m_scheduleEnd;

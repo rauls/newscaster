@@ -37,12 +37,12 @@ BOOL CHtmlCtrl::CreateFromStatic(UINT nID, CWnd* pParent)
 
 	// create HTML control (CHtmlView)
 	return Create(NULL,						 // class name
-		NULL,										 // title
+		NULL,								 // title
 		(WS_CHILD | WS_VISIBLE ),			 // style
-		rc,										 // rectangle
-		pParent,									 // parent
-		nID,										 // control ID
-		NULL);									 // frame/doc context not used
+		rc,									 // rectangle
+		pParent,							 // parent
+		nID,								 // control ID
+		NULL);								 // frame/doc context not used
 }
 
 

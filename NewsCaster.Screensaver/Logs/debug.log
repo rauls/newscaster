@@ -115,3 +115,259 @@
 2012-06-11 21:06:22 - DEBUG: Config
 2012-06-11 21:06:22 - DEBUG: Manifest
 2012-06-11 21:06:22 - DEBUG: Done.
+2012-06-12 10:19:11 - Application NewsCasterD v1.0.38  Restarted (169.254.156.113/Ethernet LAN), Startup sequence begun...
+2012-06-12 10:19:11 - DEBUG: InitApplication() Starting
+2012-06-12 10:19:11 - DEBUG: Parsing News
+2012-06-12 10:19:13 - DEBUG: Slideshow
+2012-06-12 10:19:13 - DEBUG: Config
+2012-06-12 10:19:13 - DEBUG: Manifest
+2012-06-12 10:19:13 - DEBUG: Done.
+2012-06-13 09:09:40 - Application NewsCasterD v1.0.38  Restarted (192.168.26.77/Ethernet LAN), Startup sequence begun...
+2012-06-13 09:09:40 - DEBUG: InitApplication() Starting
+2012-06-13 09:09:40 - DEBUG: Parsing News
+2012-06-13 09:09:42 - DEBUG: Slideshow
+2012-06-13 09:09:42 - DEBUG: Config
+2012-06-13 09:09:42 - DEBUG: Manifest
+2012-06-13 09:09:42 - DEBUG: Done.
+2012-06-13 21:18:44 - Application NewsCasterD v1.0.38  Restarted (192.168.245.1/Ethernet LAN), Startup sequence begun...
+2012-06-13 21:18:44 - DEBUG: InitApplication() Starting
+2012-06-13 21:18:44 - DEBUG: Parsing News
+2012-06-13 21:18:47 - DEBUG: Slideshow
+2012-06-13 21:18:47 - DEBUG: Config
+2012-06-13 21:18:47 - DEBUG: Manifest
+2012-06-13 21:18:47 - DEBUG: Done.
+2012-06-13 23:59:18 - Application NewsCasterD v1.0.38  Restarted (192.168.245.1/Ethernet LAN), Startup sequence begun...
+2012-06-13 23:59:18 - DEBUG: InitApplication() Starting
+2012-06-13 23:59:18 - DEBUG: Parsing News
+2012-06-13 23:59:21 - DEBUG: Slideshow
+2012-06-13 23:59:21 - DEBUG: Config
+2012-06-13 23:59:21 - DEBUG: Manifest
+2012-06-13 23:59:21 - DEBUG: Done.
+2012-06-14 00:18:20 - Application NewsCasterD v1.0.38  Restarted (192.168.245.1/Ethernet LAN), Startup sequence begun...
+2012-06-14 00:18:20 - DEBUG: InitApplication() Starting
+2012-06-14 00:18:20 - DEBUG: Parsing News
+2012-06-14 00:18:23 - DEBUG: Slideshow
+2012-06-14 00:18:23 - DEBUG: Config
+2012-06-14 00:18:23 - DEBUG: Manifest
+2012-06-14 00:18:23 - DEBUG: Done.
+2012-06-14 06:31:51 - Application NewsCasterD v1.0.38  Restarted (192.168.245.1/Ethernet LAN), Startup sequence begun...
+2012-06-14 06:31:53 - DEBUG: InitApplication() Starting
+2012-06-14 06:31:53 - DEBUG: Parsing News
+2012-06-14 06:31:55 - DEBUG: Slideshow
+2012-06-14 06:31:56 - DEBUG: Config
+2012-06-14 06:31:56 - DEBUG: Manifest
+2012-06-14 06:31:56 - DEBUG: Done.
+2012-06-14 07:37:07 - Application NewsCasterD v1.0.38  Restarted (192.168.245.1/Ethernet LAN), Startup sequence begun...
+2012-06-14 07:37:07 - DEBUG: InitApplication() Starting
+2012-06-14 07:37:07 - DEBUG: Parsing News
+2012-06-14 07:37:08 - DEBUG: Slideshow
+2012-06-14 07:37:10 - DEBUG: Config
+2012-06-14 07:37:10 - DEBUG: Manifest
+2012-06-14 07:37:10 - DEBUG: Done.
+2012-06-14 13:59:30 - Application NewsCasterD v1.0.38  Restarted (192.168.26.73/Ethernet LAN), Startup sequence begun...
+2012-06-14 13:59:30 - DEBUG: InitApplication() Starting
+2012-06-14 13:59:30 - DEBUG: Parsing News
+2012-06-14 13:59:32 - DEBUG: Slideshow
+2012-06-14 13:59:32 - DEBUG: Config
+2012-06-14 13:59:32 - DEBUG: Manifest
+2012-06-14 13:59:32 - DEBUG: Done.
+2012-06-14 16:01:48 - Application NewsCasterD v1.0.38  Restarted (192.168.26.73/Ethernet LAN), Startup sequence begun...
+2012-06-14 16:01:48 - DEBUG: InitApplication() Starting
+2012-06-14 16:01:48 - DEBUG: Parsing News
+2012-06-14 16:01:49 - DEBUG: Slideshow
+2012-06-14 16:01:50 - DEBUG: Config
+2012-06-14 16:01:50 - DEBUG: Manifest
+2012-06-14 16:01:50 - DEBUG: Done.
+2012-06-14 16:19:38 - Application NewsCasterD v1.0.38  Restarted (192.168.26.73/Ethernet LAN), Startup sequence begun...
+2012-06-14 16:19:38 - DEBUG: InitApplication() Starting
+2012-06-14 16:19:38 - DEBUG: Parsing News
+2012-06-14 16:21:44 - Application NewsCasterD v1.0.38  Restarted (192.168.26.73/Ethernet LAN), Startup sequence begun...
+2012-06-14 16:21:44 - DEBUG: InitApplication() Starting
+2012-06-14 16:21:44 - DEBUG: Parsing News
+2012-06-14 16:21:46 - DEBUG: Slideshow
+2012-06-14 16:21:46 - DEBUG: Config
+2012-06-14 16:21:46 - DEBUG: Manifest
+2012-06-14 16:21:46 - DEBUG: Done.
+2012-06-14 16:56:23 - Application NewsCasterD v1.0.38  Restarted (192.168.26.73/Ethernet LAN), Startup sequence begun...
+2012-06-14 16:56:23 - DEBUG: InitApplication() Starting
+2012-06-14 16:56:23 - DEBUG: Parsing News
+2012-06-14 16:56:25 - DEBUG: Slideshow
+2012-06-14 16:56:25 - DEBUG: Config
+2012-06-14 16:56:25 - DEBUG: Manifest
+2012-06-14 16:56:25 - DEBUG: Done.
+2012-06-14 20:41:35 - Application NewsCasterD v1.0.38  Restarted (192.168.245.1/Ethernet LAN), Startup sequence begun...
+2012-06-14 20:41:35 - DEBUG: InitApplication() Starting
+2012-06-14 20:41:35 - DEBUG: Parsing News
+2012-06-14 20:41:37 - DEBUG: Slideshow
+2012-06-14 20:41:37 - DEBUG: Config
+2012-06-14 20:41:37 - DEBUG: Manifest
+2012-06-14 20:41:37 - DEBUG: Done.
+2012-06-14 22:06:59 - Application NewsCasterD v1.0.38  Restarted (192.168.245.1/Ethernet LAN), Startup sequence begun...
+2012-06-14 22:06:59 - DEBUG: InitApplication() Starting
+2012-06-14 22:06:59 - DEBUG: Parsing News
+2012-06-14 22:07:01 - DEBUG: Slideshow
+2012-06-14 22:28:23 - Application NewsCasterD v1.0.38  Restarted (192.168.245.1/Ethernet LAN), Startup sequence begun...
+2012-06-14 22:28:23 - DEBUG: InitApplication() Starting
+2012-06-14 22:28:23 - DEBUG: Parsing News
+2012-06-14 22:28:26 - DEBUG: Slideshow
+2012-06-14 22:36:24 - Application NewsCasterD v1.0.38  Restarted (192.168.245.1/Ethernet LAN), Startup sequence begun...
+2012-06-14 22:36:24 - DEBUG: InitApplication() Starting
+2012-06-14 22:36:24 - DEBUG: Parsing News
+2012-06-14 22:36:26 - DEBUG: Slideshow
+2012-06-14 22:36:26 - DEBUG: Config
+2012-06-14 22:36:26 - DEBUG: Manifest
+2012-06-14 22:36:26 - DEBUG: Done.
+2012-06-14 22:49:16 - Application NewsCasterD v1.0.38  Restarted (192.168.245.1/Ethernet LAN), Startup sequence begun...
+2012-06-14 22:49:16 - DEBUG: InitApplication() Starting
+2012-06-14 22:49:16 - DEBUG: Parsing News
+2012-06-14 22:49:19 - DEBUG: Slideshow
+2012-06-14 23:07:48 - DEBUG: Config
+2012-06-14 23:07:49 - DEBUG: Manifest
+2012-06-14 23:07:49 - DEBUG: Done.
+2012-06-14 23:52:46 - Application NewsCasterD v1.0.38  Restarted (192.168.245.1/Ethernet LAN), Startup sequence begun...
+2012-06-14 23:52:46 - DEBUG: InitApplication() Starting
+2012-06-14 23:52:46 - DEBUG: Parsing News
+2012-06-14 23:52:47 - DEBUG: Slideshow
+2012-06-14 23:52:47 - DEBUG: Config
+2012-06-14 23:52:47 - DEBUG: Manifest
+2012-06-14 23:52:48 - DEBUG: Done.
+2012-06-15 00:57:43 - Application NewsCasterD v1.0.38  Restarted (192.168.245.1/Ethernet LAN), Startup sequence begun...
+2012-06-15 00:57:43 - DEBUG: InitApplication() Starting
+2012-06-15 00:57:43 - DEBUG: Parsing News
+2012-06-15 00:57:45 - DEBUG: Slideshow
+2012-06-15 00:57:46 - DEBUG: Config
+2012-06-15 00:57:46 - DEBUG: Manifest
+2012-06-15 00:57:46 - DEBUG: Done.
+2012-06-15 01:08:35 - Application NewsCasterD v1.0.38  Restarted (192.168.245.1/Ethernet LAN), Startup sequence begun...
+2012-06-15 01:08:35 - DEBUG: InitApplication() Starting
+2012-06-15 01:08:35 - DEBUG: Parsing News
+2012-06-15 01:08:38 - DEBUG: Slideshow
+2012-06-15 01:08:38 - DEBUG: Config
+2012-06-15 01:08:41 - DEBUG: Manifest
+2012-06-15 01:08:41 - DEBUG: Done.
+2012-06-15 01:29:45 - Application NewsCasterD v1.0.38  Restarted (192.168.245.1/Ethernet LAN), Startup sequence begun...
+2012-06-15 01:29:45 - DEBUG: InitApplication() Starting
+2012-06-15 01:29:45 - DEBUG: Parsing News
+2012-06-15 01:29:48 - DEBUG: Slideshow
+2012-06-15 01:29:48 - DEBUG: Config
+2012-06-15 01:29:48 - DEBUG: Manifest
+2012-06-15 01:29:48 - DEBUG: Done.
+2012-06-15 09:44:36 - Application NewsCasterD v1.0.38  Restarted (192.168.26.77/Ethernet LAN), Startup sequence begun...
+2012-06-15 09:44:36 - DEBUG: InitApplication() Starting
+2012-06-15 09:44:36 - DEBUG: Parsing News
+2012-06-15 09:44:39 - DEBUG: Slideshow
+2012-06-15 09:44:39 - DEBUG: Config
+2012-06-15 09:44:39 - DEBUG: Manifest
+2012-06-15 09:44:39 - DEBUG: Done.
+2012-06-15 11:33:34 - Application NewsCasterD v1.0.38  Restarted (192.168.26.77/Ethernet LAN), Startup sequence begun...
+2012-06-15 11:33:34 - DEBUG: InitApplication() Starting
+2012-06-15 11:33:34 - DEBUG: Parsing News
+2012-06-15 11:33:35 - DEBUG: Slideshow
+2012-06-15 11:33:35 - DEBUG: Config
+2012-06-15 11:33:35 - DEBUG: Manifest
+2012-06-15 11:33:35 - DEBUG: Done.
+2012-06-15 21:39:55 - Application NewsCasterD v1.0.38  Restarted (192.168.245.1/Ethernet LAN), Startup sequence begun...
+2012-06-15 21:39:56 - DEBUG: InitApplication() Starting
+2012-06-15 21:39:56 - DEBUG: Parsing News
+2012-06-15 21:39:58 - DEBUG: Slideshow
+2012-06-15 21:39:58 - DEBUG: Config
+2012-06-15 21:39:58 - DEBUG: Manifest
+2012-06-15 21:39:58 - DEBUG: Done.
+2012-06-15 21:48:33 - Application NewsCasterD v1.0.38  Restarted (192.168.245.1/Ethernet LAN), Startup sequence begun...
+2012-06-15 21:48:33 - DEBUG: InitApplication() Starting
+2012-06-15 21:48:33 - DEBUG: Parsing News
+2012-06-15 21:48:36 - DEBUG: Slideshow
+2012-06-15 21:48:36 - DEBUG: Config
+2012-06-15 21:48:36 - DEBUG: Manifest
+2012-06-15 21:48:36 - DEBUG: Done.
+2012-06-16 00:59:05 - Application NewsCasterD v1.0.38  Restarted (192.168.245.1/Ethernet LAN), Startup sequence begun...
+2012-06-16 00:59:05 - DEBUG: InitApplication() Starting
+2012-06-16 00:59:05 - DEBUG: Parsing News
+2012-06-16 00:59:08 - DEBUG: Slideshow
+2012-06-16 00:59:08 - DEBUG: Config
+2012-06-16 00:59:08 - DEBUG: Manifest
+2012-06-16 00:59:08 - DEBUG: Done.
+2012-06-16 12:03:41 - Application NewsCasterD v1.0.38  Restarted (192.168.245.1/Ethernet LAN), Startup sequence begun...
+2012-06-16 12:03:41 - DEBUG: InitApplication() Starting
+2012-06-16 12:03:41 - DEBUG: Parsing News
+2012-06-16 12:03:43 - DEBUG: Slideshow
+2012-06-16 12:03:43 - DEBUG: Config
+2012-06-16 12:03:43 - DEBUG: Manifest
+2012-06-16 12:03:43 - DEBUG: Done.
+2012-06-16 18:59:37 - Application NewsCasterD v1.0.38  Restarted (192.168.245.1/Ethernet LAN), Startup sequence begun...
+2012-06-16 18:59:37 - DEBUG: InitApplication() Starting
+2012-06-16 18:59:37 - DEBUG: Parsing News
+2012-06-16 18:59:39 - DEBUG: Slideshow
+2012-06-16 18:59:39 - DEBUG: Config
+2012-06-16 18:59:39 - DEBUG: Manifest
+2012-06-16 18:59:39 - DEBUG: Done.
+2012-06-16 19:01:12 - Application NewsCasterD v1.0.38  Restarted (192.168.245.1/Ethernet LAN), Startup sequence begun...
+2012-06-16 19:01:12 - DEBUG: InitApplication() Starting
+2012-06-16 19:01:12 - DEBUG: Parsing News
+2012-06-16 19:01:13 - DEBUG: Slideshow
+2012-06-16 19:01:15 - DEBUG: Config
+2012-06-16 19:01:15 - DEBUG: Manifest
+2012-06-16 19:01:15 - DEBUG: Done.
+2012-06-16 19:02:26 - Application NewsCasterD v1.0.38  Restarted (192.168.245.1/Ethernet LAN), Startup sequence begun...
+2012-06-16 19:02:26 - DEBUG: InitApplication() Starting
+2012-06-16 19:02:26 - DEBUG: Parsing News
+2012-06-16 19:02:28 - DEBUG: Slideshow
+2012-06-16 19:02:28 - DEBUG: Config
+2012-06-16 19:02:28 - DEBUG: Manifest
+2012-06-16 19:02:28 - DEBUG: Done.
+2012-06-16 19:14:57 - Application NewsCasterD v1.0.38  Restarted (192.168.245.1/Ethernet LAN), Startup sequence begun...
+2012-06-16 19:14:57 - DEBUG: InitApplication() Starting
+2012-06-16 19:14:57 - DEBUG: Parsing News
+2012-06-16 19:14:59 - DEBUG: Slideshow
+2012-06-16 19:14:59 - DEBUG: Config
+2012-06-16 19:14:59 - DEBUG: Manifest
+2012-06-16 19:14:59 - DEBUG: Done.
+2012-06-16 20:17:08 - Application NewsCasterD v1.0.38  Restarted (192.168.245.1/Ethernet LAN), Startup sequence begun...
+2012-06-16 20:17:08 - DEBUG: InitApplication() Starting
+2012-06-16 20:17:08 - DEBUG: Parsing News
+2012-06-16 20:17:12 - DEBUG: Slideshow
+2012-06-16 20:17:12 - DEBUG: Config
+2012-06-16 20:17:12 - DEBUG: Manifest
+2012-06-16 20:17:12 - DEBUG: Done.
+2012-06-17 08:59:23 - Application NewsCasterD v1.0.38  Restarted (192.168.245.1/Ethernet LAN), Startup sequence begun...
+2012-06-17 08:59:23 - DEBUG: InitApplication() Starting
+2012-06-17 08:59:23 - DEBUG: Parsing News
+2012-06-17 08:59:25 - DEBUG: Slideshow
+2012-06-17 08:59:25 - DEBUG: Config
+2012-06-17 08:59:25 - DEBUG: Manifest
+2012-06-17 08:59:25 - DEBUG: Done.
+2012-06-17 14:32:51 - Application NewsCasterD v1.0.38  Restarted (192.168.245.1/Ethernet LAN), Startup sequence begun...
+2012-06-17 14:32:51 - DEBUG: InitApplication() Starting
+2012-06-17 14:32:51 - DEBUG: Parsing News
+2012-06-17 14:32:53 - DEBUG: Slideshow
+2012-06-17 14:32:53 - DEBUG: Config
+2012-06-17 14:32:53 - DEBUG: Manifest
+2012-06-17 14:32:53 - DEBUG: Done.
+2012-06-17 15:32:22 - Application NewsCasterD v1.0.38  Restarted (192.168.245.1/Ethernet LAN), Startup sequence begun...
+2012-06-17 15:32:22 - DEBUG: InitApplication() Starting
+2012-06-17 15:32:22 - DEBUG: Parsing News
+2012-06-17 15:32:23 - DEBUG: Slideshow
+2012-06-17 15:32:23 - DEBUG: Config
+2012-06-17 15:32:23 - DEBUG: Manifest
+2012-06-17 15:32:23 - DEBUG: Done.
+2012-06-17 17:42:45 - Application NewsCasterD v1.0.38  Restarted (192.168.245.1/Ethernet LAN), Startup sequence begun...
+2012-06-17 17:42:45 - DEBUG: InitApplication() Starting
+2012-06-17 17:42:45 - DEBUG: Parsing News
+2012-06-17 17:42:48 - DEBUG: Slideshow
+2012-06-17 17:42:48 - DEBUG: Config
+2012-06-17 17:42:48 - DEBUG: Manifest
+2012-06-17 17:42:48 - DEBUG: Done.
+2012-06-17 17:44:37 - Application NewsCasterD v1.0.38  Restarted (192.168.245.1/Ethernet LAN), Startup sequence begun...
+2012-06-17 17:44:37 - DEBUG: InitApplication() Starting
+2012-06-17 17:44:37 - DEBUG: Parsing News
+2012-06-17 17:44:39 - DEBUG: Slideshow
+2012-06-17 17:44:40 - DEBUG: Config
+2012-06-17 17:44:40 - DEBUG: Manifest
+2012-06-17 17:44:40 - DEBUG: Done.
+2012-06-17 17:46:50 - Application NewsCasterD v1.0.38  Restarted (192.168.245.1/Ethernet LAN), Startup sequence begun...
+2012-06-17 17:46:50 - DEBUG: InitApplication() Starting
+2012-06-17 17:46:50 - DEBUG: Parsing News
+2012-06-17 17:46:52 - DEBUG: Slideshow
+2012-06-17 17:46:52 - DEBUG: Config
+2012-06-17 17:46:52 - DEBUG: Manifest
+2012-06-17 17:46:52 - DEBUG: Done.

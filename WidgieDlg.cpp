@@ -573,7 +573,7 @@ void CWidgieDlg::OnShowWindow(BOOL bShow, UINT nStatus)
     GetClientRect(&myRect);
     dialogDC = GetDC();
 
-    CBrush bgBrush;
+	SetBkColor(dialogDC->m_hDC, ptheApp->cfgBackgroundColor);
     bgBrush.CreateSolidBrush(ptheApp->cfgBackgroundColor);
     dialogDC->FillRect(&myRect, &bgBrush);
 
@@ -997,9 +997,9 @@ int CWidgieDlg::DisplayScreenMessage( CString message, long duration )
 			destRC.right = CFG->cfgWidth();
 			destRC.bottom = CFG->cfgHeight();
 
-			CBrush bgBrush;
-			bgBrush.CreateSolidBrush( textColorBG );
-			pDC->FillRect( &destRC, &bgBrush );
+			CBrush bgTextBrush;
+			bgTextBrush.CreateSolidBrush( textColorBG );
+			pDC->FillRect( &destRC, &bgTextBrush );
 			pDC->SetBkColor( 0x00000000 );
 			pDC->SetTextColor( 0xFFFFFF );
 			pDC->SetBkMode( OPAQUE );
@@ -1089,7 +1089,7 @@ BOOL CWidgieDlg::LoadImpressionImage()
 			bResult = myImage->Load( bmpFN.GetBuffer(0) );		// if we cant load bmp version, try loading jpeg version
 			t_jpeg = timeGetTime() - t_jpeg;
 
-			OutDebugs( "Load Image slideid-%d imageid-%s (%s)", nextImpression.m_id, nextImpression.m_image_id, nextImpression.m_image_file );
+			OutDebugs( "Load Try BMP Image slideid-%d imageid-%s (%s)", nextImpression.m_id, nextImpression.m_image_id, nextImpression.m_image_file );
 
 			//OutDebugs( "LoadImpressionImage - Load BMP (%ldms) %s", t_jpeg, bmpFN.GetBuffer(0) );
 
@@ -1098,7 +1098,10 @@ BOOL CWidgieDlg::LoadImpressionImage()
 			{
 				//OutDebugs( "LoadImpressionImage - Load JPEG %s", fileToShow.GetBuffer(0) );
 				t_jpeg2 = timeGetTime();
-				bResult = myImage->Load( fileToShow.GetBuffer(0) );
+				int tries = 10;
+				while( tries-- > 0 && bResult != S_OK ) {
+					bResult = myImage->Load( fileToShow.GetBuffer(0) );
+				}
 
 				if( bResult != S_OK )
 				{
@@ -1120,9 +1123,7 @@ BOOL CWidgieDlg::LoadImpressionImage()
 				}
 				else
 				{
-					OutDebugs( "ERROR: Failed to load impression image %s", fileToShow.GetBuffer(0) );
-					Sleep( 200 );
-
+					OutDebugs( "ERROR: %d Failed to load impression image %s", bResult, fileToShow.GetBuffer(0) );
 					// force a download if no file found.
 					ResetLastDownloadTime();
 				}
@@ -1146,12 +1147,50 @@ BOOL CWidgieDlg::LoadImpressionImage()
 				if( pDC && pDC->m_hDC )
 				{
 					RECT destRC = { 0,0,DEFAULT_SCREEN_W,DEFAULT_SCREEN_H };
+					RECT blankarea = { 0, 0, DEFAULT_SCREEN_W,DEFAULT_SCREEN_H };
+					RECT blankarea2 = { 0, 0, DEFAULT_SCREEN_W,DEFAULT_SCREEN_H };
+
 					destRC.bottom = CFG->cfgHeight();
 					destRC.right = CFG->cfgWidth();
+					double dest_ratio = destRC.right / (double)destRC.bottom; 
 
 					RECT srcRC = { 0,0,800,600 };
 					srcRC.bottom = myImage->GetHeight();
 					srcRC.right = myImage->GetWidth();
+					double source_ratio = srcRC.right / (double)srcRC.bottom;
+
+					double ard	= source_ratio - dest_ratio;	// aspect ratio diff
+					int xd		= destRC.right - srcRC.right;	// x diff
+					double xr	= destRC.right / (double)srcRC.right;	// x ratio diff
+					int yd		= destRC.bottom - srcRC.bottom;	// y diff
+					double yr	= destRC.bottom / (double)srcRC.bottom;  // y ratio diff
+
+					if( source_ratio > dest_ratio )				// Wide to Square
+					{
+						int dest_ys = xr * srcRC.bottom;
+						int blank_s = destRC.bottom - dest_ys;
+						destRC.top    += (blank_s/2);
+						destRC.bottom -= (blank_s/2);
+
+						blankarea.right = destRC.right;
+						blankarea.bottom = destRC.top;
+					    pDC->FillRect(&blankarea, &bgBrush);
+
+						blankarea2.top = destRC.bottom;
+						blankarea2.right = destRC.right;
+						blankarea2.bottom = destRC.bottom+(blank_s/2);
+					    pDC->FillRect(&blankarea2, &bgBrush);
+					} else
+					if( source_ratio < dest_ratio )				// zoom in to source as, its too tall
+					{
+						if( source_ratio == 1.0 ) {
+							OutDebugs("TEstinG");
+						}
+						int dest_ys = xr * srcRC.bottom;
+						int offset  = dest_ys - destRC.bottom;
+						srcRC.top	 += (offset/2/xr);
+						srcRC.bottom -= (offset/2/xr);
+					}
 
 					if( CFG->cfgImageBlend )
 					{
@@ -2111,27 +2150,67 @@ int CWidgieDlg::InitFlashMovie(void)
 }
 
 
-int CWidgieDlg::InitHttpWindow(void)
+int CWidgieDlg::InitHttpWindow(int playLength)
 {
 	if( HtmlWindow.m_hWnd == NULL )
 	{
+		HtmlWindow.m_mediaDir = ptheApp->cfgLocalBaseDir + ptheApp->cfgLocalContentDir;
+		HtmlWindow.m_playLength = playLength;
+		HtmlWindow.Create(IDD_HTML_DIALOG, NULL);
 		HtmlWindow.Hide();
 		return TRUE;
 	} else
 		return FALSE;
 }
 
+BOOL CWidgieDlg::moviePlaying()
+{
+	switch( movieType )
+	{
+		case MOVIE_FLASH:
+			return (flashMovie.moviePlaying);
+			break;
+
+		case MOVIE_MPEGAVI:
+			return (videoDlg.moviePlaying);
+			break;
+
+		case MOVIE_HTML:
+			return (HtmlWindow.moviePlaying);
+			break;
+	}
+	return FALSE;
+}
+
+
 int CWidgieDlg::SetupMovie(void)
 {
 	/* load the movie/flash/shockwave media,  in case they want to watch it */
-    CString movieToShow = ptheApp->cfgLocalBaseDir + ptheApp->cfgLocalContentDir + currentImpression.m_multimedia_file;
+    CString movieToShow;
+	BOOL url = FALSE;
+
+    if( currentImpression.m_multimedia_file.Find("://") >0 ) {
+		movieToShow = currentImpression.m_multimedia_file;
+		url = TRUE;
+	} else {
+		movieToShow = ptheApp->cfgLocalBaseDir + ptheApp->cfgLocalContentDir + currentImpression.m_multimedia_file;
+	}
+
+    if( currentImpression.m_multimedia_file.Find("http://") >0 )
+	{
+		movieType = MOVIE_HTML;
+		InitHttpWindow(currentImpression.m_playlength);
+		HtmlWindow.ShowPageURL( currentImpression.m_multimedia_file );
+		return TRUE;
+    }
+
 
     /* test if the movie file exists */
     CFile mmfile;
     BOOL fileExists = mmfile.Open(movieToShow, CFile::modeRead);
 
 	// if we cant find the media, then try pervious version of the file...
-	if( fileExists == FALSE )
+	if( fileExists == FALSE && url == FALSE )
 	{
 		movieToShow = DecreaseFilenameVersion( movieToShow );			// decrement file version string
 		fileExists = mmfile.Open(movieToShow, CFile::modeRead);			// open it again
@@ -2171,9 +2250,10 @@ int CWidgieDlg::SetupMovie(void)
 			flashMovie.PlayMovie();
 			return TRUE;
         } else
-        if (HeaderBuffer[0] == ValidHTMLHeader[0] && movieToShow.Find(".htm") >0 )
+        if (url == TRUE && movieToShow.Find(".htm") >0 )
         {
 			movieType = MOVIE_HTML;
+			InitHttpWindow(currentImpression.m_playlength);
 			HtmlWindow.ShowPageURL( movieToShow );
 			return TRUE;
         } else
@@ -2204,6 +2284,14 @@ int CWidgieDlg::SetupMovie(void)
         }
     } // if (fileExists == TRUE)
     else
+	if( url == TRUE )
+	{
+		movieType = MOVIE_HTML;
+		InitHttpWindow(currentImpression.m_playlength);
+		HtmlWindow.ShowPageURL( movieToShow );
+		return TRUE;
+	}
+	else
     {
         Log_App_FileError(errMediaMissing, "Multimedia Error", "Could not open the file: " + currentImpression.m_multimedia_file);
 		return -1;
@@ -2785,9 +2873,9 @@ int CWidgieDlg::PrintText(char *text, int color )
 		else
 			textDC->SetTextColor( color );
 
-		CBrush bgBrush;
-		bgBrush.CreateSolidBrush( textColorBG );
-//		textDC->FillRect(&rc, &bgBrush);
+		CBrush bgTextBrush;
+		bgTextBrush.CreateSolidBrush( textColorBG );
+//		textDC->FillRect(&rc, &bgTextBrush);
 
 //		rc.bottom = 16*3;
 		DrawText( textDC->m_hDC, text, strlen(text ), &rc, DT_LEFT );
@@ -2827,7 +2915,7 @@ int CWidgieDlg::PrintXY(int x, int y, char * text, ...)
 
 		{
 			int lines = 1;
-			CBrush bgBrush;
+			CBrush bgTextBrush;
 
 			char *p = text;
 			while( p && *p )
@@ -2835,14 +2923,15 @@ int CWidgieDlg::PrintXY(int x, int y, char * text, ...)
 				if( *p++ == '\n' )
 					lines++;
 			}
-			bgBrush.CreateSolidBrush( textColorBG );
+			bgTextBrush.CreateSolidBrush( textColorBG );
 			RECT rc2 = { x,y, DEFAULT_SCREEN_W-8,y+(17*lines) };
-			textDC->FillRect( &rc2, &bgBrush );
+			textDC->FillRect( &rc2, &bgTextBrush );
 		}
 
-		char lineout[4000];
+		char lineout[64000];
 
-		if ( text ){
+		if ( text )
+		{
 			va_list		args;
 			va_start( args, text);
 			vsprintf( lineout, text, args );
@@ -2870,10 +2959,10 @@ int CWidgieDlg::PrintXYC(int x, int y, int col, char * text, ...)
 		textDC->SetTextColor( col );
 
 		{
-			CBrush bgBrush;
-			bgBrush.CreateSolidBrush( textColorBG );
+			CBrush bgTextBrush;
+			bgTextBrush.CreateSolidBrush( textColorBG );
 			RECT rc2 = { x,y, DEFAULT_SCREEN_W-8,y+17 };
-			textDC->FillRect( &rc2, &bgBrush );
+			textDC->FillRect( &rc2, &bgTextBrush );
 		}
 
 		char lineout[4000];
@@ -2979,7 +3068,7 @@ int CWidgieDlg::DisplayAdminMenu(int menupart, int command)
 
 
 
-#define	ADDTEXT	statusText += "\n"; statusText += txt; lines++;
+#define	ADDTEXT	statusText += "      \n"; statusText += txt; lines++;
 
 CString CWidgieDlg::GetStatusText( int impnumber )
 {
