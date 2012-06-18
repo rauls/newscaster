@@ -488,16 +488,16 @@ BOOL CWidgieApp::InitInstance()
 
 	// ################## SETUP MAIN WINDOW #######################
 	OutDebugs( "Start Main Dialog..." );
-    CWidgieDlg dlg;
-	m_pMainWnd = &dlg;
+	{
+		CWidgieDlg dlg;
+		m_pMainWnd = &dlg;
+		//SetAppPriority(THREAD_PRIORITY_BELOW_NORMAL);		//THREAD_PRIORITY_BELOW_NORMAL  THREAD_PRIORITY_ABOVE_NORMAL
+		/* Display the main dialog */
+		/* The dialog that is used to display the JPEG advetisments */
+		dlg.DoModal();
+	}
 
-	//SetAppPriority(THREAD_PRIORITY_BELOW_NORMAL);		//THREAD_PRIORITY_BELOW_NORMAL  THREAD_PRIORITY_ABOVE_NORMAL
-
-	/* Display the main dialog */
-    /* The dialog that is used to display the JPEG advetisments */
-	dlg.DoModal();
-
-	OutDebugs( "MainDlg ended, Exiting Main ..." );
+	OutDebugs( "Main, MainDlg Ended, Exiting Main ..." );
 
     // Finished with COM
     CoUninitialize();

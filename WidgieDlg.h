@@ -49,26 +49,26 @@ public:
 	CWidgieDlg(CWnd* pParent = NULL);	// standard constructor
 	~CWidgieDlg();						// standard deconstructor
 
-	class CWidgieApp *ptheApp;
+    CWidgieXML*			AppData;        		// Reference to a strucure that contains all 
+                                		// internal playlists for the MCCA
+	class CWidgieApp*	ptheApp;
 	
-    
     CWinThread* 		newsThread;     		// thread that will contain the news dialog
-
     CWinThread* 		downloadThread; 		// thread that will do all downloading and parsing
-
     CWinThread* 		freecacheThread;  		// thread that will perform the freeing of cached images
-
     CWinThread* 		jpegThread;				// thread that will perform the dialing to advertiser
+
+    CRITICAL_SECTION	playlistSection;		// the critical section that all threads must
+												// used before reading or midifying the play lists
+    CRITICAL_SECTION	statusSection;			// the critical section that all threads must
+    CRITICAL_SECTION	loadimageSection;		// the critical section that all threads must
 
 	CMovieDialog		flashMovie;        		// dialog that will display shockwave media
 	CAVIPlayerDlg		videoDlg;
 	CHtmlWindow			HtmlWindow;		
-
 	CLoginEditDlg		loginDlg;
 
 
-    CWidgieXML* AppData;        		// Reference to a strucure that contains all 
-                                		// internal playlists for the MCCA
 
 	// // set after OnKeyDown event...
 	ImpressionData		currentImpression;
@@ -84,11 +84,6 @@ public:
     int alreadyDownloading;     // flag that signifies if the download thread is running, 1 = yes, 2 = yes but dont update time
 
     
-    CRITICAL_SECTION	playlistSection;		// the critical section that all threads must
-												// used before reading or midifying the play lists
-
-    CRITICAL_SECTION	statusSection;			// the critical section that all threads must
-    CRITICAL_SECTION	loadimageSection;		// the critical section that all threads must
 
 
     // function that is called as a new thread to download new data

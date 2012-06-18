@@ -114,7 +114,7 @@ CWidgieDlg::CWidgieDlg(CWnd* pParent /*=NULL*/)
 /////////////////////////////////////////////////////////////////////////////
 CWidgieDlg::~CWidgieDlg()
 {
-	OutDebugs("MainDlg ended.");
+	OutDebugs("MainDlg Destructor Called.");
 }
 
 
@@ -386,7 +386,12 @@ void CWidgieDlg::ShowDialog( BOOL showLogo )
 // This gets called when we exit so we can cleanup after our mess ;)
 void CWidgieDlg::ExitCleanup(void)
 {
-	OutDebugs( "MainDlg::ExitCleanup" );
+	OutDebugs( "MainDlg::ExitCleanup() Called ...." );
+
+	CString msg;
+	msg.Format( "MainDlg: Application %s v%s  Shutting down", AfxGetAppName(), PRODUCT_VERSION_STR );
+	Log_App_Event( 0, msg );
+	Log_App_Error( msg.GetBuffer(0) );
 
 	shuttingDown = TRUE;
 
@@ -399,25 +404,29 @@ void CWidgieDlg::ExitCleanup(void)
 			Sleep( 10 );
 	}
 
-	// check to see if we have any remaining events to upload
-	if(  CFG->cfgIPandPort.IsEmpty() == false && m_EventLogList.GetCount() > 0 )
-	{
-		if( AppData->PostEventLog( &m_EventLogList ) >0 )
-			m_EventLogList.RemoveAll();
-	}
+	OutDebugs("MainDlg: Stopping timers.");
+	/* Kill all the timers so no code runs so the OS can clean up */
+    StopTimers();
+	this->KillTimer(ONEMIN_TIMER);
+
 
 	// close the 'change login' details window
  	if( loginDlg.m_hWnd != NULL )
 	{
+		OutDebugs("MainDlg: Close Login Dlg");
 		loginDlg.CloseWindow();
 		loginDlg.DestroyWindow();
 	}
 
-	CString msg;
-	msg.Format( "MainDlg: Application %s v%s  Shutting down", AfxGetAppName(), PRODUCT_VERSION_STR );
-	Log_App_Event( 0, msg );
-	Log_App_Error( msg.GetBuffer(0) );
+ 	if( videoDlg.m_hWnd != NULL )
+	{
+		videoDlg.CloseWindow();
+	}
 
+	if( HtmlWindow.m_hWnd )
+	{
+		HtmlWindow.CloseWindow();
+	}
 
 	// stop the movies if we hit EXIT
 	if( moviePlaying() )
@@ -427,46 +436,71 @@ void CWidgieDlg::ExitCleanup(void)
 //		Sleep( 2000 );
 	}
 
-	OutDebugs("MainDlg: Stopping timers.");
-	/* Kill all the timers so no code runs so the OS can clean up */
-    StopTimers();
-	this->KillTimer(ONEMIN_TIMER);
-
-	if( AppData )
-	{
-		OutDebugs("MainDlg: Closedown.");
-		AppData->CloseDown();
-		FreeAllLists();
-	}
-
 	if( loadingImpression )
 	{
 		OutDebugs( "MainDlg: Waiting for loading impression to end..." );
 		int t_1 = timeGetTime();
 		while( loadingImpression && (timeGetTime()-t_1) < 3000 )			// TIMEOUT after 15 seconds
-			Sleep( 10 );
+			Sleep( 100 );
+
+		jpegThread->Delete();
 	}
 
 	if( newsThread )
 	{
 		OutDebugs( "Main Dialog - Deleting newsbar thread" );
+		//((NewsBarThread *)newsThread)->SuspendThread();
 		((NewsBarThread *)newsThread)->Shutdown();
+		TerminateThread( newsThread->m_hThread, 0 );
 		delete newsThread;
 		OutDebugs( "Main Dialog - Deleted newsbar" );
 		newsThread = NULL;
 	}
     
-	if( AppData )
-	{
-		OutDebugs( "Main Dialog - Deleting AppData" );
-		Sleep(1);
-		delete AppData;
+	if( downloadThread ) {
+		OutDebugs( "Main Dialog - Deleting Download thread" );
+		//downloadThread->SuspendThread();
+		TerminateThread( downloadThread->m_hThread, 0 );
+		//downloadThread->Delete();
+		downloadThread = NULL;
 	}
 
 	DestroyIcon( m_hIcon );
 
 	if( dialogDC ) {
+		OutDebugs( "Main Dialog - Release DC" );
 		ReleaseDC( dialogDC );
+	}
+
+	OutDebugs( "Main Dialog - Deleting Critical Sections" );
+    DeleteCriticalSection(&playlistSection);
+    DeleteCriticalSection(&statusSection);
+    DeleteCriticalSection(&loadimageSection);
+
+	if( AppData )
+	{
+		OutDebugs("MainDlg: AppData->Closedown.");
+		AppData->CloseDown();
+		FreeAllLists();
+		OutDebugs("MainDlg: FreeAllLists done");
+	}
+
+
+	// check to see if we have any remaining events to upload
+	if(  CFG->cfgIPandPort.IsEmpty() == false && m_EventLogList.GetCount() > 0 )
+	{
+		OutDebugs("MainDlg: remove event log");
+		if( AppData->PostEventLog( &m_EventLogList ) >0 )
+			m_EventLogList.RemoveAll();
+	}
+
+	if( AppData )
+	{
+		OutDebugs( "MainDlg: Deleting AppData" );
+		Sleep(1);
+		delete AppData;
+		AppData = NULL;
+		OutDebugs("MainDlg: AppData done");
 	}
 
 	OutDebugs( "Main Dialog - ExitCleanup Done." );
@@ -1188,8 +1222,8 @@ BOOL CWidgieDlg::LoadImpressionImage()
 						}
 						int dest_ys = xr * srcRC.bottom;
 						int offset  = dest_ys - destRC.bottom;
-						srcRC.top	 += (offset/2/xr);
-						srcRC.bottom -= (offset/2/xr);
+						srcRC.top	 += abs(offset/2/xr);
+						srcRC.bottom -= abs(offset/2/xr);
 					}
 
 					if( CFG->cfgImageBlend )
@@ -2338,7 +2372,6 @@ void CWidgieDlg::StopMoviePlayback(void)
 	// make sure our news bar scrolls now.
 	StartNewsAndMeter();
 
-
 	updateAll = TRUE;
 }
 
@@ -2663,6 +2696,7 @@ int CWidgieDlg::RestartImages(void)
 // thread to free all images in the background....
 UINT CWidgieDlg::FreeImageThread(LPVOID param)
 {
+	OutDebugs( "FreeImageThread() .... " );
 	CWidgieApp *ptheApp = CFG;
 	ptheApp->m_mainDlg->freeingCache_f = TRUE;
 
@@ -2689,6 +2723,7 @@ UINT CWidgieDlg::FreeImageThread(LPVOID param)
 
 	//OutDebugs( "Doing FreeImageThread...Done" );
 	ptheApp->m_mainDlg->freeingCache_f = FALSE;
+	OutDebugs( "FreeImageThread() .... Done" );
 	return 1;
 }
 

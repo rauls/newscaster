@@ -149,8 +149,9 @@ void NewsBarThread::setAppData(CWidgieXML* pAppDataRef)
 void NewsBarThread::Shutdown()
 {
 	shuttingDown = TRUE;
-	if( CFG->cfgShowScrollLogo )
+	if( CFG->cfgShowScrollLogo ) {
 		CNewsBar.logoDlg.CloseWindow();
+	}
 	CNewsBar.EndCleanup();
 	Die();
 }
