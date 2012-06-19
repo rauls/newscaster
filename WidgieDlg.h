@@ -200,13 +200,10 @@ private:
 	BOOL	onpaintDrawing;
 
 	CString	m_lastCell, m_lastCell2;			// Store cell tower info here.... (hex str)
-
 	CString	m_netip;
 	CString m_netname;
 
-
 	CTime	m_infoTime;							// time of when the info button is pressed
-
 	long	m_slideshowLoopCount;
 	// time counter, the time of when to allow a screen image change.
 	unsigned long imageNext_t;

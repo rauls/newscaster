@@ -28,9 +28,7 @@ static char THIS_FILE[] = __FILE__;
 // return time as SECS.USECS float
 double timems()
 {
-	struct timeval tv;
-	//gettimeofday( &tv, NULL);
-	return tv.tv_sec + (tv.tv_usec/1000000.0);
+	return timeGetTime() / 1000.0;
 }
 
 
@@ -96,8 +94,6 @@ NewsDialog::NewsDialog(CWnd* pParent /*=NULL*/) : CDialog(NewsDialog::IDD, pPare
 
 NewsDialog::~NewsDialog()
 {
-	OutDebugs( "NewsDialog::~NewsDialog() ..." );
-	//EndCleanup();
 	OutDebugs( "NewsDialog::~NewsDialog() Done" );
 }
 
@@ -117,12 +113,20 @@ BEGIN_MESSAGE_MAP(NewsDialog, CDialog)
 	ON_WM_TIMER()
 	ON_WM_KEYDOWN()
 	ON_WM_SHOWWINDOW()
+	ON_WM_CLOSE()
 	//}}AFX_MSG_MAP
 END_MESSAGE_MAP()
 
 /////////////////////////////////////////////////////////////////////////////
 // NewsDialog message handlers
 
+
+void NewsDialog::OnClose()
+{
+	OutDebugs( "NewsDialog OnClose called" );
+	PostQuitMessage(0);
+	CDialog::OnClose();
+}
 
 
 /**
@@ -180,16 +184,15 @@ void NewsDialog::ReloadLogo( void )
 		ShowDialog( FALSE );
 }
 
+
 void NewsDialog::EndCleanup( void )
 {
 	OutDebugs( "NewsDialog - EndCleanup ..." );
-
-	OutDebugs( "NewsDialog - logoDlg.DestroyWindow" );
-	//logoDlg.DestroyWindow();
-
-	CloseWindow();
-
 	StopTimers();
+
+
+	//OutDebugs( "NewsDialog - logoDlg.DestroyWindow" );
+	//logoDlg.DestroyWindow();
 
 	if( newsflash1 )
 	{
@@ -206,6 +209,7 @@ void NewsDialog::EndCleanup( void )
 		Screen = NULL;
 	}
 #endif
+	CloseWindow();
 
 	OutDebugs( "NewsDialog - EndCleanup Done." );
 }
@@ -514,7 +518,7 @@ BOOL NewsDialog::LoadNextCaption()
 			{
 				newsflash1->NewsString = m_nextnewsflash.data.text;
 				CString msg = "NEWSDIALOG - " + newsflash1->NewsString;
-				msg.Replace("\%","\%\%");
+				msg.Replace("%","%%");
 				OutDebugs( msg );
 			}
 			else

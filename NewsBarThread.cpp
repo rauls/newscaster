@@ -31,7 +31,6 @@ IMPLEMENT_DYNCREATE(NewsBarThread, CWinThread)
 
 
 
-
 NewsBarThread::NewsBarThread()
 {
 	running = TRUE;
@@ -80,7 +79,7 @@ BOOL NewsBarThread::InitInstance()
 int NewsBarThread::ExitInstance()
 {
 	// TODO:  perform any per-thread cleanup here
-    
+	OutDebugs("NewsBarThread::ExitInstance");    
 	return CWinThread::ExitInstance();
 }
 
@@ -133,6 +132,50 @@ int NewsBarThread::Run()
 }
 #endif
 
+
+void NewsBarThread::Shutdown()
+{
+	OutDebugs("NewsBarThread::Shutdown() ...");
+	shuttingDown = TRUE;
+
+	if( CFG->cfgShowScrollLogo ) {
+		CNewsBar.logoDlg.CloseWindow();
+	}
+	CNewsBar.EndCleanup();
+
+	OutDebugs("NewsBarThread::Shutdown() ... Done");
+
+	TerminateThread( this->m_hThread, 0 );
+	running = FALSE;
+}
+
+
+/** 
+ *  Destroys the newBar and the thread
+ *
+ *  A method that the main thread in the application can use to kill
+ *  this thread and the CNewsBar
+ *
+ */
+
+void NewsBarThread::Die()
+{
+	OutDebugs( "NewsBarThread - Die" );
+
+//	CNewsBar.CloseWindow();
+//	CNewsBar.DestroyWindow();
+
+	//((NewsBarThread *)newsThread)->CNewsBar.DestroyWindow();
+	//((NewsBarThread *)newsThread)->Delete();
+
+	//AfxEndThread(1);
+	OutDebugs( "NewsBarThread - running = FALSe" );
+	running = FALSE;
+	PostQuitMessage(0);
+	ExitThread(0);
+}
+
+
 /**
  *  Initialised the pointer to newsflash data.
  *
@@ -145,39 +188,6 @@ void NewsBarThread::setAppData(CWidgieXML* pAppDataRef)
     pAppData = &pAppDataRef;
 }
 
-
-void NewsBarThread::Shutdown()
-{
-	shuttingDown = TRUE;
-	if( CFG->cfgShowScrollLogo ) {
-		CNewsBar.logoDlg.CloseWindow();
-	}
-	CNewsBar.EndCleanup();
-	Die();
-}
-
-/** 
- *  Destroys the newBar and the thread
- *
- *  A method that the main thread in the application can use to kill
- *  this thread and the CNewsBar
- *
- */
-
-void NewsBarThread::Die()
-{
-	shuttingDown = TRUE;
-	running = FALSE;
-
-	OutDebugs( "NewsBarThread - Die" );
-
-	CNewsBar.DestroyWindow();
-
-	//((NewsBarThread *)newsThread)->CNewsBar.DestroyWindow();
-	//((NewsBarThread *)newsThread)->Delete();
-
-	//AfxEndThread(1);
-}
 
 /** 
  *  Brings the newBar dialog to the top
@@ -194,3 +204,9 @@ void NewsBarThread::BringToFront()
 	CNewsBar.SetFocus();
 }
 
+
+void NewsBarThread::ShowNewsBar()
+{
+	OutDebugs( "NewsBarThread - ShowNewsBar" );
+	CNewsBar.ShowDialog( TRUE );
+}

@@ -35,6 +35,7 @@ public:
 
 	BOOL		running;
     BOOL		shuttingDown;
+
     NewsDialog	CNewsBar;                         /* the dialog that holds the 
                                                    newsbar graphics */
 
@@ -42,7 +43,9 @@ public:
 	void Shutdown();
     void Die();                                 // See C++ implementation
     void BringToFront();                        // See C++ implementation
-    
+	void ShowNewsBar();
+
+  
     virtual ~NewsBarThread();
 
     // Operations

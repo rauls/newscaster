@@ -208,7 +208,3 @@ void logoDialog::LoadImage( void )
 	}
 }
 
-
-
-
-

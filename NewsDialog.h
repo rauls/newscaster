@@ -14,7 +14,6 @@
 #include "NewsflashInfo.h"
 #include "logoDialog.h"
 
-
 #define KEEP_FRONT_TIMER		1
 #define SCROLL_SPEED_TIMER      2
 
@@ -28,20 +27,20 @@ class NewsDialog : public CDialog
 {
 // Construction
 public:
-    BOOL 	m_stillScrolling;    			// the return value of a funtion that tests is the 
-         	                   				// the newscaption is still scrolling is stored in this
-         	                   				// variable
-	BOOL 	m_newsbarActive;				// yes our news bar is active
-	BOOL 	m_nextnews;						// time to get the next news headline
-	BOOL 	m_insideTimer;					// true when we are inside the timer event
+    BOOL 			m_stillScrolling;    			// the return value of a funtion that tests is the 
+         			                   				// the newscaption is still scrolling is stored in this
+         			                   				// variable
+	BOOL 			m_newsbarActive;				// yes our news bar is active
+	BOOL 			m_nextnews;						// time to get the next news headline
+	BOOL 			m_insideTimer;					// true when we are inside the timer event
 
-	int 	m_zipoff;						// if true, the scroll text will accelerate fast till its gone, then after go back to normal
-	int 	m_pausetime;        			// the amount of seconds to pause for (do nothing)
-	time_t	m_pauseendtime;					// time to stop pausing
-	int 	m_runcount;						// how many times the timer msg gets called.
-	int		m_screenHz;						// screen rate to scroll properly
-	int		m_offset1;
-	int		m_offset2;
+	int 			m_zipoff;						// if true, the scroll text will accelerate fast till its gone, then after go back to normal
+	int 			m_pausetime;        			// the amount of seconds to pause for (do nothing)
+	time_t			m_pauseendtime;					// time to stop pausing
+	int 			m_runcount;						// how many times the timer msg gets called.
+	int				m_screenHz;						// screen rate to scroll properly
+	int				m_offset1;
+	int				m_offset2;
 
 	LARGE_INTEGER	m_freqCounter;			// freq for high res counter
 	double			m_msinterval;
@@ -53,6 +52,7 @@ public:
 	Newsflash* newsflash1;  				// the placeholder for the one and only newsbar graphics object
 	logoDialog logoDlg;						// dilaog that will display the news logo
 	
+	char			_pad[64];
 
     NewsDialog(CWnd* pParent = NULL);		// standard constructor
 	virtual ~NewsDialog();                  // See C++ implementation
@@ -100,6 +100,7 @@ protected:
 	// Generated message map functions
 	//{{AFX_MSG(NewsDialog)
 	afx_msg void OnTimer(UINT nIDEvent);
+	afx_msg void OnClose();
 	virtual BOOL OnInitDialog();
 	afx_msg void OnKeyDown(UINT nChar, UINT nRepCnt, UINT nFlags);
 	afx_msg void OnShowWindow(BOOL bShow, UINT nStatus);

@@ -9,6 +9,9 @@
 #include <shlobj.h>
 #include <strsafe.h>
 
+#include "windows.h"
+#include "winuser.h"
+
 #include "Widgie.h"
 #include "WidgieThread.h"
 #include "WidgieDlg.h"
@@ -19,7 +22,7 @@
 #include "ping.h"
 
 
-
+using namespace std;
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
@@ -488,6 +491,7 @@ BOOL CWidgieApp::InitInstance()
 
 	// ################## SETUP MAIN WINDOW #######################
 	OutDebugs( "Start Main Dialog..." );
+	try
 	{
 		CWidgieDlg dlg;
 		m_pMainWnd = &dlg;
@@ -495,6 +499,10 @@ BOOL CWidgieApp::InitInstance()
 		/* Display the main dialog */
 		/* The dialog that is used to display the JPEG advetisments */
 		dlg.DoModal();
+	}
+	catch ( char *e ) 
+	{	
+		OutDebugs( "Main, Error " + CString(e) );
 	}
 
 	OutDebugs( "Main, MainDlg Ended, Exiting Main ..." );

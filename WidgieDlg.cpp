@@ -10,7 +10,8 @@
 
 #include "windows.h"
 #include "winuser.h"
-#include <afxstr.h>
+//#include <afxstr.h>
+#include <strsafe.h>
 #include <atlimage.h> 
 
 #include <wininet.h>
@@ -39,11 +40,10 @@
 static char THIS_FILE[] = __FILE__;
 #endif
 
+using namespace std;
 
 #define	ISNETWORKPRESENT	GetSystemMetrics( SM_NETWORK )
 #define	FONT_HEIGHT			16
-
-
 #define	BUTTONKEY_FORW		'F'
 #define	BUTTONKEY_BACK		'B'
 
@@ -395,19 +395,31 @@ void CWidgieDlg::ExitCleanup(void)
 
 	shuttingDown = TRUE;
 
-	if( alreadyDownloading )
-	{
-		OutDebugs( "MainDlg: File is downloading, waiting till its stopped to exit" );
-
-		int t_1 = timeGetTime();
-		while( alreadyDownloading && (timeGetTime()-t_1) < 5000 )				// TIMEOUT after 5 seconds
-			Sleep( 10 );
-	}
 
 	OutDebugs("MainDlg: Stopping timers.");
 	/* Kill all the timers so no code runs so the OS can clean up */
     StopTimers();
 	this->KillTimer(ONEMIN_TIMER);
+
+
+	if( alreadyDownloading )
+	{
+		OutDebugs( "MainDlg: File is downloading, waiting till its stopped to exit" );
+		int t_1 = timeGetTime();
+		while( alreadyDownloading && (timeGetTime()-t_1) < 5000 )				// TIMEOUT after 5 seconds
+			Sleep( 10 );
+	}
+	if( downloadThread ) 
+	{
+		OutDebugs( "MainDlg - Deleting Download thread" );
+		DWORD out;
+		while( GetExitCodeThread(downloadThread->m_hThread, &out) && out == STILL_ACTIVE ) {
+			Sleep( 10 );
+		}
+		//TerminateThread( downloadThread->m_hThread, 0 );
+		downloadThread = NULL;
+	}
+
 
 
 	// close the 'change login' details window
@@ -418,16 +430,6 @@ void CWidgieDlg::ExitCleanup(void)
 		loginDlg.DestroyWindow();
 	}
 
- 	if( videoDlg.m_hWnd != NULL )
-	{
-		videoDlg.CloseWindow();
-	}
-
-	if( HtmlWindow.m_hWnd )
-	{
-		HtmlWindow.CloseWindow();
-	}
-
 	// stop the movies if we hit EXIT
 	if( moviePlaying() )
 	{
@@ -436,43 +438,54 @@ void CWidgieDlg::ExitCleanup(void)
 //		Sleep( 2000 );
 	}
 
+	if( videoDlg.m_hWnd != NULL )
+	{
+		videoDlg.CloseWindow();
+	}
+	if( HtmlWindow.m_hWnd )
+	{
+		HtmlWindow.CloseWindow();
+	}
+
+
 	if( loadingImpression )
 	{
 		OutDebugs( "MainDlg: Waiting for loading impression to end..." );
 		int t_1 = timeGetTime();
 		while( loadingImpression && (timeGetTime()-t_1) < 3000 )			// TIMEOUT after 15 seconds
+		{
 			Sleep( 100 );
-
-		jpegThread->Delete();
+		}
+		DWORD out;
+		while( GetExitCodeThread(jpegThread->m_hThread, &out) && out == STILL_ACTIVE ) {
+			Sleep( 10 );
+		}
+		jpegThread = NULL;
 	}
 
 	if( newsThread )
 	{
-		OutDebugs( "Main Dialog - Deleting newsbar thread" );
+		OutDebugs( "MainDlg - Deleting newsbar thread, calling shutdown()" );
 		//((NewsBarThread *)newsThread)->SuspendThread();
 		((NewsBarThread *)newsThread)->Shutdown();
-		TerminateThread( newsThread->m_hThread, 0 );
+		while( ((NewsBarThread *)newsThread)->running )
+		{
+			Sleep(200);
+		}
+		DWORD out;
+		while( GetExitCodeThread(newsThread->m_hThread, &out) && out == STILL_ACTIVE ) {
+			Sleep( 10 );
+		}
+
+		//TerminateThread( newsThread->m_hThread, 0 );
+		OutDebugs( "MainDlg - Delete newsThread" );
 		delete newsThread;
-		OutDebugs( "Main Dialog - Deleted newsbar" );
+		OutDebugs( "MainDlg - newsThread = NULL" );
 		newsThread = NULL;
-	}
-    
-	if( downloadThread ) {
-		OutDebugs( "Main Dialog - Deleting Download thread" );
-		//downloadThread->SuspendThread();
-		TerminateThread( downloadThread->m_hThread, 0 );
-		//downloadThread->Delete();
-		downloadThread = NULL;
+		Sleep(500);
 	}
 
-	DestroyIcon( m_hIcon );
-
-	if( dialogDC ) {
-		OutDebugs( "Main Dialog - Release DC" );
-		ReleaseDC( dialogDC );
-	}
-
-	OutDebugs( "Main Dialog - Deleting Critical Sections" );
+	OutDebugs( "MainDlg - Deleting Critical Sections" );
     DeleteCriticalSection(&playlistSection);
     DeleteCriticalSection(&statusSection);
     DeleteCriticalSection(&loadimageSection);
@@ -487,7 +500,7 @@ void CWidgieDlg::ExitCleanup(void)
 
 
 	// check to see if we have any remaining events to upload
-	if(  CFG->cfgIPandPort.IsEmpty() == false && m_EventLogList.GetCount() > 0 )
+	if( CFG->cfgIPandPort.IsEmpty() == false && m_EventLogList.GetCount() > 0 )
 	{
 		OutDebugs("MainDlg: remove event log");
 		if( AppData->PostEventLog( &m_EventLogList ) >0 )
@@ -497,13 +510,23 @@ void CWidgieDlg::ExitCleanup(void)
 	if( AppData )
 	{
 		OutDebugs( "MainDlg: Deleting AppData" );
-		Sleep(1);
+		Sleep(100);
 		delete AppData;
 		AppData = NULL;
 		OutDebugs("MainDlg: AppData done");
 	}
 
+	if( dialogDC ) {
+		OutDebugs( "MainDlg - Release DC" );
+		ReleaseDC( dialogDC );
+	}
+
+	ptheApp = NULL;
 	OutDebugs( "Main Dialog - ExitCleanup Done." );
+
+	DestroyIcon( m_hIcon );
+
+	Sleep(1200);
 }
 
 
@@ -527,6 +550,10 @@ void CWidgieDlg::OnClose()
 
 void CWidgieDlg::OnPaint() 
 {
+	if( shuttingDown )
+	{
+		return;
+	}
 	if (IsIconic())
 	{
 		CPaintDC dc(this); // device context for painting
@@ -606,14 +633,13 @@ void CWidgieDlg::OnShowWindow(BOOL bShow, UINT nStatus)
 
     GetClientRect(&myRect);
     dialogDC = GetDC();
-
-	SetBkColor(dialogDC->m_hDC, ptheApp->cfgBackgroundColor);
-    bgBrush.CreateSolidBrush(ptheApp->cfgBackgroundColor);
-    dialogDC->FillRect(&myRect, &bgBrush);
-
-
-	ReleaseDC(dialogDC);
-
+	if( dialogDC && ! shuttingDown )
+	{
+		SetBkColor(dialogDC->m_hDC, ptheApp->cfgBackgroundColor);
+		bgBrush.CreateSolidBrush(ptheApp->cfgBackgroundColor);
+		dialogDC->FillRect(&myRect, &bgBrush);
+		ReleaseDC(dialogDC);
+	}
 //	ShowCursor( FALSE );
 }
 
@@ -688,6 +714,10 @@ void CWidgieDlg::OnTimer(UINT nIDEvent)
 {
 	this->SetFocus();
 
+	if( shuttingDown )
+	{
+		return;
+	}
 	
 	//OutDebugs( "%d : %d OnTimer triggered", timeGetTime(), nIDEvent );
 
@@ -910,15 +940,15 @@ int CWidgieDlg::UpdateDownloadTime( int updateType )
         
 
 	i = 0;
-	itoa(currentTime.GetYear(), &strCurrentDate[i], 10);
+	_itoa(currentTime.GetYear(), &strCurrentDate[i], 10);
 	i = strlen(&strCurrentDate[0]);
 	strCurrentDate[i] = '-';
 	i++;
-	itoa(currentTime.GetMonth(), &strCurrentDate[i], 10);
+	_itoa(currentTime.GetMonth(), &strCurrentDate[i], 10);
 	i = strlen(&strCurrentDate[0]);
 	strCurrentDate[i] = '-';
 	i++;
-	itoa(currentTime.GetDay(), &strCurrentDate[i], 10);
+	_itoa(currentTime.GetDay(), &strCurrentDate[i], 10);
 	
 
 	if( updateType == 0 )
@@ -1065,7 +1095,7 @@ BOOL CWidgieDlg::LoadImpressionImage()
 {
     BOOL bResult = TRUE;
 
-	if (TryEnterCriticalSection( &loadimageSection ) == TRUE )
+	if ( ! shuttingDown && TryEnterCriticalSection( &loadimageSection ) == TRUE )
 	//if (1)
 	{
 		long t_1, t_jpeg = 0, t_jpeg2, t_jpeg3;
@@ -1318,7 +1348,7 @@ BOOL CWidgieDlg::LoadImpressionImage()
 
 void CWidgieDlg::NextJPEG()
 {
-    if(	!moviePlaying() )
+    if(	! moviePlaying() && ! shuttingDown )
     {
         int numberOfImages = 0;
 		ImpList *impList = AppData->GetImpressionList();
@@ -1433,7 +1463,7 @@ void CWidgieDlg::NextJPEG()
 void CWidgieDlg::PreviousJPEG()
 {
 	// only do if there is no video playing
-    if(	!moviePlaying() )
+    if(	!moviePlaying() && ! shuttingDown )
     {
         imageCount -= 2;
 
@@ -1478,7 +1508,7 @@ void CWidgieDlg::GetNextLanguage()
 
 void CWidgieDlg::GetCurrentImpression(void)
 {
-	if( AppData )
+	if( AppData && ! shuttingDown )
 	{
 		ImpList *impList = AppData->GetImpressionList();
 
@@ -1554,7 +1584,7 @@ void CWidgieDlg::OnRButtonDown(UINT nChar, CPoint p)
 
 void CWidgieDlg::OnLButtonDown(UINT nChar, CPoint p) 
 {
-	if( !adminMenu )
+	if( !adminMenu && ! shuttingDown )
 	{
 		PlayButtonSoundThread( NULL );
 
@@ -1617,12 +1647,11 @@ void CWidgieDlg::OnKeyUp(UINT nChar, UINT nRepCnt, UINT nFlags)
 
 void CWidgieDlg::OnKeyDown(UINT nChar, UINT nRepCnt, UINT nFlags) 
 {
-	if( CFG->cfgScreenSaverMode == FALSE )
+	if( CFG->cfgScreenSaverMode == FALSE && ! shuttingDown )
 	{
 		GetCurrentImpression();
 
 		switch( nChar )
-
 		{
 			// -----------------  button & keyboard commands ----------------
 			case BUTTONKEY_FORW:
@@ -1754,7 +1783,7 @@ void CWidgieDlg::OnKeyDown(UINT nChar, UINT nRepCnt, UINT nFlags)
 				if( !adminMenu && debugMessages )
 				{
 					char debug_msg[256];
-					sprintf( debug_msg, "                                  Key '%c' (0x%02x)    .", nChar, nChar );
+					sprintf_s( debug_msg, "                                  Key '%c' (0x%02x)    .", nChar, nChar );
 					// Write the newsflash to the intermediate Image 
 					PrintDebugText( debug_msg );
 				}
@@ -1971,6 +2000,10 @@ UINT CWidgieDlg::GetLatestNewsContent(LPVOID pWidgieDialog)
 	CWidgieApp *cfg = dlg->ptheApp;
 	UINT result = 0;
 
+	if( dlg->shuttingDown ) {
+		return 0;
+	}
+
 	OutDebugs( "Downloading latest news content now..." );
 
 	// setup GPRS connection if there is NO WIFI or NO LAN internet
@@ -2096,7 +2129,7 @@ UINT CWidgieDlg::GetNewXMLContent(LPVOID pWidgieDialog)
 int CWidgieDlg::DownloadMediaContent(void)
 {
 	// if we are downloading, do nothing....
-	if( alreadyDownloading == FALSE )
+	if( alreadyDownloading == FALSE && shuttingDown == FALSE )
 	{
 		{
 			alreadyDownloading = TRUE;
@@ -2112,7 +2145,7 @@ int CWidgieDlg::DownloadMediaContent(void)
 int CWidgieDlg::DownloadXMLContent(void)
 {
 	// if we are downloading, do nothing....
-	if( alreadyDownloading == FALSE )
+	if( alreadyDownloading == FALSE && shuttingDown == FALSE )
 	{
 		if( CFG->cfgIPandPort.IsEmpty() == false )
 		{
@@ -2129,7 +2162,7 @@ int CWidgieDlg::DownloadXMLContent(void)
 int CWidgieDlg::DownloadNewsFlashContent( BOOL dontupdateTime )
 {
 	// if we are downloading, do nothing....
-	if( alreadyDownloading == FALSE )
+	if( alreadyDownloading == FALSE && shuttingDown == FALSE )
 	{
 		{
 			if( dontupdateTime )
@@ -2969,7 +3002,7 @@ int CWidgieDlg::PrintXY(int x, int y, char * text, ...)
 		{
 			va_list		args;
 			va_start( args, text);
-			vsprintf( lineout, text, args );
+			vsprintf_s( lineout, text, args );
 			va_end( args );
 //			strcat( lineout, "                                             " );
 			DrawText( textDC->m_hDC, lineout, strlen(lineout), &rc, DT_LEFT );
@@ -3005,7 +3038,7 @@ int CWidgieDlg::PrintXYC(int x, int y, int col, char * text, ...)
 		if ( text ){
 			va_list		args;
 			va_start( args, text);
-			vsprintf( lineout, text, args );
+			vsprintf_s( lineout, text, args );
 			va_end( args );
 //			strcat( lineout, "                                             " );
 			DrawText( textDC->m_hDC, lineout, strlen(lineout), &rc, DT_LEFT );
@@ -3375,7 +3408,7 @@ int CWidgieDlg::DisplayStatusInfoLine(void)
 	if( debugMessages )
 	{
 		char txt[256];
-		sprintf( txt, "\nSTATUS: Downloading=%s , Printing=%s , Wifi=%s, playlistSection.Count=%d", 
+		sprintf_s( txt, "\nSTATUS: Downloading=%s , Printing=%s , Wifi=%s, playlistSection.Count=%d", 
 			alreadyDownloading ? "YES" : "NO",
 			printingDocket  ? "YES" : "NO",
 			wifiInternet_f  ? "YES" : "NO",
@@ -3514,16 +3547,18 @@ int CWidgieDlg::RecordEventLog( ImpressionData imp )
 {
 	CString event;
 
-	CTime current_t = CTime::GetCurrentTime();
-
-
-	event.Format( "%s.%s.%s.%s", current_t.Format( "%Y-%m-%d.%H:%M:%S" ), 
-		imp.m_image_cid, imp.m_image_id, 
-		imp.m_title );
-
-	OutDebugs( "Event Log - %s", event.GetBuffer(0) );
-
-	m_EventLogList.AddTail( event );
+	try {
+		CTime current_t = CTime::GetCurrentTime();
+		event.Format( "%s.%s.%s.%s", current_t.Format( "%Y-%m-%d.%H:%M:%S" ), 
+			imp.m_image_cid, imp.m_image_id, 
+			imp.m_title );
+		OutDebugs( "Event Log - %s", event.GetBuffer(0) );
+		m_EventLogList.AddTail( event );
+	}
+	catch ( std::exception &e ) 
+	{	
+		OutDebugs( "Error " + CString( e.what() ) );
+	}
 
 	return 0;
 }
