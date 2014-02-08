@@ -203,16 +203,15 @@
       <AdditionalIncludeDirectories>.\include\;.\include\cdx\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>SCREENSAVER;WIN32;_DEBUG;_WINDOWS;_WIN32_WINNT=0x0501;WINVER=0x0501;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
-      <PrecompiledHeader>
-      </PrecompiledHeader>
+      <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderOutputFile>C:\obj\Widgie\Debugnews\Widgie.pch</PrecompiledHeaderOutputFile>
       <AssemblerListingLocation>C:\obj\Widgie\Debugnews\</AssemblerListingLocation>
       <ObjectFileName>C:\obj\Widgie\Debugnews\</ObjectFileName>
       <ProgramDataBaseFileName>C:\obj\Widgie\Debugnews\</ProgramDataBaseFileName>
-      <BrowseInformation>true</BrowseInformation>
+      <BrowseInformation>false</BrowseInformation>
       <WarningLevel>Level3</WarningLevel>
       <SuppressStartupBanner>true</SuppressStartupBanner>
-      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <EnableEnhancedInstructionSet>StreamingSIMDExtensions</EnableEnhancedInstructionSet>
       <FavorSizeOrSpeed>Size</FavorSizeOrSpeed>
@@ -293,7 +292,9 @@
     <ClCompile Include="ConfigEdit.cpp" />
     <ClCompile Include="SmartInfo.cpp" />
     <ClCompile Include="utils.cpp" />
-    <ClCompile Include="zipmake.c" />
+    <ClCompile Include="zipmake.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Newscaster Debug|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
     <ClCompile Include="httpinterface.cpp" />
     <ClCompile Include="LoopSeqInfo.cpp" />
     <ClCompile Include="LoopSeqXML_Handler.cpp" />
@@ -318,7 +319,9 @@
     <ClCompile Include="WidgieDlg.cpp" />
     <ClCompile Include="WidgieThread.cpp" />
     <ClCompile Include="netadapter.cpp" />
-    <ClCompile Include="Ping.c" />
+    <ClCompile Include="Ping.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Newscaster Debug|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
     <ClCompile Include="w3c.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Newscaster Debug|Win32'">true</ExcludedFromBuild>

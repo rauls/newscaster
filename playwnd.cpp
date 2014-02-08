@@ -8,6 +8,7 @@
 // Copyright (c) Microsoft Corporation.  All rights reserved.
 //------------------------------------------------------------------------------
 
+#include "stdafx.h"
 
 #include <tchar.h>
 #include <dshow.h>
